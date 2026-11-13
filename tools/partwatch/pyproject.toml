@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "partwatch"
+version = "1.0.0"
+description = "Lifecycle (EOL/NRND) and stock checker for KiCad design-block libraries"
+requires-python = ">=3.11"
+dependencies = []          # standard library only
+
+[project.scripts]
+partwatch = "partwatch.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["partwatch*"]

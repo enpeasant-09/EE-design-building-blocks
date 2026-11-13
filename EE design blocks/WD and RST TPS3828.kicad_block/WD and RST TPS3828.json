@@ -1,0 +1,8 @@
+{
+ "description": "The TPS3828-33DBVR is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Group 1 SOT-23-5, open-drain output: R pull-up fitted.",
+ "keywords": "watchdog ; reset ; supervisor ; TPS3828 ; Texas Instruments",
+ "fields": {
+  "MPN1": "TPS3828-33DBVR",
+  "Manufacturer": "Texas Instruments"
+ }
+}

@@ -1,0 +1,73 @@
+# Weekly lifecycle/stock check of every design block.
+# Secrets (Settings -> Secrets and variables -> Actions):
+#   NEXAR_CLIENT_ID, NEXAR_CLIENT_SECRET, DIGIKEY_CLIENT_ID, DIGIKEY_CLIENT_SECRET, MOUSER_API_KEY
+# Any missing secret just disables that source.
+name: partwatch
+
+on:
+  schedule:
+    - cron: "17 2 * * 1"        # Mondays 07:47 IST
+  workflow_dispatch:
+  pull_request:
+    paths: ["blocks/**", "partwatch.toml"]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Restore lookup cache
+        uses: actions/cache@v4
+        with:
+          path: .partwatch
+          key: partwatch-${{ github.run_id }}
+          restore-keys: partwatch-
+
+      - name: Install partwatch
+        run: pip install ./tools/partwatch
+
+      - name: Check parts
+        id: check
+        env:
+          NEXAR_CLIENT_ID: ${{ secrets.NEXAR_CLIENT_ID }}
+          NEXAR_CLIENT_SECRET: ${{ secrets.NEXAR_CLIENT_SECRET }}
+          DIGIKEY_CLIENT_ID: ${{ secrets.DIGIKEY_CLIENT_ID }}
+          DIGIKEY_CLIENT_SECRET: ${{ secrets.DIGIKEY_CLIENT_SECRET }}
+          MOUSER_API_KEY: ${{ secrets.MOUSER_API_KEY }}
+        run: |
+          set +e
+          partwatch check --fail-on red
+          echo "rc=$?" >> "$GITHUB_OUTPUT"
+          cat reports/STATUS.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit report
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name  "partwatch-bot"
+          git config user.email "partwatch-bot@users.noreply.github.com"
+          git add reports/
+          git diff --cached --quiet || git commit -m "partwatch: status $(date +%F)"
+          git push
+
+      - name: Open or update issue for red bricks
+        if: steps.check.outputs.rc == '1' && github.event_name != 'pull_request'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          title="partwatch: bricks need attention"
+          num=$(gh issue list --state open --search "$title in:title" --json number -q '.[0].number')
+          body="See [STATUS.md](../blob/${GITHUB_REF_NAME}/reports/STATUS.md). Run ${GITHUB_RUN_ID}."
+          if [ -n "$num" ]; then gh issue comment "$num" --body "$body";
+          else gh issue create --title "$title" --body "$body" --label partwatch || \
+               gh issue create --title "$title" --body "$body"; fi
+
+      - name: Fail PR if a brick is red
+        if: steps.check.outputs.rc == '1' && github.event_name == 'pull_request'
+        run: exit 1

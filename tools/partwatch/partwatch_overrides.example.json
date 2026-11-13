@@ -1,0 +1,14 @@
+{
+  "CP2104-F03-GMR": {
+    "manufacturer": "Silicon Labs",
+    "lifecycle": "Last Time Buy",
+    "offers": [],
+    "suggested_replacement": "CP2102N-A02-GQFN24",
+    "_note": "From manufacturer PCN; any key starting with _ is ignored by you, not by partwatch"
+  },
+  "C2040": {
+    "manufacturer": "Raspberry Pi",
+    "lifecycle": "Active",
+    "offers": [{"distributor": "LCSC", "stock": 52000, "lead_weeks": 2}]
+  }
+}

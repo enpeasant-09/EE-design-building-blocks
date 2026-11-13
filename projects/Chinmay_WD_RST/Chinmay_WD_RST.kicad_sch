@@ -1,0 +1,359 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0f9f8573-6488-4df3-b407-061bf2101a20")
+	(paper "A3")
+	(title_block (title "Chinmay WD and RST library") (company "Chinmay") (comment 1 "Replicates block: WD and RST TPS3823"))
+	(lib_symbols
+		(symbol "Device:C_Small" (pin_numbers (hide yes)) (pin_names (offset 0.254) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (property "Reference" "C" (at 0.254 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "C_Small" (at 0.254 -2.032 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "Unpolarized capacitor, small symbol" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (symbol "C_Small_0_1" (polyline (pts (xy -1.524 0.508) (xy 1.524 0.508)) (stroke (width 0.3302) (type default)) (fill (type none))) (polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508)) (stroke (width 0.3048) (type default)) (fill (type none)))) (symbol "C_Small_1_1" (pin passive line (at 0 2.54 270) (length 2.032) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -2.54 90) (length 2.032) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))
+		(symbol "PCM_SparkFun-PowerSymbol:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG" (power) (pin_numbers (hide yes)) (pin_names (offset 0) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (property "Reference" "#FLG" (at 0 1.905 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Value" "PWR_FLAG" (at 0 3.81 0) (effects (font (size 1.27 1.27)))) (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "~" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "Special symbol for telling ERC where power comes from" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (symbol "PWR_FLAG_0_0" (pin power_out line (at 0 0 90) (length 0) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27)))))) (symbol "PWR_FLAG_0_1" (polyline (pts (xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)) (stroke (width 0) (type default)) (fill (type none)))) (embedded_fonts no))
+	)
+	(sheet (at 25.4 50.8) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "6242bf7f-7f22-43bc-8ab1-fb0e1700440f") (property "Sheetname" "WD and RST TPS3823" (at 25.4 50.0888 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_TPS3823.kicad_sch" (at 25.4 76.7888 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 25.4 58.42 180) (uuid "a8ec67ca-a6ec-4994-a22e-4bc486f56e62") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 101.6 58.42 0) (uuid "328e020e-b0c6-4aee-bafd-3c59641248c0") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "2")))))
+	(text "TPS3823-33DBVR" (exclude_from_sim no) (at 27.94 66.04 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "7a5ce5af-938c-41c5-bd02-d1ae2ab56e3d"))
+	(text "Texas Instruments" (exclude_from_sim no) (at 27.94 69.85 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "65a43292-52a3-41a3-8066-a218020b8574"))
+	(no_connect (at 25.4 58.42) (uuid "cf452e49-03fc-44bd-8551-7c21290e8ac6"))
+	(no_connect (at 101.6 58.42) (uuid "fddcad4d-9085-4f3a-a6ba-bd32e68d6b79"))
+	(sheet (at 121.92 50.8) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "2eb38cff-9282-4d5e-b83b-66caa8f6fc71") (property "Sheetname" "WD and RST TPS3828" (at 121.92 50.0888 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_TPS3828.kicad_sch" (at 121.92 76.7888 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 121.92 58.42 180) (uuid "051c15dc-949e-4993-88af-3f428a1889a5") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 198.12 58.42 0) (uuid "7c8686b7-3b05-4830-9c7b-a831813b9f2c") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "3")))))
+	(text "TPS3828-33DBVR" (exclude_from_sim no) (at 124.46 66.04 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "0692dc7f-ec59-425d-9bda-d6129203af5d"))
+	(text "Texas Instruments" (exclude_from_sim no) (at 124.46 69.85 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6f3ac7a1-b55e-4f90-a9c4-f18f0bb69def"))
+	(no_connect (at 121.92 58.42) (uuid "e9c4046c-bbb3-4999-93aa-4fa24e8de133"))
+	(no_connect (at 198.12 58.42) (uuid "05f7dfd4-3291-442c-9260-8e66063bc6e4"))
+	(sheet (at 218.44 50.8) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "7c367e51-4aff-410a-bd63-a540fdb4d17c") (property "Sheetname" "WD and RST TPS3824" (at 218.44 50.0888 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_TPS3824.kicad_sch" (at 218.44 76.7888 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 218.44 58.42 180) (uuid "e9a1c645-cb3b-43a9-b71f-08df5512d0a5") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 294.64 58.42 0) (uuid "94c558cd-7391-4f93-94f2-7d2583ad2f68") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "4")))))
+	(text "TPS3824-33DBVR" (exclude_from_sim no) (at 220.98 66.04 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "bb4b8a23-ddb2-46b0-9827-2d2064aff3bc"))
+	(text "Texas Instruments" (exclude_from_sim no) (at 220.98 69.85 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4bcb20d5-2a58-4733-8e8c-26e620e07c0c"))
+	(no_connect (at 218.44 58.42) (uuid "02e2a0e4-2144-4c70-8d79-78650e63f2de"))
+	(no_connect (at 294.64 58.42) (uuid "0d240e77-81fc-4b11-bb94-83baa18221e8"))
+	(sheet (at 314.96 50.8) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "bcb713bf-e5e7-47ed-be89-1b4584412af2") (property "Sheetname" "WD and RST STM6822" (at 314.96 50.0888 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_STM6822.kicad_sch" (at 314.96 76.7888 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 314.96 58.42 180) (uuid "2227f8c7-4009-403c-b954-dc98d9512a54") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 391.16 58.42 0) (uuid "a027eada-17f4-4f7c-9364-fdd2cdf77b6f") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "5")))))
+	(text "STM6822TWY6F" (exclude_from_sim no) (at 317.5 66.04 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "5970efca-f186-4f1a-a73b-f8448f6e8383"))
+	(text "STMicroelectronics" (exclude_from_sim no) (at 317.5 69.85 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "15508ba9-a169-41de-a553-49dc22b5d69a"))
+	(no_connect (at 314.96 58.42) (uuid "72c94d18-e2d7-4e3a-9c98-e6da26b1d19e"))
+	(no_connect (at 391.16 58.42) (uuid "f34c2c9b-5877-4041-867b-f79b0956f530"))
+	(sheet (at 25.4 93.98) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "83275a46-b0b1-4126-b77e-24b63600809e") (property "Sheetname" "WD and RST STM6823" (at 25.4 93.2688 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_STM6823.kicad_sch" (at 25.4 119.9688 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 25.4 101.6 180) (uuid "3f8ff1bb-3b86-47eb-bc69-bc8f201bc34b") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 101.6 101.6 0) (uuid "3bc7a296-ae08-40a0-b81f-bea02b97f367") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "6")))))
+	(text "STM6823TWY6F" (exclude_from_sim no) (at 27.94 109.22 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "6bb54124-ead6-4d47-a8d9-6380676e4939"))
+	(text "STMicroelectronics" (exclude_from_sim no) (at 27.94 113.03 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b9c3c636-0cf4-48f4-bf5e-aa58f4f98c2b"))
+	(no_connect (at 25.4 101.6) (uuid "ac504996-ac07-4500-81c8-f98db51dade2"))
+	(no_connect (at 101.6 101.6) (uuid "eacc8293-e68d-49ca-9fc3-2de51f873dbc"))
+	(sheet (at 121.92 93.98) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "7f8519a4-c5c0-48f6-aa0d-cd7957b37bc1") (property "Sheetname" "WD and RST STM6824" (at 121.92 93.2688 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_STM6824.kicad_sch" (at 121.92 119.9688 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 121.92 101.6 180) (uuid "f0da7589-95ad-426e-80c5-797df53e1bcf") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 198.12 101.6 0) (uuid "5a71125f-ccf3-48da-9ff7-634b37caee84") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "7")))))
+	(text "STM6824TWY6F" (exclude_from_sim no) (at 124.46 109.22 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "af6dd4fd-9499-47ce-bd14-4333570660a6"))
+	(text "STMicroelectronics" (exclude_from_sim no) (at 124.46 113.03 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0a83eecb-8a59-4510-be90-498366d4d106"))
+	(no_connect (at 121.92 101.6) (uuid "d3060e9f-b609-416a-9021-93c60cb4d59d"))
+	(no_connect (at 198.12 101.6) (uuid "b2ba7630-d948-445c-9f45-513ae84b8225"))
+	(sheet (at 218.44 93.98) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "0a86c73c-0ad7-4a2c-b273-fd5d3afe54db") (property "Sheetname" "WD and RST MCP1316" (at 218.44 93.2688 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_MCP1316.kicad_sch" (at 218.44 119.9688 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 218.44 101.6 180) (uuid "37caf992-55a0-400b-8494-56e0cea4ce72") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 294.64 101.6 0) (uuid "65b35c87-180b-45b7-9a73-f7e825aa1a52") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "8")))))
+	(text "MCP1316T-29LE/OT" (exclude_from_sim no) (at 220.98 109.22 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "d06e25c0-f9d3-496b-8ef9-8b0411aab0d7"))
+	(text "Microchip" (exclude_from_sim no) (at 220.98 113.03 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "00a683c1-09c3-4cb5-a569-38bc9194bc37"))
+	(no_connect (at 218.44 101.6) (uuid "426f6a11-43ed-4792-b5a7-517155a5a160"))
+	(no_connect (at 294.64 101.6) (uuid "9b74dce1-2aea-4d65-a10f-ac20a4752377"))
+	(sheet (at 314.96 93.98) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "e3320454-f1ea-4b92-bb20-99f2ce85f2dc") (property "Sheetname" "WD and RST MCP1316M" (at 314.96 93.2688 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_MCP1316M.kicad_sch" (at 314.96 119.9688 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 314.96 101.6 180) (uuid "34a6cda6-6b73-4fc8-88cc-07e3a2d91bb0") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 391.16 101.6 0) (uuid "99c0f1b7-63e0-49b1-b19e-b3efe53600fa") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "9")))))
+	(text "MCP1316MT-29LE/OT" (exclude_from_sim no) (at 317.5 109.22 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "832b2733-49c5-4a1f-af08-a2c81bf2e0df"))
+	(text "Microchip" (exclude_from_sim no) (at 317.5 113.03 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0cfaca66-ca95-49ff-8105-3cf62ec3ee6d"))
+	(no_connect (at 314.96 101.6) (uuid "7b01ec6e-3ec2-4594-a21a-68e7de9c0dc2"))
+	(no_connect (at 391.16 101.6) (uuid "0c5a288d-5b11-4f12-8f73-bb3948d8ccb5"))
+	(sheet (at 25.4 137.16) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "5cf0f6bb-3084-44eb-94fb-96f402968dfd") (property "Sheetname" "WD and RST MCP1318" (at 25.4 136.4488 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_MCP1318.kicad_sch" (at 25.4 163.1488 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 25.4 144.78 180) (uuid "4b6eee9d-0414-416c-82dc-758eaba4c28b") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 101.6 144.78 0) (uuid "940e3bfe-be4e-4b10-916e-d7d1f3061528") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "10")))))
+	(text "MCP1318T-29LE/OT" (exclude_from_sim no) (at 27.94 152.4 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "18bfbfcf-15c0-41d1-b934-4ee820258bb8"))
+	(text "Microchip" (exclude_from_sim no) (at 27.94 156.21 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "275bf143-4098-4c99-96a4-8d0219f447e8"))
+	(no_connect (at 25.4 144.78) (uuid "24741e54-4771-4a57-bb71-4cabe4d83e03"))
+	(no_connect (at 101.6 144.78) (uuid "bfa89a26-7cfd-451f-aefa-3e9dc0c0d8b1"))
+	(sheet (at 121.92 137.16) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "b550b667-efd9-461d-95af-ab3b5e7fe067") (property "Sheetname" "WD and RST MCP1320" (at 121.92 136.4488 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_MCP1320.kicad_sch" (at 121.92 163.1488 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 121.92 144.78 180) (uuid "5995c909-7c73-427d-bdba-ecba26bd7447") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 198.12 144.78 0) (uuid "e324762f-9a2e-4805-a25b-d5d2c13da659") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "11")))))
+	(text "MCP1320T-29LE/OT" (exclude_from_sim no) (at 124.46 152.4 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "05cbf4e2-2a69-4cd1-a41c-a606f6eaf36a"))
+	(text "Microchip" (exclude_from_sim no) (at 124.46 156.21 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bcced77f-114c-459d-85bf-454ad9cae5ef"))
+	(no_connect (at 121.92 144.78) (uuid "e55b100b-fa34-457d-b92f-fedf314235a5"))
+	(no_connect (at 198.12 144.78) (uuid "e488283e-2815-430f-a156-9adcfae148a9"))
+	(sheet (at 218.44 137.16) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "5381a615-aba2-42e2-a0a6-c5f95a3d195a") (property "Sheetname" "WD and RST MCP1321" (at 218.44 136.4488 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_MCP1321.kicad_sch" (at 218.44 163.1488 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 218.44 144.78 180) (uuid "baa1feeb-b1c6-4043-9c6d-32198883487e") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 294.64 144.78 0) (uuid "55db59ea-e8c4-4d55-ba17-9b6cbd6c4ab8") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "12")))))
+	(text "MCP1321T-29LE/OT" (exclude_from_sim no) (at 220.98 152.4 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "7e402580-5645-4607-ae93-f33c7a5e6be3"))
+	(text "Microchip" (exclude_from_sim no) (at 220.98 156.21 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ed1a2e6f-9528-4227-adab-0c5012f4367b"))
+	(no_connect (at 218.44 144.78) (uuid "7776ab72-5938-459a-b708-1d9481ce2ff9"))
+	(no_connect (at 294.64 144.78) (uuid "d5b80909-e077-47f0-ae17-15b5ac211c06"))
+	(sheet (at 314.96 137.16) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "47aadad6-161f-4620-91b5-9b01144b684a") (property "Sheetname" "WD and RST TPS35" (at 314.96 136.4488 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_TPS35.kicad_sch" (at 314.96 163.1488 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 314.96 144.78 180) (uuid "392b4a21-cb21-4cb3-b6f7-85829b6e3bc9") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 391.16 144.78 0) (uuid "db83540f-f7d5-43c8-95ac-61834da8c872") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "13")))))
+	(text "TPS35CA40KAGDDFR" (exclude_from_sim no) (at 317.5 152.4 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "76226241-7a59-4b8e-8660-ab5d9ff18ddd"))
+	(text "Texas Instruments" (exclude_from_sim no) (at 317.5 156.21 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "cb848540-bd6a-4685-86c6-d0a8014a2d43"))
+	(no_connect (at 314.96 144.78) (uuid "d64f6e37-66bf-4bfb-9fbc-47501155a718"))
+	(no_connect (at 391.16 144.78) (uuid "e0d50c15-6ff1-4071-8ab6-8906b9fb1b2a"))
+	(sheet (at 25.4 180.34) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "563fab9c-3c7f-4768-bc36-7dacb1b8a4e7") (property "Sheetname" "WD and RST TPS3851" (at 25.4 179.6288 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_TPS3851.kicad_sch" (at 25.4 206.3288 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 25.4 187.96 180) (uuid "8740afca-0e5f-4e7f-b476-f8a5a7c777d8") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 101.6 187.96 0) (uuid "bcebb87b-d757-4131-a3e2-5cbfc3b9601c") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "14")))))
+	(text "TPS3851G33SDRBR" (exclude_from_sim no) (at 27.94 195.58 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "e59e7de2-9e9b-4212-aa8e-ee65aa37b31f"))
+	(text "Texas Instruments" (exclude_from_sim no) (at 27.94 199.39 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "dbc20be0-fd34-4041-bbac-19bcd0d72746"))
+	(no_connect (at 25.4 187.96) (uuid "9579a83c-d3a7-45d0-9de2-107077d913ae"))
+	(no_connect (at 101.6 187.96) (uuid "4a47d71a-7506-477a-b5f1-464f844b9199"))
+	(sheet (at 121.92 180.34) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "1e5e6980-8863-4cec-8bcb-d7e9aeef11c8") (property "Sheetname" "WD and RST TPS3850" (at 121.92 179.6288 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_TPS3850.kicad_sch" (at 121.92 206.3288 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 121.92 187.96 180) (uuid "3f2165b4-72a4-4a7d-b486-63be3081e2d9") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 198.12 187.96 0) (uuid "a707313b-0a65-49f4-8af9-50453f599f5f") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "15")))))
+	(text "TPS3850G33DRCR" (exclude_from_sim no) (at 124.46 195.58 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "129d4178-dffb-4464-9876-ae2abe0621c0"))
+	(text "Texas Instruments" (exclude_from_sim no) (at 124.46 199.39 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1122e077-9034-41fb-8111-77e7f94d2d5f"))
+	(no_connect (at 121.92 187.96) (uuid "7d628d94-9ce1-42ac-b58f-c8d551bbe88d"))
+	(no_connect (at 198.12 187.96) (uuid "97390268-84f5-4527-9f4a-0022860fc8fc"))
+	(sheet (at 218.44 180.34) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "8a45836c-51bc-4893-a1e5-d29f2086ab40") (property "Sheetname" "WD and RST MAX16056" (at 218.44 179.6288 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_MAX16056.kicad_sch" (at 218.44 206.3288 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 218.44 187.96 180) (uuid "c0af7bce-2ef9-4643-804e-617c74ffd7bf") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 294.64 187.96 0) (uuid "51db6154-feed-466d-a445-38355d28593b") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "16")))))
+	(text "MAX16056ATA31+T" (exclude_from_sim no) (at 220.98 195.58 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "134b40ad-38ae-4272-9650-ba099495dec6"))
+	(text "Analog Devices" (exclude_from_sim no) (at 220.98 199.39 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5ce9ec98-3ad6-49d0-80b9-e2e33e8fba2b"))
+	(no_connect (at 218.44 187.96) (uuid "070214bb-8bba-4be3-b71a-7724ef3a216f"))
+	(no_connect (at 294.64 187.96) (uuid "91dde094-81b0-4a41-953a-680dff908c66"))
+	(sheet (at 314.96 180.34) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "371d5b40-38bc-4436-b4b6-a7aaaa855fef") (property "Sheetname" "WD and RST ADM8613" (at 314.96 179.6288 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_ADM8613.kicad_sch" (at 314.96 206.3288 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 314.96 187.96 180) (uuid "9d4827a2-96ce-4d0a-9604-e887a6c8d66f") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 391.16 187.96 0) (uuid "15b9e8a0-b08d-46a1-9315-d17fc7e8eb26") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "17")))))
+	(text "ADM8613Y232ACBZ-R7" (exclude_from_sim no) (at 317.5 195.58 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "62cb30f1-bb69-4f3b-bc03-e433cde220cb"))
+	(text "Analog Devices" (exclude_from_sim no) (at 317.5 199.39 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "12049c62-75f9-4811-ba20-c55901703ba8"))
+	(no_connect (at 314.96 187.96) (uuid "8d1b61f7-1b27-48be-ad8d-14784875efe7"))
+	(no_connect (at 391.16 187.96) (uuid "6e7c131a-f18a-48eb-b411-5223940f1d57"))
+	(sheet (at 25.4 223.52) (size 76.2 25.4) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced yes) (stroke (width 0.1524) (type solid)) (fill (color 0 0 0 0.0000)) (uuid "2a37432d-dfe3-45ff-92bf-3a1f664693dd") (property "Sheetname" "WD and RST MAX6369" (at 25.4 222.8088 0) (effects (font (size 1.27 1.27)) (justify left bottom))) (property "Sheetfile" "WD_RST_MAX6369.kicad_sch" (at 25.4 249.5088 0) (effects (font (size 1.27 1.27)) (justify left top))) (pin "WDI" input (at 25.4 231.14 180) (uuid "8c96ea89-e514-4251-845d-898efeb9df2d") (effects (font (size 1.27 1.27)) (justify left))) (pin "nRST" output (at 101.6 231.14 0) (uuid "6546e6f6-119a-4ad9-8624-ea1ebe6b78f8") (effects (font (size 1.27 1.27)) (justify right))) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (page "18")))))
+	(text "MAX6369KA+T" (exclude_from_sim no) (at 27.94 238.76 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "747c6b1b-2791-40c8-b8dc-7bd13624220c"))
+	(text "Analog Devices" (exclude_from_sim no) (at 27.94 242.57 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5d91d6f7-225d-4c91-8bac-b29edf7f956d"))
+	(no_connect (at 25.4 231.14) (uuid "7a35f980-143b-4d26-9257-b2aab2b2a0a8"))
+	(no_connect (at 101.6 231.14) (uuid "e8851c91-fca9-4af0-a360-e968ea41514a"))
+	(wire (pts (xy 38.1 35.56) (xy 30.48 35.56)) (stroke (width 0) (type default)) (uuid "3277b2ce-80b1-4d10-a2de-45b2b2100625"))
+	(wire (pts (xy 38.1 40.64) (xy 30.48 40.64)) (stroke (width 0) (type default)) (uuid "df60f1f1-dad9-43fc-92fe-cb1970f56115"))
+	(text "APPROVED PASSIVES (reused across all sheets: same value + rating + operating voltage = same MPN)\nCAP-0603-100N-50V-X7R    x51  CL10B104KB8NNNC (Samsung Electro-Mechanics)  |  alt: C0603C104K5RACTU (KEMET), GCJ188R71H104KA12D (Murata), 885012206095 (Wurth Elektronik)\nCAP-0603-39N-50V-X7R     x1   CL10B393KB8NNNC (Samsung Electro-Mechanics)  |  alt: CC0603KRX7R9BB393 (Yageo), 06035C393KAT2A (KYOCERA AVX), GCJ188R71H393KA12D (Murata)\nCAP-0603-330N-16V-X7R    x1   CL10B334KO8NNNC (Samsung Electro-Mechanics)  |  alt: C1608X7R1C334K080AC (TDK), C0603C334K4RACTU (KEMET), AC0603KRX7R7BB334 (Yageo)\nCAP-0805-10U-25V-X5R     x1   GRM21BR61E106KA73L (Murata)  |  alt: CL21A106KAYNNNE (Samsung Electro-Mechanics), C2012X5R1E106K085AC (TDK), CC0805KRX5R8BB106 (Yageo)\nRES-0603-10K-5%-0.1W     x27  RC0603JR-0710KL (Yageo)  |  alt: ERJ-3GEYJ103V (Panasonic), CRCW060310K0JNEA (Vishay Dale), CR0603-JW-103ELF (Bourns)\nDerating rules: C applied V <= 50% of rated, dielectric Tmax >= Tamb+20C; R power <= 50% of derated rating at 85C, V <= 80% of max working V\nC1 (X5R, 85C max) FAILS the temperature rule at Tamb 85C: test-bench only, not part of any block" (exclude_from_sim no) (at 25.4 274.32 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8a335cc1-63fb-4c89-bf55-97e9cbd8007c"))
+	(text "Chinmay's watchdog + reset bricks - one sheet per supervisor IC" (exclude_from_sim no) (at 25.4 20.32 0) (effects (font (size 2.5 2.5) (thickness 0.254) (bold yes)) (justify left bottom)) (uuid "0a5311a9-983e-4b5d-938c-4a58325aa2a4"))
+	(text "Each sheet replicates 'WD and RST TPS3823': supervisor -> 74LVC1G32 (PROG bypass) -> 74LVC1G07 open drain -> nRST. Sheet pins: WDI (in), nRST (out)." (exclude_from_sim no) (at 55.88 30.48 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "10c06a0c-dd02-4831-89c6-3939583eecc4"))
+	(symbol (lib_id "Device:C_Small") (at 38.1 38.1 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "598875eb-242b-4a50-9b1c-698512dbf47d") (property "Reference" "C1" (at 39.37 36.83 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "10uF" (at 39.37 40.64 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "Bulk capacitor on the incoming 3V3 rail (test bench only)" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "IPN" "CAP-0805-10U-25V-X5R" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "Murata" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.digikey.in/en/products/result?keywords=GRM21BR61E106KA73L" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=GRM21BR61E106KA73L" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "GRM21BR61E106KA73L" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "CL21A106KAYNNNE" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR2" "Samsung Electro-Mechanics" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN3" "C2012X5R1E106K085AC" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR3" "TDK" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN4" "CC0805KRX5R8BB106" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR4" "Yageo" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Derating" "V 3.46/25V=13.9% (<=50%) OK; X5R 85C vs Tamb 85C FAIL (no temp margin)" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 38.1 38.1 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "da96cd51-c0ef-43b0-b2cf-4193ba6cd2bf")) (pin "2" (uuid "a61d29b1-ef7a-4996-bb2a-cb1c34d3e130")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (reference "C1") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 38.1 35.56 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "6c94d018-a8d4-4d77-9e4b-37e3352197bc") (property "Reference" "#PWR0101" (at 38.1 31.75 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 38.1 30.48 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 38.1 35.56 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "478772cc-d9e3-4e74-ae21-d8a606a1b388")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (reference "#PWR0101") (unit 1)))))
+	(symbol (lib_id "power:PWR_FLAG") (at 30.48 35.56 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "7d33ccba-f42e-440c-80b5-eaab326b35fd") (property "Reference" "#FLG0102" (at 30.48 31.75 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "PWR_FLAG" (at 30.48 30.48 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 30.48 35.56 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "dc30cd5c-e42f-412e-ba1b-1fceef48aeed")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (reference "#FLG0102") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 38.1 40.64 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "dcec346c-6a53-41e0-80e1-06e4a61662bf") (property "Reference" "#PWR0103" (at 38.1 44.45 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 38.1 45.72 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 38.1 40.64 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "5f826f3d-69a7-4d1e-88e9-46d7269a7a9f")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (reference "#PWR0103") (unit 1)))))
+	(symbol (lib_id "power:PWR_FLAG") (at 30.48 40.64 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "774bf4fc-ef49-4569-9aff-a65dff76c0c1") (property "Reference" "#FLG0104" (at 30.48 36.83 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "PWR_FLAG" (at 30.48 35.56 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 30.48 40.64 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b73179a1-112f-4191-a4c2-b904deea88fc")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20" (reference "#FLG0104") (unit 1)))))
+	(sheet_instances (path "/" (page "1")))
+)
