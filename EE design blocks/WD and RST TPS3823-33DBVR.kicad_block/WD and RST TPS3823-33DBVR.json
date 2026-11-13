@@ -1,0 +1,8 @@
+{
+ "description": "The TPS3823-33DBVR is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Group 1 SOT-23-5 (MAX823 pinout). Drop-in: STM6823, MCP1316.",
+ "keywords": "watchdog ; reset ; supervisor ; TPS3823 ; Texas Instruments",
+ "fields": {
+  "MPN1": "TPS3823-33DBVR",
+  "Manufacturer": "Texas Instruments"
+ }
+}

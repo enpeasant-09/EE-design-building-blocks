@@ -1,0 +1,72 @@
+# partwatch configuration. Put this at the root of your kicad-bricks repo.
+# API keys never go in this file: they come from environment variables
+# (or GitHub Actions secrets), see README.
+
+[paths]
+# Folders or .kicad_sch files to scan. Design-block libraries (*.kicad_blocks)
+# are reported per brick; any other schematic is reported per sheet file.
+include = ["blocks"]
+
+[fields]
+# Symbol fields searched, in order, for each piece of data (case-insensitive).
+mpn          = ["MPN", "MPN1", "Manufacturer_Part_Number", "MFR_PN"]
+manufacturer = ["Manufacturer", "MFR"]
+alternates   = ["MPN_ALT", "MPN2", "MPN3", "MPN4"]   # checked when the main part is amber/red
+include_dnp  = false
+value_as_mpn = false      # true: Value is the MPN when no MPN field (e.g. "TPS54331DR"); passives excluded
+
+# ---- data sources -------------------------------------------------------
+# Every enabled source with credentials is queried; results are merged
+# (worst lifecycle wins, stock is summed across distinct distributors).
+
+[providers.octopart]      # Nexar GraphQL = Octopart data, many distributors
+enabled = true            # env: NEXAR_CLIENT_ID, NEXAR_CLIENT_SECRET
+country = "IN"
+currency = "USD"
+authorized_only = true    # ignore brokers / marketplace sellers
+candidates = 1            # parts returned per MPN; each one counts against your Nexar part limit
+
+[providers.digikey]       # env: DIGIKEY_CLIENT_ID, DIGIKEY_CLIENT_SECRET
+enabled = true
+site = "IN"
+currency = "USD"
+per_day = 950             # stay under the default 1000/day quota
+
+[providers.mouser]        # env: MOUSER_API_KEY (Search API key)
+enabled = true
+per_day = 950
+
+[providers.overrides]     # hand-maintained data: PCN notices, LCSC stock, customer parts
+type = "file"
+enabled = false
+path = "partwatch_overrides.json"
+
+[cache]
+path = ".partwatch/cache.sqlite"
+ttl_hours = 72            # reuse answers younger than this; keeps API use low
+
+# ---- scoring ------------------------------------------------------------
+[rules]
+build_qty = 100           # boards per build; stock must cover refs-per-brick x build_qty
+min_total_stock = 500     # lower bound on that requirement
+min_distributors = 2      # fewer distributors holding stock = single-source warning
+max_lead_weeks = 16       # flagged only when stock is short
+not_found = "red"         # MPN unknown to every source
+require_mpn = true        # non-generic symbols without an MPN make their brick amber
+# lib_id patterns allowed to have no MPN (value + footprint is enough to buy them)
+generic_ok = ["*:R", "*:R_*", "*:C", "*:C_*", "*:CP", "*:CP_*", "*:L", "*:L_*",
+              "*:FerriteBead*", "*:Jumper*", "*:SolderJumper*", "*:TestPoint*",
+              "*:MountingHole*", "*:Fiducial*", "Mechanical:*", "Graphic:*"]
+ignore_mpns = []          # glob patterns to skip, e.g. ["CUSTOMER-*"]
+
+[rules.lifecycle]         # rating per lifecycle state: green / amber / red
+active = "green"
+preliminary = "amber"
+unknown = "amber"
+nrnd = "amber"
+ltb = "red"
+obsolete = "red"
+
+[report]
+dir = "reports"
+title = "kicad-bricks part status"

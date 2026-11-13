@@ -1,0 +1,8 @@
+{
+ "description": "The TPS3824-33DBVR is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Group 2 SOT-23-5 (MAX824 pinout): no MR pin, button resets nRST directly.",
+ "keywords": "watchdog ; reset ; supervisor ; TPS3824 ; Texas Instruments",
+ "fields": {
+  "MPN1": "TPS3824-33DBVR",
+  "Manufacturer": "Texas Instruments"
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "description": "The MAX6369KA+T is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Watchdog only: pair with a voltage supervisor. No MR: button resets nRST.",
+ "keywords": "watchdog ; reset ; supervisor ; MAX6369 ; Analog Devices",
+ "fields": {
+  "MPN1": "MAX6369KA+T",
+  "Manufacturer": "Analog Devices"
+ }
+}

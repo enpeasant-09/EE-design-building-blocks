@@ -1,0 +1,8 @@
+{
+ "description": "The TPS35CA40KAGDDFR is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Pinout option C (fixed timing). Order code built from the datasheet decoder: confirm it is released.",
+ "keywords": "watchdog ; reset ; supervisor ; TPS35 ; Texas Instruments",
+ "fields": {
+  "MPN1": "TPS35CA40KAGDDFR",
+  "Manufacturer": "Texas Instruments"
+ }
+}

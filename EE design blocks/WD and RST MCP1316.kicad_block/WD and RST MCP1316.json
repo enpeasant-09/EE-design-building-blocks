@@ -1,0 +1,8 @@
+{
+ "description": "The MCP1316T-29LE/OT is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Group 1 SOT-23-5. Check reset-delay / WDT codes in the order number.",
+ "keywords": "watchdog ; reset ; supervisor ; MCP1316 ; Microchip",
+ "fields": {
+  "MPN1": "MCP1316T-29LE/OT",
+  "Manufacturer": "Microchip"
+ }
+}

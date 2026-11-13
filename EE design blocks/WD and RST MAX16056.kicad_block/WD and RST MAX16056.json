@@ -1,0 +1,8 @@
+{
+ "description": "The MAX16056ATA31+T is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. MR has no internal pull-up: R fitted. Footprint: check against Maxim land pattern 90-0059.",
+ "keywords": "watchdog ; reset ; supervisor ; MAX16056 ; Analog Devices",
+ "fields": {
+  "MPN1": "MAX16056ATA31+T",
+  "Manufacturer": "Analog Devices"
+ }
+}

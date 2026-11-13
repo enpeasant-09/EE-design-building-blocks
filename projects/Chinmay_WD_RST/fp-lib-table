@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Chinmay_Supervisor")(type "KiCad")(uri "${KIPRJMOD}/../../library/Chinmay_Supervisor.pretty")(options "")(descr "Chinmay supervisor footprints"))
+)

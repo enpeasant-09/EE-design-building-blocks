@@ -1,0 +1,8 @@
+{
+ "description": "The MCP1320T-29LE/OT is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Group 1 SOT-23-5, open-drain output: R pull-up fitted.",
+ "keywords": "watchdog ; reset ; supervisor ; MCP1320 ; Microchip",
+ "fields": {
+  "MPN1": "MCP1320T-29LE/OT",
+  "Manufacturer": "Microchip"
+ }
+}

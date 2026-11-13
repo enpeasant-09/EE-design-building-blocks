@@ -1,0 +1,8 @@
+{
+ "description": "The MCP1318T-29LE/OT is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Group 2 SOT-23-5: no MR pin, button resets nRST directly.",
+ "keywords": "watchdog ; reset ; supervisor ; MCP1318 ; Microchip",
+ "fields": {
+  "MPN1": "MCP1318T-29LE/OT",
+  "Manufacturer": "Microchip"
+ }
+}
