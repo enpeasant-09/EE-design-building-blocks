@@ -1,0 +1,11 @@
+{
+  "description": "48 MHz crystal (ECS ECS-480-10-36B-CKM-TR) Pierce network: 15 pF C0G load caps, 0R Rext, 1M Rf (DNP). USB (crystal-based 48 MHz), FPGA.",
+  "keywords": "crystal xtal oscillator pierce 48 MHz 48M ECS-480-10-36B-CKM-TR ECX-2236B ECS clock",
+  "fields": {
+    "Frequency": "48 MHz",
+    "Crystal": "ECS-480-10-36B-CKM-TR",
+    "CL": "10 pF",
+    "Load caps": "15 pF C0G 0603 (CAP-0603-15P-50V-C0G)",
+    "Typical use": "USB (crystal-based 48 MHz), FPGA"
+  }
+}

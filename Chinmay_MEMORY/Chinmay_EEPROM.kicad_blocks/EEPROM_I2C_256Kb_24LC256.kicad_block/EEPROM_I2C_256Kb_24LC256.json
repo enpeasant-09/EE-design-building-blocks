@@ -1,0 +1,10 @@
+{
+  "description": "256Kb (32Kx8) I2C EEPROM, 400 kHz, 2.5-5.5 V, SOIC-8 24LC256T-I/SN I2C EEPROM block with decoupling, address straps, WP and bus pull-up provision. board ID / calibration / config storage.",
+  "keywords": "eeprom i2c 24LC256T-I/SN 24AA256T-I/SN memory",
+  "fields": {
+    "Memory": "256Kb (32Kx8) I2C EEPROM, 400 kHz, 2.5-5.5 V, SOIC-8",
+    "Part": "24LC256T-I/SN",
+    "Interface": "I2C",
+    "Typical use": "board ID / calibration / config storage"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "1Gbit SLC NAND flash, x8 parallel (ONFI 1.0), 25 ns, 2.7-3.6 V, TSOP-48 12x20 W29N01HVSINA parallel NAND block: per-pin decoupling, RB# pull-up, WP# pull-down, WE#/RE# series termination, bus termination provision. MPU / FPGA bulk storage on a parallel NAND controller (FMC/EMIF/GPMC).",
+  "keywords": "nand flash parallel onfi tsop48 W29N01HVSINA memory",
+  "fields": {
+    "Memory": "1Gbit SLC NAND flash, x8 parallel (ONFI 1.0), 25 ns, 2.7-3.6 V, TSOP-48 12x20",
+    "Part": "W29N01HVSINA",
+    "Interface": "x8 parallel NAND",
+    "Typical use": "MPU / FPGA bulk storage on a parallel NAND controller (FMC/EMIF/GPMC)"
+  }
+}

@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Chinmay_Supervisor")(type "KiCad")(uri "${KIPRJMOD}/Chinmay_Supervisor.pretty")(options "")(descr "Chinmay supervisor footprints"))
+  (lib (name "Chinmay_Footprints")(type "KiCad")(uri "C:/Users/crmar/Documents/Chinmay_LIB/Chinmay_Footprints.pretty")(options "")(descr "Chinmay footprints with 3D models (datasheet land patterns)"))
+)

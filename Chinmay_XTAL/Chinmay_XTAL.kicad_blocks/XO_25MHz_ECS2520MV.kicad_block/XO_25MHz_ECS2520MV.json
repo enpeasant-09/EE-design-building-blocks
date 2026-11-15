@@ -1,0 +1,11 @@
+{
+  "description": "25 MHz HCMOS oscillator ECS ECS-2520MV-250-BN-TR with 100 nF decoupling, 10k OE pull-up and 27R series termination. Ethernet PHY / switch ref.",
+  "keywords": "oscillator xo clock 25 MHz ECS-2520MV-250-BN-TR ECS-2520MV hcmos cmos",
+  "fields": {
+    "Frequency": "25 MHz",
+    "Oscillator": "ECS-2520MV-250-BN-TR",
+    "Supply": "1.6-3.6 V",
+    "Stability": "+/-50 ppm",
+    "Typical use": "Ethernet PHY / switch ref"
+  }
+}

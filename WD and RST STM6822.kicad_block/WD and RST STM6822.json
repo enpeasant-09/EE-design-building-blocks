@@ -1,0 +1,8 @@
+{
+ "description": "The STM6822TWY6F is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Group 1 SOT-23-5, open-drain output: R pull-up fitted.",
+ "keywords": "watchdog ; reset ; supervisor ; STM6822 ; STMicroelectronics",
+ "fields": {
+  "MPN1": "STM6822TWY6F",
+  "Manufacturer": "STMicroelectronics"
+ }
+}

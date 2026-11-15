@@ -1,0 +1,11 @@
+{
+  "description": "24 MHz crystal (ECS ECS-240-8-36B2-CKM-TR) Pierce network: 12 pF C0G load caps, 0R Rext, 1M Rf (DNP). USB hubs, i.MX, cameras, SoCs.",
+  "keywords": "crystal xtal oscillator pierce 24 MHz 24M ECS-240-8-36B2-CKM-TR ECX-2236B2 ECS clock",
+  "fields": {
+    "Frequency": "24 MHz",
+    "Crystal": "ECS-240-8-36B2-CKM-TR",
+    "CL": "8 pF",
+    "Load caps": "12 pF C0G 0603 (CAP-0603-12P-50V-C0G)",
+    "Typical use": "USB hubs, i.MX, cameras, SoCs"
+  }
+}

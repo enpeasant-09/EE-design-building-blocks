@@ -1,0 +1,712 @@
+(kicad_sch (version 20260101) (generator "eeschema") (generator_version "10.0")
+  (uuid "f421618d-c994-4757-a022-e65cb46836fd")
+  (paper "A4")
+  (title_block (title "XO_25MHz_ECS2520MV") (company "Chinmay"))
+  (lib_symbols
+(symbol "Oscillator:ECS-2520MV-xxx-xx"
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "Y"
+    			(at -5.08 6.35 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    		)
+    		(property "Value" "ECS-2520MV-xxx-xx"
+    			(at 1.27 -6.35 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    		)
+    		(property "Footprint" "Chinmay_Footprints:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm"
+    			(at 11.43 -8.89 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf"
+    			(at -4.445 3.175 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "HCMOS Crystal Clock Oscillator, 2.5x2.0 mm SMD"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "Crystal Clock Oscillator ECS SMD"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_fp_filters" "Oscillator*SMD*ECS*2520MV*2.5x2.0mm*"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "ECS-2520MV-xxx-xx_0_1"
+    			(rectangle
+    				(start -7.62 5.08)
+    				(end 7.62 -5.08)
+    				(stroke
+    					(width 0.254)
+    					(type default)
+    				)
+    				(fill
+    					(type background)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -4.445 2.54) (xy -3.81 2.54) (xy -3.81 3.81) (xy -3.175 3.81) (xy -3.175 2.54) (xy -2.54 2.54)
+    					(xy -2.54 3.81) (xy -1.905 3.81) (xy -1.905 2.54)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    		)
+    		(symbol "ECS-2520MV-xxx-xx_1_1"
+    			(pin input line
+    				(at -10.16 0 0)
+    				(length 2.54)
+    				(name "Tri-State"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin power_in line
+    				(at 0 -7.62 90)
+    				(length 2.54)
+    				(name "GND"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin output line
+    				(at 10.16 0 180)
+    				(length 2.54)
+    				(name "OUT"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "3"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin power_in line
+    				(at 0 7.62 270)
+    				(length 2.54)
+    				(name "VDD"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "4"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+  )
+(symbol (lib_id "Oscillator:ECS-2520MV-xxx-xx") (at 101.60 76.20 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "9309db2a-fdf2-4084-9c88-6480489fccb0")
+  (property "Reference" "X?" (at 104.10 66.70 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "25MHz" (at 104.10 85.70 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Chinmay_Footprints:Oscillator_SMD_ECS_2520MV-xxx-xx-4Pin_2.5x2.0mm" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-2520MV.pdf" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "25 MHz HCMOS XO 1.6-3.6 V +/-50 ppm" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "XO-2520-250M-CMOS-50PPM" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "ECS" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "ECS-2520MV-250-BN-TR" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "ECS" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ECS-2520MV-250-CN-TR" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=ECS-2520MV-250-BN-TR" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=ECS-2520MV-250-BN-TR" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "8b00c007-7eef-4694-a4a1-efaff4b0d22c"))
+  (pin "2" (uuid "b3a14275-612b-4dcc-ada6-ff819645435d"))
+  (pin "3" (uuid "37b15eae-34d2-4b7b-9b20-e64bb5f5b4f9"))
+  (pin "4" (uuid "a7171424-c227-4f94-8b50-34e60199dd86"))
+  (instances (project "block" (path "/f421618d-c994-4757-a022-e65cb46836fd" (reference "X?") (unit 1))))
+)
+(wire (pts (xy 101.60 68.58) (xy 101.60 63.50)) (stroke (width 0) (type default)) (uuid "db120bfa-4598-4964-85d5-5e75f3cd0978"))
+(wire (pts (xy 101.60 63.50) (xy 111.76 63.50)) (stroke (width 0) (type default)) (uuid "49da2e42-67cf-49d6-9747-37edf2193899"))
+(label "VDD" (at 101.60 63.50 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "800e27a2-8ba9-4c84-b302-4c6d38d8f0a8"))
+(symbol (lib_id "Device:C_Small") (at 111.76 66.04 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "2970a0bf-d733-458f-bc69-9a62552a54a1")
+  (property "Reference" "C?" (at 113.40 65.20 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "100nF" (at 113.40 67.60 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "100nF X7R 0603 - VDD decoupling at pin 4" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "CAP-0603-100N-50V-X7R" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Samsung" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "CL10B104KB8NNNC" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Murata" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "GRM188R71H104KA93D" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=CL10B104KB8NNNC" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=CL10B104KB8NNNC" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 111.76 66.04 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "6fbe5ebd-b770-46df-9674-ef866b8b7b73"))
+  (pin "2" (uuid "f0058482-e014-41ba-8633-c73c7348e114"))
+  (instances (project "block" (path "/f421618d-c994-4757-a022-e65cb46836fd" (reference "C?") (unit 1))))
+)
+(symbol (lib_id "power:GND") (at 111.76 68.58 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "6a5f211e-2ff3-4acd-baaa-4cc9dfd3a49b")
+  (property "Reference" "#PWR?" (at 111.76 74.58 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Value" "GND" (at 109.76 72.78 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Footprint" "" (at 111.76 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 111.76 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "" (at 111.76 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "e6e62711-dba2-44d3-92c6-d4450cf55cb5"))
+  (instances (project "block" (path "/f421618d-c994-4757-a022-e65cb46836fd" (reference "#PWR?") (unit 1))))
+)
+(symbol (lib_id "power:GND") (at 101.60 83.82 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "871e9db6-c2af-4abf-ae0d-0f17021ed250")
+  (property "Reference" "#PWR?" (at 101.60 89.82 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Value" "GND" (at 99.60 88.02 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Footprint" "" (at 101.60 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 101.60 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "" (at 101.60 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "ee6062f2-eee5-4907-8667-0f9d44d57a78"))
+  (instances (project "block" (path "/f421618d-c994-4757-a022-e65cb46836fd" (reference "#PWR?") (unit 1))))
+)
+(symbol (lib_id "Device:R_Small") (at 86.36 68.58 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "551485dc-fe9c-453e-bbc3-22faad0d09f7")
+  (property "Reference" "R?" (at 88.00 67.70 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "10k" (at 88.00 70.10 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "10k OE pull-up (oscillator runs when OE unused)" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-10k-1%" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603FR-0710KL" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3EKF1002V" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603FR-0710KL" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603FR-0710KL" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 86.36 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "56055b08-7e44-411f-9410-d2bf67d064ce"))
+  (pin "2" (uuid "5680324e-ced8-4d91-bf64-aa3d284dcebd"))
+  (instances (project "block" (path "/f421618d-c994-4757-a022-e65cb46836fd" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 86.36 66.04) (xy 86.36 63.50)) (stroke (width 0) (type default)) (uuid "536a175b-3ed9-4c4b-88c3-f18c7c3f2c56"))
+(wire (pts (xy 86.36 63.50) (xy 101.60 63.50)) (stroke (width 0) (type default)) (uuid "f523d7ca-3790-461c-bb5b-2d52fe4c1a6a"))
+(wire (pts (xy 86.36 71.12) (xy 86.36 76.20)) (stroke (width 0) (type default)) (uuid "e02e1134-d9d5-4b87-b685-78c23fe498cd"))
+(wire (pts (xy 91.44 76.20) (xy 86.36 76.20)) (stroke (width 0) (type default)) (uuid "f7322413-5b09-477f-ba8d-6ede58f64ad5"))
+(wire (pts (xy 86.36 76.20) (xy 81.28 76.20)) (stroke (width 0) (type default)) (uuid "8bcd2934-1dc3-4fa1-873e-267f44bbea57"))
+(label "OE" (at 81.28 76.20 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "bef383bb-e148-458b-9459-95172e443ee1"))
+(junction (at 86.36 76.20) (diameter 0) (color 0 0 0 0) (uuid "2171086f-bfa4-49ec-a37d-be0b1ea10736"))
+(junction (at 101.60 63.50) (diameter 0) (color 0 0 0 0) (uuid "600d59e2-61fa-4d08-8a7f-3f3b28d193f9"))
+(symbol (lib_id "Device:R_Small") (at 116.84 76.20 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "f3438e99-cbcb-4ad4-9c50-140e234afd97")
+  (property "Reference" "R?" (at 114.80 73.00 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "27R" (at 114.80 79.20 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "27R series source termination (place at XO pin 3)" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-27R-1%" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603FR-0727RL" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3EKF270-1V" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603FR-0727RL" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603FR-0727RL" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 116.84 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "0ed2153f-91e3-4404-b159-26e669b5e82f"))
+  (pin "2" (uuid "96ff9d00-3c62-4ade-9300-7032c5be83c4"))
+  (instances (project "block" (path "/f421618d-c994-4757-a022-e65cb46836fd" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 111.76 76.20) (xy 114.30 76.20)) (stroke (width 0) (type default)) (uuid "772df3ad-ee60-4b41-95aa-bcc4eba8545b"))
+(wire (pts (xy 119.38 76.20) (xy 124.46 76.20)) (stroke (width 0) (type default)) (uuid "5e2187f9-abd3-4c1b-a75e-7de38b95bf0e"))
+(label "CLK" (at 124.46 76.20 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ffe3440c-a9f6-4aca-aa58-94bd6188e4a5"))
+(text "25 MHz HCMOS XO - ECS-2520MV-250-BN-TR, 1.6-3.6 V, +/-50 ppm (-40..85 C), IDD <= 7 mA @3.3 V, load <= 15 pF\n100 nF at pin 4, 10k OE pull-up (OE high/open = run), 27R series termination at pin 3 (Z0 50 ohm).\nTypical use: Ethernet PHY / switch ref. Rename VDD / OE / CLK labels to your nets." (exclude_from_sim no) (at 76.20 90.20 0) (effects (font (size 1.1 1.1)) (justify left top)) (uuid "a4f39224-ae8d-4ebb-8678-81543b0d2c50"))
+  (sheet_instances (path "/" (page "1")))
+)

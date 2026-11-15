@@ -1,0 +1,11 @@
+{
+  "description": "26 MHz HCMOS oscillator ECS ECS-2520MV-260-BN-TR with 100 nF decoupling, 10k OE pull-up and 27R series termination. RF / GNSS ref.",
+  "keywords": "oscillator xo clock 26 MHz ECS-2520MV-260-BN-TR ECS-2520MV hcmos cmos",
+  "fields": {
+    "Frequency": "26 MHz",
+    "Oscillator": "ECS-2520MV-260-BN-TR",
+    "Supply": "1.6-3.6 V",
+    "Stability": "+/-50 ppm",
+    "Typical use": "RF / GNSS ref"
+  }
+}

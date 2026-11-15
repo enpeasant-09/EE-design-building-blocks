@@ -1,0 +1,11 @@
+{
+  "description": "24.576 MHz crystal (ECS ECS-245.7-10-36B2-CTM-TR) Pierce network: 15 pF C0G load caps, 0R Rext, 1M Rf (DNP). Audio (48 kHz family), I2S/TDM.",
+  "keywords": "crystal xtal oscillator pierce 24.576 MHz 24M576 ECS-245.7-10-36B2-CTM-TR ECX-2236B2 ECS clock",
+  "fields": {
+    "Frequency": "24.576 MHz",
+    "Crystal": "ECS-245.7-10-36B2-CTM-TR",
+    "CL": "10 pF",
+    "Load caps": "15 pF C0G 0603 (CAP-0603-15P-50V-C0G)",
+    "Typical use": "Audio (48 kHz family), I2S/TDM"
+  }
+}

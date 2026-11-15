@@ -1,0 +1,728 @@
+(kicad_sch (version 20260101) (generator "eeschema") (generator_version "10.0")
+  (uuid "2136831b-775c-41b2-b0c5-d90f756a823b")
+  (paper "A4")
+  (title_block (title "EEPROM_I2C_2Kb_EUI48_24AA02E48") (company "Chinmay"))
+  (lib_symbols
+(symbol "Memory_EEPROM:24AA02E-OT"
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "U"
+    			(at -7.62 6.35 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "24AA02E-OT"
+    			(at 2.54 -6.35 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    		)
+    		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/2-Kbit-I2C-Serial-EEPROMs-+EUI-48-or-EUI-64-Node-20002124.pdf"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "I2C Serial EEPROM with EUI-48 or EUI-64, 2Kb, SOT-23-5"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "Microchip"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_fp_filters" "SOT?23*"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "24AA02E-OT_1_1"
+    			(rectangle
+    				(start -7.62 5.08)
+    				(end 7.62 -5.08)
+    				(stroke
+    					(width 0.254)
+    					(type default)
+    				)
+    				(fill
+    					(type background)
+    				)
+    			)
+    			(pin input line
+    				(at 10.16 0 180)
+    				(length 2.54)
+    				(name "SCL"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin power_in line
+    				(at 0 -7.62 90)
+    				(length 2.54)
+    				(name "V_{SS}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin bidirectional line
+    				(at 10.16 2.54 180)
+    				(length 2.54)
+    				(name "SDA"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "3"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin power_in line
+    				(at 0 7.62 270)
+    				(length 2.54)
+    				(name "V_{CC}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "4"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin no_connect line
+    				(at -10.16 0 0)
+    				(length 2.54)
+    				(hide yes)
+    				(name "NC"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "5"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+  )
+(symbol (lib_id "Memory_EEPROM:24AA02E-OT") (at 50.80 86.36 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "4a5eef66-2e8f-4872-80df-a3201382f49f")
+  (property "Reference" "U?" (at 43.18 74.93 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "24AA02E48T-I/OT" (at 54.61 74.93 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MPD/ProductDocuments/DataSheets/2-Kbit-I2C-Serial-EEPROMs-+EUI-48-or-EUI-64-Node-20002124.pdf" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "2Kb I2C EEPROM with pre-programmed EUI-48 MAC, SOT-23-5" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "EEPROM-I2C-2K-EUI48-SOT235" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Microchip" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "24AA02E48T-I/OT" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Microchip" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "24AA02E64T-I/OT" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=24AA02E48T-I/OT" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=24AA02E48T-I/OT" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "a3121065-1292-4298-8aaf-75785473645b"))
+  (pin "2" (uuid "b2e1b37f-63f7-4d7d-9a96-deac77337cfb"))
+  (pin "3" (uuid "3a26d72c-8b4d-4035-9599-b30f13bb9df2"))
+  (pin "4" (uuid "52faf448-67b3-44d7-b716-97c6c725d2e4"))
+  (pin "5" (uuid "773b76e7-827d-4d35-bf53-13220d613546"))
+  (instances (project "block" (path "/2136831b-775c-41b2-b0c5-d90f756a823b" (reference "U?") (unit 1))))
+)
+(wire (pts (xy 60.96 86.36) (xy 63.50 86.36)) (stroke (width 0) (type default)) (uuid "2f39ef50-da39-48fd-9409-940713ea4b40"))
+(label "SCL" (at 63.50 86.36 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "cd956480-a749-49ce-9b13-a09b28468547"))
+(symbol (lib_id "power:GND") (at 50.80 93.98 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "ed9661e8-c0a0-4a0a-90a7-cf3409519cb7")
+  (property "Reference" "#PWR?" (at 50.80 99.98 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Value" "GND" (at 48.80 98.18 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Footprint" "" (at 50.80 93.98 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 50.80 93.98 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "" (at 50.80 93.98 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "2b982cbc-982c-41f5-80b6-edf29cf8a9bc"))
+  (instances (project "block" (path "/2136831b-775c-41b2-b0c5-d90f756a823b" (reference "#PWR?") (unit 1))))
+)
+(wire (pts (xy 60.96 83.82) (xy 63.50 83.82)) (stroke (width 0) (type default)) (uuid "e619702d-e3fc-48a7-b76a-a41dd658cf24"))
+(label "SDA" (at 63.50 83.82 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4371941f-0e22-429f-aeee-10e518a92284"))
+(wire (pts (xy 50.80 78.74) (xy 50.80 76.20)) (stroke (width 0) (type default)) (uuid "dfd63835-3e75-46bd-87df-b4c626efa8cd"))
+(label "VDD" (at 50.80 76.20 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5b5e1ca8-1959-4ba4-acdc-e8db29dd4fd1"))
+(no_connect (at 40.64 86.36) (uuid "3dbfedca-f574-4eb6-9342-7c659804a419"))
+(symbol (lib_id "Device:C_Small") (at 101.60 45.72 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "dfe28de8-ea22-41a5-87c9-e32bc2510e18")
+  (property "Reference" "C?" (at 103.20 44.82 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "100nF" (at 103.20 47.22 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "100nF VCC decoupling, <=2 mm from VCC pin" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "CAP-0603-100N-50V-X7R" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Samsung" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "CL10B104KB8NNNC" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Murata" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "GRM188R71H104KA93D" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=CL10B104KB8NNNC" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=CL10B104KB8NNNC" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "c9be10ac-c2bd-4d0c-ad92-b832d8da1082"))
+  (pin "2" (uuid "83d75f90-e50b-460b-b5e9-86dc9be3cdc8"))
+  (instances (project "block" (path "/2136831b-775c-41b2-b0c5-d90f756a823b" (reference "C?") (unit 1))))
+)
+(wire (pts (xy 101.60 43.18) (xy 101.60 40.64)) (stroke (width 0) (type default)) (uuid "c80b4354-3844-4d22-8924-41d258ebe770"))
+(wire (pts (xy 101.60 48.26) (xy 101.60 50.80)) (stroke (width 0) (type default)) (uuid "aea7be1f-581a-4492-a01e-f6e7883a963d"))
+(label "VDD" (at 101.60 40.64 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "34c36365-0b46-41e7-83ef-93532de6a670"))
+(symbol (lib_id "power:GND") (at 101.60 50.80 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "3325bc01-cfdc-4509-a2d4-91795ccc8e1f")
+  (property "Reference" "#PWR?" (at 101.60 56.80 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Value" "GND" (at 99.60 55.00 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Footprint" "" (at 101.60 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 101.60 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "" (at 101.60 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "5e86a449-a40a-4669-b7d8-9a8813373d58"))
+  (instances (project "block" (path "/2136831b-775c-41b2-b0c5-d90f756a823b" (reference "#PWR?") (unit 1))))
+)
+(symbol (lib_id "Device:R_Small") (at 116.84 45.72 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp yes) (uuid "c197114e-a62b-4f57-975e-fbc4a6ef4c1f")
+  (property "Reference" "R?" (at 118.44 44.82 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "4.7k" (at 118.44 47.22 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "SDA pull-up 4.7k (DNP if bus already pulled up)" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-4.7k-1%" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603FR-074K7L" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3EKF4701V" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603FR-074K7L" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603FR-074K7L" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR3" "Vishay Dale" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN3" "CRCW06034K70FKEA" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR4" "Bourns" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN4" "CR0603-FX-4701ELF" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "f4597978-30e5-4a84-92cc-7226475402c2"))
+  (pin "2" (uuid "6bdfc74d-983b-4141-bf69-af26298d23d2"))
+  (instances (project "block" (path "/2136831b-775c-41b2-b0c5-d90f756a823b" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 116.84 43.18) (xy 116.84 40.64)) (stroke (width 0) (type default)) (uuid "ddb7f0a7-94e7-405e-8a16-1ddf12e9183a"))
+(wire (pts (xy 116.84 48.26) (xy 116.84 50.80)) (stroke (width 0) (type default)) (uuid "ea112582-2681-4dee-8d46-b8d3f4692cea"))
+(label "VDD" (at 116.84 40.64 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "86169ce1-9440-4e9f-89c3-f3b7c4f00907"))
+(label "SDA" (at 116.84 50.80 270) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "5de232b5-c56a-4fb9-b671-77b69c2230dc"))
+(symbol (lib_id "Device:R_Small") (at 132.08 45.72 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp yes) (uuid "442118d5-d392-49da-8db6-d1e8f700c622")
+  (property "Reference" "R?" (at 133.68 44.82 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "4.7k" (at 133.68 47.22 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "SCL pull-up 4.7k (DNP if bus already pulled up)" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-4.7k-1%" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603FR-074K7L" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3EKF4701V" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603FR-074K7L" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603FR-074K7L" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR3" "Vishay Dale" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN3" "CRCW06034K70FKEA" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR4" "Bourns" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN4" "CR0603-FX-4701ELF" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "cce3abff-f5b6-4c44-b099-75e0081f69fe"))
+  (pin "2" (uuid "2c20d792-6fbc-42ce-9a33-c42a9403b3dd"))
+  (instances (project "block" (path "/2136831b-775c-41b2-b0c5-d90f756a823b" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 132.08 43.18) (xy 132.08 40.64)) (stroke (width 0) (type default)) (uuid "c0482030-215f-4567-87c4-a9e87bbacb94"))
+(wire (pts (xy 132.08 48.26) (xy 132.08 50.80)) (stroke (width 0) (type default)) (uuid "a2efc75a-b223-4da4-92bd-ee32778caef7"))
+(label "VDD" (at 132.08 40.64 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7bafb1cd-0119-4f9c-80d1-61fbae9e4a46"))
+(label "SCL" (at 132.08 50.80 270) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "195aefe8-8169-4820-bed3-cd1e909792c6"))
+(text "2Kb I2C EEPROM with pre-programmed EUI-48 MAC, SOT-23-5 - 24AA02E48T-I/OT (alt 24AA02E64T-I/OT)\nLAYOUT: 100 nF at VCC pin (<=2 mm), via straight to GND plane. Route SDA/SCL together, away from SW nodes / clocks.\nI2C needs no series termination; ONE set of 4.7k pull-ups per bus (fit here only if bus has none). Rp_max = tr / (0.847 x Cbus): 400 kHz tr=300 ns, 1 MHz tr=120 ns.\nFixed I2C address 0x50 (EEPROM) / EUI-48 at 0xFA-0xFF. \nTypical use: Ethernet MAC address (EUI-48) source for PHY/MAC. Rename SDA / SCL / WP / VDD labels to your nets." (exclude_from_sim no) (at 25.40 132.08 0) (effects (font (size 1.1 1.1)) (justify left top)) (uuid "0e1b47e3-3b0b-4458-be16-e92902ba3023"))
+  (sheet_instances (path "/" (page "1")))
+)

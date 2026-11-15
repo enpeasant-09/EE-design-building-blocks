@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Chinmay_LDO")(type "KiCad")(uri "${KIPRJMOD}/Chinmay_LDO.kicad_sym")(options "")(descr "Chinmay LDO symbols"))
+)

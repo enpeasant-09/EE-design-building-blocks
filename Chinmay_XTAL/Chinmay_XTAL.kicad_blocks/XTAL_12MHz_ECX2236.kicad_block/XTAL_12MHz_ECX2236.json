@@ -1,0 +1,11 @@
+{
+  "description": "12 MHz crystal (ECS ECS-120-8-36-CKM-TR) Pierce network: 12 pF C0G load caps, 0R Rext, 1M Rf (DNP). USB FS/HS PHYs, CH340G, NXP, RP2040.",
+  "keywords": "crystal xtal oscillator pierce 12 MHz 12M ECS-120-8-36-CKM-TR ECX-2236 ECS clock",
+  "fields": {
+    "Frequency": "12 MHz",
+    "Crystal": "ECS-120-8-36-CKM-TR",
+    "CL": "8 pF",
+    "Load caps": "12 pF C0G 0603 (CAP-0603-12P-50V-C0G)",
+    "Typical use": "USB FS/HS PHYs, CH340G, NXP, RP2040"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "2Kb I2C EEPROM with pre-programmed EUI-48 MAC, SOT-23-5 24AA02E48T-I/OT I2C EEPROM block with decoupling, address straps, WP and bus pull-up provision. Ethernet MAC address (EUI-48) source for PHY/MAC.",
+  "keywords": "eeprom i2c 24AA02E48T-I/OT 24AA02E64T-I/OT memory",
+  "fields": {
+    "Memory": "2Kb I2C EEPROM with pre-programmed EUI-48 MAC, SOT-23-5",
+    "Part": "24AA02E48T-I/OT",
+    "Interface": "I2C",
+    "Typical use": "Ethernet MAC address (EUI-48) source for PHY/MAC"
+  }
+}

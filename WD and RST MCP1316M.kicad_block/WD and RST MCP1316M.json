@@ -1,0 +1,8 @@
+{
+ "description": "The MCP1316MT-29LE/OT is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Group 1 SOT-23-5. Internal pull-up on ~{RST}: no external resistor.",
+ "keywords": "watchdog ; reset ; supervisor ; MCP1316M ; Microchip",
+ "fields": {
+  "MPN1": "MCP1316MT-29LE/OT",
+  "Manufacturer": "Microchip"
+ }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "128Mbit Quad SPI/DTR NOR flash, 133 MHz, 2.3-3.6 V, -40..105 C, SOIC-8 208 mil IS25LP128F-JBLE block with decoupling, CS# pull-up, CLK series termination and IO termination provision. 105 C rated boot / XIP flash, DTR capable.",
+  "keywords": "nor flash spi qspi IS25LP128F-JBLE IS25LP128F-JBLE-TR memory",
+  "fields": {
+    "Memory": "128Mbit Quad SPI/DTR NOR flash, 133 MHz, 2.3-3.6 V, -40..105 C, SOIC-8 208 mil",
+    "Part": "IS25LP128F-JBLE",
+    "Interface": "Quad SPI",
+    "Typical use": "105 C rated boot / XIP flash, DTR capable"
+  }
+}

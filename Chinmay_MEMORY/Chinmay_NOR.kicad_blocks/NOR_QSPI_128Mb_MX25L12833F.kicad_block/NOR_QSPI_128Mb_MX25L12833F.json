@@ -1,0 +1,10 @@
+{
+  "description": "128Mbit Quad SPI NOR flash, 133 MHz, 2.7-3.6 V, 8-SOP 200 mil MX25L12833FM2I-10G block with decoupling, CS# pull-up, CLK series termination and IO termination provision. MCU XIP / boot flash, second source to W25Q128.",
+  "keywords": "nor flash spi qspi MX25L12833FM2I-10G W25Q128JVSIQ memory",
+  "fields": {
+    "Memory": "128Mbit Quad SPI NOR flash, 133 MHz, 2.7-3.6 V, 8-SOP 200 mil",
+    "Part": "MX25L12833FM2I-10G",
+    "Interface": "Quad SPI",
+    "Typical use": "MCU XIP / boot flash, second source to W25Q128"
+  }
+}

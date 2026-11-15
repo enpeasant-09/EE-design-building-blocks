@@ -1,0 +1,11 @@
+{
+  "description": "8 MHz crystal (ECS ECS-80-8-33Q-JES-TR) Pierce network: 12 pF C0G load caps, 0R Rext, 1M Rf (DNP). STM32 HSE, CAN, AVR.",
+  "keywords": "crystal xtal oscillator pierce 8 MHz 8M ECS-80-8-33Q-JES-TR ECX-33Q ECS clock",
+  "fields": {
+    "Frequency": "8 MHz",
+    "Crystal": "ECS-80-8-33Q-JES-TR",
+    "CL": "8 pF",
+    "Load caps": "12 pF C0G 0603 (CAP-0603-12P-50V-C0G)",
+    "Typical use": "STM32 HSE, CAN, AVR"
+  }
+}

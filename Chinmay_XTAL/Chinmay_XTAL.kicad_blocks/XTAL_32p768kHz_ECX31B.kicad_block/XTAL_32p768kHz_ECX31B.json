@@ -1,0 +1,11 @@
+{
+  "description": "32.768 kHz crystal (ECS ECS-.327-7-34B-TR) Pierce network: 10 pF C0G load caps, 0R Rext, 1M Rf (DNP). RTC / LSE, low-power timers.",
+  "keywords": "crystal xtal oscillator pierce 32.768 kHz 32K768 ECS-.327-7-34B-TR ECX-31B ECS clock",
+  "fields": {
+    "Frequency": "32.768 kHz",
+    "Crystal": "ECS-.327-7-34B-TR",
+    "CL": "7 pF",
+    "Load caps": "10 pF C0G 0603 (CAP-0603-10P-50V-C0G)",
+    "Typical use": "RTC / LSE, low-power timers"
+  }
+}

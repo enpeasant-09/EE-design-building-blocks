@@ -1,0 +1,11 @@
+{
+  "description": "38.4 MHz crystal (ECS ECS-384-8-36B2-CTN-TR) Pierce network: 12 pF C0G load caps, 0R Rext, 1M Rf (DNP). Cellular / Wi-Fi 6 / LTE modems.",
+  "keywords": "crystal xtal oscillator pierce 38.4 MHz 38M4 ECS-384-8-36B2-CTN-TR ECX-2236B2 ECS clock",
+  "fields": {
+    "Frequency": "38.4 MHz",
+    "Crystal": "ECS-384-8-36B2-CTN-TR",
+    "CL": "8 pF",
+    "Load caps": "12 pF C0G 0603 (CAP-0603-12P-50V-C0G)",
+    "Typical use": "Cellular / Wi-Fi 6 / LTE modems"
+  }
+}
