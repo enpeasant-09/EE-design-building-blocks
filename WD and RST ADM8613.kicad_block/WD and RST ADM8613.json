@@ -1,0 +1,8 @@
+{
+ "description": "The ADM8613Y232ACBZ-R7 is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Standard part has a 2.32 V threshold; 2.93/3.08 V are non-standard orders.",
+ "keywords": "watchdog ; reset ; supervisor ; ADM8613 ; Analog Devices",
+ "fields": {
+  "MPN1": "ADM8613Y232ACBZ-R7",
+  "Manufacturer": "Analog Devices"
+ }
+}

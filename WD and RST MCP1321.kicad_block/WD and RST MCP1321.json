@@ -1,0 +1,8 @@
+{
+ "description": "The MCP1321T-29LE/OT is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. Group 2 SOT-23-5, open-drain ~{RST}: R pull-up fitted; button resets nRST directly.",
+ "keywords": "watchdog ; reset ; supervisor ; MCP1321 ; Microchip",
+ "fields": {
+  "MPN1": "MCP1321T-29LE/OT",
+  "Manufacturer": "Microchip"
+ }
+}

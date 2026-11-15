@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Chinmay_Memory")(type "KiCad")(uri "${KIPRJMOD}/Chinmay_Memory.kicad_sym")(options "")(descr "Chinmay memory symbols"))
+)

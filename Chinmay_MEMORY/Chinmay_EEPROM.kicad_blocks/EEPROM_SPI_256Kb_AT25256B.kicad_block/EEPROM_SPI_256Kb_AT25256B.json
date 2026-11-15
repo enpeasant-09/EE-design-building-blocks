@@ -1,0 +1,10 @@
+{
+  "description": "256Kb (32Kx8) SPI EEPROM, 20 MHz, 1.8-5.5 V, SOIC-8 AT25256B-SSHL-T block with decoupling, CS# pull-up, CLK series termination and IO termination provision. fast-write parameter storage on an SPI bus.",
+  "keywords": "eeprom spi qspi AT25256B-SSHL-T 25LC256T-I/SN memory",
+  "fields": {
+    "Memory": "256Kb (32Kx8) SPI EEPROM, 20 MHz, 1.8-5.5 V, SOIC-8",
+    "Part": "AT25256B-SSHL-T",
+    "Interface": "SPI",
+    "Typical use": "fast-write parameter storage on an SPI bus"
+  }
+}

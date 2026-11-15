@@ -1,0 +1,8 @@
+{
+ "description": "The TPS3850G33DRCR is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. WINDOW watchdog: WDI edges must arrive between 800 ms and 1600 ms. No MR: button resets nRST.",
+ "keywords": "watchdog ; reset ; supervisor ; TPS3850 ; Texas Instruments",
+ "fields": {
+  "MPN1": "TPS3850G33DRCR",
+  "Manufacturer": "Texas Instruments"
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "description": "The TPS3851G33SDRBR is a monitoring IC. This circuit implements MCU power and heartbeat monitoring. ~{RESET} and ~{WDO} wired-OR. CWD open = factory timing; check SET1 setting in datasheet.",
+ "keywords": "watchdog ; reset ; supervisor ; TPS3851 ; Texas Instruments",
+ "fields": {
+  "MPN1": "TPS3851G33SDRBR",
+  "Manufacturer": "Texas Instruments"
+ }
+}

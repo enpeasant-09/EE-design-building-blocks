@@ -1,0 +1,6 @@
+(design_block_lib_table
+  (version 7)
+  (lib (name "Chinmay_EEPROM")(type "KiCad")(uri "${KIPRJMOD}/Chinmay_EEPROM.kicad_blocks")(options "")(descr "Chinmay EEPROM design blocks"))
+  (lib (name "Chinmay_NAND")(type "KiCad")(uri "${KIPRJMOD}/Chinmay_NAND.kicad_blocks")(options "")(descr "Chinmay NAND design blocks"))
+  (lib (name "Chinmay_NOR")(type "KiCad")(uri "${KIPRJMOD}/Chinmay_NOR.kicad_blocks")(options "")(descr "Chinmay NOR design blocks"))
+)

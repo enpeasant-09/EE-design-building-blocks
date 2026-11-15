@@ -1,0 +1,1452 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "60176b1d-48f8-4e6b-9c28-d3089b0743db")
+	(paper "A4")
+	(title_block (title "WD and RST MAX6369") (company "Chinmay") (comment 1 "Replicates block: WD and RST TPS3823"))
+	(lib_symbols
+		(symbol "74xGxx:74LVC1G07"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G07"
+				(at 3.81 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Buffer Gate, Open Drain, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate Buff LVC CMOS Open Drain"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LVC1G07_0_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -3.81 0) (xy -2.54 -1.27) (xy -1.27 0) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G07_1_1"
+				(pin free line
+					(at -2.54 -10.16 90)
+					(length 6.35)
+					(name "NC"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "74xGxx:74LVC1G32"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC1G32"
+				(at 7.62 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single OR Gate, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Gate OR LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT* SG-*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LVC1G32_0_1"
+				(arc
+					(start -7.62 5.08)
+					(mid -5.838 0)
+					(end -7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.202 -3.202)
+					(end 0 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 5.08)
+					(mid 3.2271 3.2271)
+					(end 5.08 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy -7.62 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC1G32_1_1"
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Chinmay_Supervisor:MAX6369" (pin_names (offset 1.016)) (exclude_from_sim no) (in_bom yes) (on_board yes) (property "Reference" "U" (at -10.16 13.97 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "MAX6369KA+T" (at -10.16 -13.97 0) (effects (font (size 1.27 1.27)) (justify left top))) (property "Footprint" "Package_TO_SOT_SMD:SOT-23-8" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6369-MAX6374.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "MAX6369 pin-selectable watchdog (SET2..0 = 101: 1-3 s), open-drain ~{WDO}, NO voltage monitor" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_keywords" "supervisor watchdog reset" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (symbol "MAX6369_0_1" (rectangle (start -10.16 12.7) (end 10.16 -12.7) (stroke (width 0.254) (type default)) (fill (type background)))) (symbol "MAX6369_1_1" (pin input line (at -12.7 10.16 0) (length 2.54) (name "WDI" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin input line (at -12.7 5.08 0) (length 2.54) (name "SET0" (effects (font (size 1.27 1.27)))) (number "4" (effects (font (size 1.27 1.27))))) (pin input line (at -12.7 0 0) (length 2.54) (name "SET1" (effects (font (size 1.27 1.27)))) (number "5" (effects (font (size 1.27 1.27))))) (pin input line (at -12.7 -5.08 0) (length 2.54) (name "SET2" (effects (font (size 1.27 1.27)))) (number "6" (effects (font (size 1.27 1.27))))) (pin no_connect line (at -12.7 -10.16 0) (length 2.54) (name "NC" (effects (font (size 1.27 1.27)))) (number "3" (effects (font (size 1.27 1.27))))) (pin open_collector line (at 12.7 10.16 180) (length 2.54) (name "~{WDO}" (effects (font (size 1.27 1.27)))) (number "7" (effects (font (size 1.27 1.27))))) (pin power_in line (at 0 15.24 270) (length 2.54) (name "VCC" (effects (font (size 1.27 1.27)))) (number "8" (effects (font (size 1.27 1.27))))) (pin power_in line (at 0 -15.24 90) (length 2.54) (name "GND" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))
+		(symbol "Device:C_Small" (pin_numbers (hide yes)) (pin_names (offset 0.254) (hide yes)) (exclude_from_sim no) (in_bom yes) (on_board yes) (property "Reference" "C" (at 0.254 1.778 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "C_Small" (at 0.254 -2.032 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Datasheet" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "Description" "Unpolarized capacitor, small symbol" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (property "ki_fp_filters" "C_*" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes))) (symbol "C_Small_0_1" (polyline (pts (xy -1.524 0.508) (xy 1.524 0.508)) (stroke (width 0.3302) (type default)) (fill (type none))) (polyline (pts (xy -1.524 -0.508) (xy 1.524 -0.508)) (stroke (width 0.3048) (type default)) (fill (type none)))) (symbol "C_Small_1_1" (pin passive line (at 0 2.54 270) (length 2.032) (name "~" (effects (font (size 1.27 1.27)))) (number "1" (effects (font (size 1.27 1.27))))) (pin passive line (at 0 -2.54 90) (length 2.032) (name "~" (effects (font (size 1.27 1.27)))) (number "2" (effects (font (size 1.27 1.27)))))) (embedded_fonts no))
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:ESD9B3.3ST5G"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD9B3.3ST5G"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-923"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS ESD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?923*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESD9B3.3ST5G_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD9B3.3ST5G_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SparkFun-PowerSymbol:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire (pts (xy 76.2 85.09) (xy 66.04 85.09)) (stroke (width 0) (type default)) (uuid "8756bda2-2b14-400c-a979-a8e8b995446e"))
+	(hierarchical_label "WDI" (shape input) (at 66.04 85.09 180) (effects (font (size 1.27 1.27)) (justify right)) (uuid "99c63710-15ae-4074-971d-031870fa01e6"))
+	(wire (pts (xy 76.2 90.17) (xy 71.12 90.17)) (stroke (width 0) (type default)) (uuid "fb8201f8-7562-4103-a9fc-43b23588d59a"))
+	(wire (pts (xy 76.2 95.25) (xy 71.12 95.25)) (stroke (width 0) (type default)) (uuid "203e0732-b3e2-4037-badf-6c240ba7fc45"))
+	(wire (pts (xy 76.2 100.33) (xy 71.12 100.33)) (stroke (width 0) (type default)) (uuid "4f2a1358-52c2-4585-b177-3c470cdf5cdf"))
+	(no_connect (at 76.2 105.41) (uuid "9d57cacc-34c2-4a32-9729-8a6a124d25a2"))
+	(wire (pts (xy 101.6 85.09) (xy 111.76 85.09)) (stroke (width 0) (type default)) (uuid "2bc80f76-7608-42e1-9365-a655be0eccee"))
+	(label "~{RST_SUP}" (at 111.76 85.09 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "214798c4-61fb-4982-80f4-1ce43cac5f2f"))
+	(text "Decoupling: one 100nF per IC" (exclude_from_sim no) (at 35.56 40.64 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "19d1ca67-ac1d-4f28-8dff-44dc4ffcb437"))
+	(label "~{RST_SUP}" (at 132.08 92.71 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "df91c29e-154f-488f-861a-536545078f42"))
+	(wire (pts (xy 144.78 92.71) (xy 139.7 92.71)) (stroke (width 0) (type default)) (uuid "d7480ce9-e934-4169-b84a-9324cd6d1781"))
+	(wire (pts (xy 139.7 92.71) (xy 132.08 92.71)) (stroke (width 0) (type default)) (uuid "5e3054f2-f6e6-48ce-a417-ae000d47e9d1"))
+	(wire (pts (xy 144.78 97.79) (xy 139.7 97.79)) (stroke (width 0) (type default)) (uuid "6a63be88-26a3-4340-8b1a-51f3a7d7e9ff"))
+	(label "PROG" (at 139.7 97.79 180) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "5d711028-8019-421c-9ced-6f2fed43aeaa"))
+	(wire (pts (xy 139.7 87.63) (xy 139.7 92.71)) (stroke (width 0) (type default)) (uuid "c5d792b0-382c-485b-9ec5-58335cf925fc"))
+	(junction (at 139.7 92.71) (diameter 0) (color 0 0 0 0) (uuid "a9a0ea8c-c6a4-4681-a5cd-f7192122845f"))
+	(wire (pts (xy 172.72 95.25) (xy 187.96 95.25)) (stroke (width 0) (type default)) (uuid "d98f7002-0e83-4806-a72d-3d9b66c2bbd6"))
+	(no_connect (at 200.66 105.41) (uuid "3240f37a-b3b8-49b1-adac-5d416e43e5ab"))
+	(hierarchical_label "nRST" (shape output) (at 226.06 95.25 0) (effects (font (size 1.27 1.27)) (justify left)) (uuid "498f1d30-426b-4e24-aa6d-686782bccb67"))
+	(wire (pts (xy 167.64 66.04) (xy 165.1 66.04)) (stroke (width 0) (type default)) (uuid "e2a3a75f-b9f7-4eef-8bc8-b4ac3b2d4a19"))
+	(wire (pts (xy 177.8 66.04) (xy 182.88 66.04)) (stroke (width 0) (type default)) (uuid "0bd1ef0f-1bab-44c2-a1a2-cb5dce818205"))
+	(wire (pts (xy 182.88 66.04) (xy 182.88 68.58)) (stroke (width 0) (type default)) (uuid "3e14309f-de35-481d-86a0-58cad7d9193f"))
+	(junction (at 182.88 66.04) (diameter 0) (color 0 0 0 0) (uuid "26217141-bba8-46b2-8707-f4241cffa878"))
+	(wire (pts (xy 182.88 66.04) (xy 187.96 66.04)) (stroke (width 0) (type default)) (uuid "9d276bb6-48cb-41eb-ae6d-c3dbac497cf4"))
+	(label "PROG" (at 187.96 66.04 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "dc5684ce-7371-487d-9c87-0eb92791e7a1"))
+	(wire (pts (xy 215.9 95.25) (xy 220.98 95.25)) (stroke (width 0) (type default)) (uuid "64ca0ad0-b65d-487d-a725-c03f86415d78"))
+	(wire (pts (xy 220.98 95.25) (xy 226.06 95.25)) (stroke (width 0) (type default)) (uuid "599db995-44a5-4817-a8c2-200805ef0e9d"))
+	(junction (at 220.98 95.25) (diameter 0) (color 0 0 0 0) (uuid "00572dcd-8f7c-4fe6-ad71-8cffd2eaae46"))
+	(wire (pts (xy 220.98 95.25) (xy 220.98 116.84)) (stroke (width 0) (type default)) (uuid "1ac6da7c-e8ef-49db-a7a3-daf98ccdd5af"))
+	(wire (pts (xy 210.82 116.84) (xy 210.82 121.92)) (stroke (width 0) (type default)) (uuid "6a9a5d5d-9323-4620-8306-df556d8f7fe8"))
+	(junction (at 220.98 116.84) (diameter 0) (color 0 0 0 0) (uuid "1a422c3e-d59b-4a79-a500-a9aa803a3fef"))
+	(text "PASSIVE DERATING  (Tamb max 85C, rail 3.3V+5%)\nC1801  100nF  CL10B104KB8NNNC   V 3.46/50V=6.9% (<=50%) OK; X7R 125C vs Tamb 85C OK\nC1802  100nF  CL10B104KB8NNNC   V 3.46/50V=6.9% (<=50%) OK; X7R 125C vs Tamb 85C OK\nC1803  100nF  CL10B104KB8NNNC   V 3.46/50V=6.9% (<=50%) OK; X7R 125C vs Tamb 85C OK\nR1802  10K    RC0603JR-0710KL   P 1.20mW/82.4mW@85C=1.5% (<=50%) OK; V 3.46/50V=6.9% (<=80%) OK\nR1801  10K    RC0603JR-0710KL   P 1.20mW/82.4mW@85C=1.5% (<=50%) OK; V 3.46/50V=6.9% (<=80%) OK\nAlternates MPN2-4 on each part: same value/package, >= voltage, same dielectric" (exclude_from_sim no) (at 147.32 137.16 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "83f5eb50-c93b-4139-b5fc-c3d61f306fc4"))
+	(text "Watchdog and Reset controller - MAX6369KA+T" (exclude_from_sim no) (at 25.4 30.48 0) (effects (font (size 2.0 2.0) (thickness 0.254) (bold yes)) (justify left bottom)) (uuid "a56a8db7-cef3-4255-9bfd-768841db6d2f"))
+	(text "Bridge jumper JP during flash \nThis circuit avoids the WD controller \nresetting the controller everytime you \ntry to flash " (exclude_from_sim no) (at 147.32 50.8 0) (effects (font (size 1.27 1.27) (thickness 0.254) (bold yes)) (justify left bottom)) (uuid "8d242e3c-021d-4221-9649-d791ce20e421"))
+	(text "MAX6369 pin-selectable watchdog (SET2..0 = 101: 1-3 s), open-drain ~{WDO}, NO voltage monitor\nWatchdog only: pair with a voltage supervisor. No MR: button resets nRST.\nNo MR pin on this IC: push button pulls nRST low directly\nAlternates (MPN2): -" (exclude_from_sim no) (at 25.4 160.02 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0ee58de2-a6cb-424f-a675-2bce4b104d82"))
+	(symbol (lib_id "Chinmay_Supervisor:MAX6369") (at 88.9 95.25 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "e873c603-a5c7-435d-a7ca-6ecdf52528ea") (property "Reference" "U1801" (at 78.74 76.2 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "MAX6369KA+T" (at 78.74 120.02 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Package_TO_SOT_SMD:SOT-23-8" (at 88.9 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX6369-MAX6374.pdf" (at 88.9 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "MAX6369 pin-selectable watchdog (SET2..0 = 101: 1-3 s), open-drain ~{WDO}, NO voltage monitor" (at 88.9 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "Analog Devices" (at 88.9 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.digikey.in/en/products/result?keywords=MAX6369KA%2BT" (at 88.9 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=MAX6369KA%2BT" (at 88.9 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "MAX6369KA+T" (at 88.9 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "" (at 88.9 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 88.9 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "038f8aff-6f4d-4027-aee4-4238a18d8193")) (pin "4" (uuid "f9d8c06d-d170-47e6-a3b2-a336256fcd2f")) (pin "5" (uuid "78d64b21-2f67-4571-b815-70f1a1e574ee")) (pin "6" (uuid "69b3ad9c-0c68-4474-bb51-752bdd77f114")) (pin "3" (uuid "42f96560-f50f-4478-bbb8-b99a9e353228")) (pin "7" (uuid "e4cf19d0-7bf4-41d9-8638-5d1164420924")) (pin "8" (uuid "b721e11e-9a3a-423a-97f7-f2031f7fe3a2")) (pin "2" (uuid "62fde70b-1162-4243-b068-f00844e7b48b")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "U1801") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 71.12 90.17 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "4d96bb5d-4702-4860-a3bf-606c00df9bc4") (property "Reference" "#PWR1801" (at 71.12 86.36 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 71.12 85.09 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 71.12 90.17 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e5d93f26-9f52-45d0-bff4-5494549d820a")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1801") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 71.12 95.25 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "230b3b36-e984-4d36-a399-1b9a28949b0e") (property "Reference" "#PWR1802" (at 71.12 99.06 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 71.12 100.33 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 71.12 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e43f220a-183a-4175-9538-515f115b94e5")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1802") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 71.12 100.33 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "1a033d45-e370-48e3-87ef-f61f3917687f") (property "Reference" "#PWR1803" (at 71.12 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 71.12 95.25 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 71.12 100.33 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "0fec12a4-0898-4d3b-95eb-88ba52d00af0")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1803") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 88.9 80.01 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "b267591c-b95a-4737-b4f1-087d20352df1") (property "Reference" "#PWR1804" (at 88.9 76.2 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 88.9 74.93 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 88.9 80.01 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "fda25be6-62d3-4b7e-af42-a1030cf8bd80")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1804") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 88.9 110.49 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "00f2dc54-ff21-481c-bb50-b5b0e5ccc84f") (property "Reference" "#PWR1805" (at 88.9 114.3 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 88.9 115.57 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 88.9 110.49 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "690e374d-4bc5-42c4-ae08-ff3c14d21ead")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1805") (unit 1)))))
+	(symbol (lib_id "Device:C_Small") (at 38.1 50.8 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "bf9ec514-ba45-45fa-8e83-601706977fec") (property "Reference" "C1801" (at 39.37 49.53 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100nF" (at 39.37 53.34 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "Decoupling for U1801 (supervisor), place close to pin" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "IPN" "CAP-0603-100N-50V-X7R" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "Samsung Electro-Mechanics" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.digikey.in/en/products/result?keywords=CL10B104KB8NNNC" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=CL10B104KB8NNNC" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "CL10B104KB8NNNC" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "C0603C104K5RACTU" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR2" "KEMET" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN3" "GCJ188R71H104KA12D" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR3" "Murata" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN4" "885012206095" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR4" "Wurth Elektronik" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Derating" "V 3.46/50V=6.9% (<=50%) OK; X7R 125C vs Tamb 85C OK" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 38.1 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "9fddd2f8-9fbd-41fe-8fda-238d7169c9fe")) (pin "2" (uuid "f3dca975-e8c8-4f60-8124-f49400430363")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "C1801") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 38.1 48.26 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "37f45777-0303-4956-a707-81e7951aedca") (property "Reference" "#PWR1806" (at 38.1 44.45 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 38.1 43.18 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 38.1 48.26 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "bc25b356-b51d-4c42-bbbf-2ef536ee2467")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1806") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 38.1 53.34 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "b25fdce2-d7a3-4bc6-a0ba-a362308bfc73") (property "Reference" "#PWR1807" (at 38.1 57.15 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 38.1 58.42 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 38.1 53.34 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "675b9671-7159-4ef2-8de9-743fa63b6d72")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1807") (unit 1)))))
+	(symbol (lib_id "Device:C_Small") (at 48.26 50.8 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "03ff4178-27ad-4052-913b-96164c324f7c") (property "Reference" "C1802" (at 49.53 49.53 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100nF" (at 49.53 53.34 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "Decoupling for U1802 (OR gate), place close to pin" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "IPN" "CAP-0603-100N-50V-X7R" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "Samsung Electro-Mechanics" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.digikey.in/en/products/result?keywords=CL10B104KB8NNNC" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=CL10B104KB8NNNC" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "CL10B104KB8NNNC" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "C0603C104K5RACTU" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR2" "KEMET" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN3" "GCJ188R71H104KA12D" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR3" "Murata" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN4" "885012206095" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR4" "Wurth Elektronik" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Derating" "V 3.46/50V=6.9% (<=50%) OK; X7R 125C vs Tamb 85C OK" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 48.26 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "79d01a25-9720-4268-a7a8-63b9ffb0dd23")) (pin "2" (uuid "d6e826b9-092e-465d-8d11-a03917a41a5a")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "C1802") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 48.26 48.26 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "b52a511e-7d0a-405e-aa93-5068772b269d") (property "Reference" "#PWR1808" (at 48.26 44.45 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 48.26 43.18 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 48.26 48.26 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "44598a97-d24e-4113-9fae-9a858b46838d")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1808") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 48.26 53.34 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "32744706-8740-4f81-b6d5-379d2b958a3b") (property "Reference" "#PWR1809" (at 48.26 57.15 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 48.26 58.42 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 48.26 53.34 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "68bb5593-af47-4c33-80a4-f728e5bb7961")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1809") (unit 1)))))
+	(symbol (lib_id "Device:C_Small") (at 58.42 50.8 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "c736ab95-6c1a-4df7-87b1-fc04a8046b61") (property "Reference" "C1803" (at 59.69 49.53 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "100nF" (at 59.69 53.34 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "Decoupling for U1803 (buffer), place close to pin" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "IPN" "CAP-0603-100N-50V-X7R" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "Samsung Electro-Mechanics" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.digikey.in/en/products/result?keywords=CL10B104KB8NNNC" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=CL10B104KB8NNNC" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "CL10B104KB8NNNC" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "C0603C104K5RACTU" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR2" "KEMET" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN3" "GCJ188R71H104KA12D" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR3" "Murata" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN4" "885012206095" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR4" "Wurth Elektronik" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Derating" "V 3.46/50V=6.9% (<=50%) OK; X7R 125C vs Tamb 85C OK" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 58.42 50.8 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "cf31a34f-842c-4300-bf18-6e10ba918114")) (pin "2" (uuid "bb94b842-baee-4c17-bfd1-94d99b375527")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "C1803") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 58.42 48.26 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "114b4d0e-eba3-438e-8fbb-ffacb4bb49f5") (property "Reference" "#PWR1810" (at 58.42 44.45 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 58.42 43.18 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 58.42 48.26 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e1ce23a8-1adb-47a0-b5d7-83f2aa357a4d")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1810") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 58.42 53.34 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "aac9920f-5e89-41d4-bf1f-a49b27af2e66") (property "Reference" "#PWR1811" (at 58.42 57.15 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 58.42 58.42 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 58.42 53.34 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "b8d0754d-1966-4af6-9490-ec7cd60a9f7a")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1811") (unit 1)))))
+	(symbol (lib_id "74xGxx:74LVC1G32") (at 160.02 95.25 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "87b1204b-e945-49df-999d-759982d972de") (property "Reference" "U1802" (at 162.56 88.9 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "74LVC1G32" (at 162.56 101.6 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 160.02 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 160.02 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "Single OR Gate, Low-Voltage CMOS" (at 160.02 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "Texas Instruments" (at 160.02 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.digikey.in/en/products/result?keywords=SN74LVC1G32DBVR" (at 160.02 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=SN74LVC1G32DBVR" (at 160.02 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "SN74LVC1G32DBVR" (at 160.02 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "" (at 160.02 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 160.02 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "d9d448fc-7605-492f-a5e3-986105e307d0")) (pin "2" (uuid "61f84116-408f-45fe-b64d-853162024344")) (pin "3" (uuid "06d8d736-a4fb-4c04-94d7-b17acf214960")) (pin "4" (uuid "e6994bdf-36c5-443c-95d4-aeb646afa764")) (pin "5" (uuid "fe099a3c-da8d-4f07-bfd8-73a4d3e218d7")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "U1802") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 160.02 85.09 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "cd067e89-80f3-4888-a705-6410944acb28") (property "Reference" "#PWR1812" (at 160.02 81.28 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 160.02 80.01 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 160.02 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "c01eb010-248b-4c0b-a336-8750dfadaad6")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1812") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 160.02 105.41 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "251888d3-6812-4f2c-b384-7468957c8cde") (property "Reference" "#PWR1813" (at 160.02 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 160.02 110.49 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 160.02 105.41 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "1cfe8ddb-400b-48a3-b5f9-a994bbff9609")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1813") (unit 1)))))
+	(symbol (lib_id "Device:R_Small") (at 139.7 85.09 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "38630428-d171-4417-8237-16d8df81d407") (property "Reference" "R1802" (at 140.97 83.82 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "10K" (at 140.97 86.36 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "Pull-up for open-drain supervisor output" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "IPN" "RES-0603-10K-5%-0.1W" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "Yageo" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603JR-0710KL" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=RC0603JR-0710KL" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "RC0603JR-0710KL" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "ERJ-3GEYJ103V" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR2" "Panasonic" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN3" "CRCW060310K0JNEA" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR3" "Vishay Dale" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN4" "CR0603-JW-103ELF" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR4" "Bourns" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Derating" "P 1.20mW/82.4mW@85C=1.5% (<=50%) OK; V 3.46/50V=6.9% (<=80%) OK" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 139.7 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "7c52499c-bcc0-4fc5-be63-16a98eb01ad9")) (pin "2" (uuid "2fc186bc-209f-43ef-85c9-27a436cef7f3")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "R1802") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 139.7 82.55 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "189f5f2f-7b39-4431-a3cd-92ed0463d04d") (property "Reference" "#PWR1814" (at 139.7 78.74 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 139.7 77.47 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 139.7 82.55 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "e93a581f-bfcc-49fd-bdea-141b55ab8260")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1814") (unit 1)))))
+	(symbol (lib_id "74xGxx:74LVC1G07") (at 203.2 95.25 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "eccc1f63-61a4-4847-ada2-e72ab9a56474") (property "Reference" "U1803" (at 205.74 88.9 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "74LVC1G07" (at 205.74 101.6 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 203.2 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf" (at 203.2 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "Single Buffer Gate, Open Drain, Low-Voltage CMOS" (at 203.2 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "Texas Instruments" (at 203.2 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.digikey.in/en/products/result?keywords=SN74LVC1G07DBVR" (at 203.2 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=SN74LVC1G07DBVR" (at 203.2 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "SN74LVC1G07DBVR" (at 203.2 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "" (at 203.2 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 203.2 95.25 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "3147bc55-b0c5-480e-9abf-bbfd9f07dc95")) (pin "2" (uuid "d26eb2b2-eecf-4e53-8dd1-ef1dc8d6feb2")) (pin "3" (uuid "473dd75e-1cc4-4e56-88ac-daf8ca722288")) (pin "4" (uuid "2dba4316-25f0-458a-af40-48ae5de900ea")) (pin "5" (uuid "216808d0-4c47-469f-859b-79462a8e1e93")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "U1803") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 198.12 85.09 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "515a868a-3c35-4d8d-a542-7b28ced08de4") (property "Reference" "#PWR1815" (at 198.12 81.28 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 198.12 80.01 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 198.12 85.09 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "67727680-3e7e-4cbf-a8b4-a916ea68200f")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1815") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 198.12 105.41 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "15c896be-d8c5-439b-b826-976af3c196d0") (property "Reference" "#PWR1816" (at 198.12 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 198.12 110.49 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 198.12 105.41 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "bfe60314-9ff2-4c63-834b-ba2b5cc87636")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1816") (unit 1)))))
+	(symbol (lib_id "Jumper:Jumper_2_Open") (at 172.72 66.04 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "064d36ff-9f51-4529-adda-b431e8b5e8a9") (property "Reference" "JP1801" (at 172.72 60.96 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "SJ_Open" (at 170.18 69.85 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (at 172.72 66.04 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 172.72 66.04 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "Bridge during flashing to hold off watchdog resets" (at 172.72 66.04 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "" (at 172.72 66.04 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "" (at 172.72 66.04 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "" (at 172.72 66.04 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "" (at 172.72 66.04 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "" (at 172.72 66.04 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 172.72 66.04 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "0aab35b9-16e7-46d2-a12e-3aef2aeaf71d")) (pin "2" (uuid "88d6212f-997e-4570-aecb-a22167c79b47")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "JP1801") (unit 1)))))
+	(symbol (lib_id "power:+3V3") (at 165.1 66.04 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "9bbd16c3-753c-4668-877d-07668d00f918") (property "Reference" "#PWR1817" (at 165.1 62.23 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "+3V3" (at 165.1 60.96 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 165.1 66.04 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "27c47ae0-ddbb-4be6-bd62-dd3c6871ade8")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1817") (unit 1)))))
+	(symbol (lib_id "Device:R_Small") (at 182.88 71.12 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "28394668-03ef-4ef0-b323-5d03cddddf0d") (property "Reference" "R1801" (at 184.15 69.85 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "10K" (at 184.15 72.39 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "PROG pull-down (3.3 V across it when JP bridged)" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "IPN" "RES-0603-10K-5%-0.1W" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "Yageo" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603JR-0710KL" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=RC0603JR-0710KL" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "RC0603JR-0710KL" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "ERJ-3GEYJ103V" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR2" "Panasonic" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN3" "CRCW060310K0JNEA" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR3" "Vishay Dale" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN4" "CR0603-JW-103ELF" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MFR4" "Bourns" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Derating" "P 1.20mW/82.4mW@85C=1.5% (<=50%) OK; V 3.46/50V=6.9% (<=80%) OK" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 182.88 71.12 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "0fd16174-1b21-46d4-b4bb-5a8302c01bd2")) (pin "2" (uuid "78771beb-523a-4702-9d4c-406ca49961e2")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "R1801") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 182.88 73.66 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "14641d28-288c-412d-a8ec-b4c7d8865394") (property "Reference" "#PWR1818" (at 182.88 77.47 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 182.88 78.74 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 182.88 73.66 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "da2d939f-21f2-47c6-b7dd-be6da1913eac")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1818") (unit 1)))))
+	(symbol (lib_id "Switch:SW_Push") (at 215.9 116.84 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "d6bdc0e2-b57b-49bf-8040-aed0b1d6f1ff") (property "Reference" "SW1801" (at 210.82 110.49 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "SW_Push" (at 210.82 113.03 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810" (at 215.9 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "" (at 215.9 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "Manual reset push button" (at 215.9 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "C&K" (at 215.9 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.mouser.in/en/ProductDetail/CK/PTS810SJK250SMTR-LFS" (at 215.9 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=PTS810SJK250SMTR%20LFS" (at 215.9 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "PTS810SJK250SMTR LFS" (at 215.9 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "" (at 215.9 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 215.9 116.84 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "709f08b9-6de3-4b95-93e9-96690b2d1a8a")) (pin "2" (uuid "32036e88-4d9c-4bf7-932e-5079e6d4c0a8")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "SW1801") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 210.82 121.92 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "76775a80-95ff-47a7-8d2d-7d24c350fb3b") (property "Reference" "#PWR1819" (at 210.82 125.73 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 210.82 127 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 210.82 121.92 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "846d4f64-8b88-46c7-afaf-eb2cffbc0d5d")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1819") (unit 1)))))
+	(symbol (lib_id "Diode:ESD9B3.3ST5G") (at 220.98 120.65 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "88d6f2b9-8056-4215-9e5c-e0f8eedf4d96") (property "Reference" "D1801" (at 224.79 120.14 90) (effects (font (size 1.27 1.27)) (justify right))) (property "Value" "ESD9B3.3ST5G" (at 224.79 122.44 90) (effects (font (size 1.27 1.27)) (justify right))) (property "Footprint" "Diode_SMD:D_SOD-923" (at 220.98 120.65 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" (at 220.98 120.65 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Description" "ESD protection diode, 3.3Vrwm, SOD-923" (at 220.98 120.65 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Manufacturer" "onsemi" (at 220.98 120.65 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement" "https://www.digikey.in/en/products/result?keywords=ESD9B3.3ST5G" (at 220.98 120.65 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Procurement2" "https://www.mouser.in/c/?q=ESD9B3.3ST5G" (at 220.98 120.65 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN1" "ESD9B3.3ST5G" (at 220.98 120.65 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "MPN2" "" (at 220.98 120.65 0) (hide yes) (effects (font (size 1.27 1.27)))) (property "Cost" "" (at 220.98 120.65 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "8d783fa6-8897-4986-8cdc-109af2096fe6")) (pin "2" (uuid "ca7d4b46-944a-44fb-a7d5-9a597aeda9e3")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "D1801") (unit 1)))))
+	(symbol (lib_id "PCM_SparkFun-PowerSymbol:GND") (at 220.98 124.46 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files no) (dnp no) (uuid "1c375ab6-4cbb-496b-9b8e-65d60d059b62") (property "Reference" "#PWR1820" (at 220.98 128.27 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (property "Value" "GND" (at 220.98 129.54 0) (effects (font (size 1.27 1.27)) (justify left))) (property "Footprint" "" (at 220.98 124.46 0) (hide yes) (effects (font (size 1.27 1.27)))) (pin "1" (uuid "530f86b3-8571-4330-b57d-62782fde4bae")) (instances (project "Chinmay_WD_RST" (path "/0f9f8573-6488-4df3-b407-061bf2101a20/2a37432d-dfe3-45ff-92bf-3a1f664693dd" (reference "#PWR1820") (unit 1)))))
+)

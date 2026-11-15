@@ -1,0 +1,1323 @@
+(kicad_sch (version 20260101) (generator "eeschema") (generator_version "10.0")
+
+  (uuid bd4e5741-4e53-417c-85f8-ba9b688ab667)
+
+  (paper "A3")
+
+  (title_block (title "Chinmay USB2UART library") (company "Chinmay") (comment 1 "USB to UART bridge design blocks - active parts, Nov 2026"))
+
+  (lib_symbols
+  )
+
+  (sheet (at 25.4 50.8) (size 76.2 25.4) (fields_autoplaced yes)
+    (stroke (width 0.0006) (type default))
+    (fill (color 0 0 0 0.0000))
+    (uuid "82862cf3-63f7-4e6a-9390-8e4577d312ba")
+    (property "Sheetname" "USB2UART CP2102N" (at 27.94 49.53 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB2UART_CP2102N.kicad_sch" (at 27.94 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Chinmay_USB2UART"
+        (path "/bd4e5741-4e53-417c-85f8-ba9b688ab667" (page "2"))
+      )
+    )
+		(pin "VBUS" input
+			(at 25.4 55.88 180)
+			(uuid "da2b4825-a4d2-4025-b3f4-783fb85a077e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 25.4 58.42 180)
+			(uuid "9b12cfc0-97f6-4bec-8aa7-2cb40fc32221")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 25.4 60.96 180)
+			(uuid "6db2ae65-c6ac-48a0-960c-6d3daced2aeb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" output
+			(at 101.6 55.88 0)
+			(uuid "7716ca19-5f8c-4e7a-935f-4e085ced004e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 101.6 58.42 0)
+			(uuid "59262a9f-0cb2-46ba-a69b-2ff21324c4e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS_N" output
+			(at 101.6 60.96 0)
+			(uuid "bbd35286-21ab-4c67-9fb4-9806c61da621")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS_N" input
+			(at 101.6 63.5 0)
+			(uuid "f252afb4-0e2d-40ed-a9c2-f030c876d86e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DTR_N" output
+			(at 101.6 66.04 0)
+			(uuid "d6516b4a-d415-4174-b0e4-44ec60278dff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+  )
+  (sheet (at 121.92 50.8) (size 76.2 25.4) (fields_autoplaced yes)
+    (stroke (width 0.0006) (type default))
+    (fill (color 0 0 0 0.0000))
+    (uuid "e94b85e8-7665-47b1-80f3-89f18513594b")
+    (property "Sheetname" "USB2UART FT232RNL" (at 124.46 49.53 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB2UART_FT232RNL.kicad_sch" (at 124.46 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Chinmay_USB2UART"
+        (path "/bd4e5741-4e53-417c-85f8-ba9b688ab667" (page "3"))
+      )
+    )
+		(pin "VBUS" input
+			(at 121.92 55.88 180)
+			(uuid "ef7ca9ff-42ea-44b7-8540-399eb2bd5ffd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 121.92 58.42 180)
+			(uuid "bfbe3f1e-b47b-45c7-ac41-0af1930f6ce2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 121.92 60.96 180)
+			(uuid "759912d3-4223-4970-a4bb-b85bd0b9679c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" output
+			(at 198.12 55.88 0)
+			(uuid "eec9ea79-e406-498f-ac74-1136727f6c82")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 198.12 58.42 0)
+			(uuid "288af240-4b9d-4019-8599-d11ec7d7cbb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS_N" output
+			(at 198.12 60.96 0)
+			(uuid "f747ac1d-db1b-4f75-8e22-2d77675a82f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS_N" input
+			(at 198.12 63.5 0)
+			(uuid "54dad00a-877a-439e-8b88-dc894208785f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DTR_N" output
+			(at 198.12 66.04 0)
+			(uuid "a6222ad1-02ca-400b-baad-ade90d531957")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+  )
+  (sheet (at 218.44 50.8) (size 76.2 25.4) (fields_autoplaced yes)
+    (stroke (width 0.0006) (type default))
+    (fill (color 0 0 0 0.0000))
+    (uuid "eef7626a-6198-4721-879a-f68c45dfb27d")
+    (property "Sheetname" "USB2UART FT231XS" (at 220.98 49.53 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB2UART_FT231XS.kicad_sch" (at 220.98 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Chinmay_USB2UART"
+        (path "/bd4e5741-4e53-417c-85f8-ba9b688ab667" (page "4"))
+      )
+    )
+		(pin "VBUS" input
+			(at 218.44 55.88 180)
+			(uuid "58dd3cc6-776e-48d5-a86c-d7981b97954a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 218.44 58.42 180)
+			(uuid "e3f43d53-06d5-48b1-af54-b264bc682835")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 218.44 60.96 180)
+			(uuid "acfed649-0b82-4076-93bb-3d1dce7565fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" output
+			(at 294.64 55.88 0)
+			(uuid "683acdd4-f32a-4dde-acf9-61144e192be9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 294.64 58.42 0)
+			(uuid "6c7396e3-ccbf-4229-aa3e-daa773bb965f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS_N" output
+			(at 294.64 60.96 0)
+			(uuid "ac1de457-8eaf-4709-a13b-d160f3974498")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS_N" input
+			(at 294.64 63.5 0)
+			(uuid "8501c66f-aeab-424c-8a19-b7cb269df5b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DTR_N" output
+			(at 294.64 66.04 0)
+			(uuid "63926377-e3df-493e-a56e-7b0ad6d75b47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+  )
+  (sheet (at 314.96 50.8) (size 76.2 25.4) (fields_autoplaced yes)
+    (stroke (width 0.0006) (type default))
+    (fill (color 0 0 0 0.0000))
+    (uuid "d19eeeb7-2aa9-4a27-8799-0f74673d24d0")
+    (property "Sheetname" "USB2UART FT230XS" (at 317.5 49.53 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB2UART_FT230XS.kicad_sch" (at 317.5 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Chinmay_USB2UART"
+        (path "/bd4e5741-4e53-417c-85f8-ba9b688ab667" (page "5"))
+      )
+    )
+		(pin "VBUS" input
+			(at 314.96 55.88 180)
+			(uuid "2f25cb66-4af4-472a-8f22-ddf21961d43b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 314.96 58.42 180)
+			(uuid "0c3088a7-862f-4d88-8206-dd69f46d4226")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 314.96 60.96 180)
+			(uuid "bf5643fb-5f9a-4ed6-b941-46acfb77add1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" output
+			(at 391.16 55.88 0)
+			(uuid "3150fee3-a5e7-413e-bbcd-87cb1de499f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 391.16 58.42 0)
+			(uuid "c572d2e3-5d6d-476b-ab9f-d73600b80887")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS_N" output
+			(at 391.16 60.96 0)
+			(uuid "b7d098b7-18f0-4c44-821b-f0007b2e00ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS_N" input
+			(at 391.16 63.5 0)
+			(uuid "4436432a-c554-49b0-80cd-d19458d20fd5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+  )
+  (sheet (at 25.4 93.98) (size 76.2 25.4) (fields_autoplaced yes)
+    (stroke (width 0.0006) (type default))
+    (fill (color 0 0 0 0.0000))
+    (uuid "cf4beac2-ac03-4674-8c3d-cf0decb6b85f")
+    (property "Sheetname" "USB2UART CH340C" (at 27.94 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB2UART_CH340C.kicad_sch" (at 27.94 120.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Chinmay_USB2UART"
+        (path "/bd4e5741-4e53-417c-85f8-ba9b688ab667" (page "6"))
+      )
+    )
+		(pin "VBUS" input
+			(at 25.4 99.06 180)
+			(uuid "173993c4-24ab-48d3-b3df-f98b0a32defb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 25.4 101.6 180)
+			(uuid "ccb2e6b8-8f4c-457c-8ae9-a24b1c97d165")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 25.4 104.14 180)
+			(uuid "c6e952d0-9f71-4389-9bdf-6c63610677c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 25.4 106.68 180)
+			(uuid "6fd22647-8b88-459c-93e8-b2250e3146be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" output
+			(at 101.6 99.06 0)
+			(uuid "ee6037eb-b7ad-497c-aff6-3df6c39388d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 101.6 101.6 0)
+			(uuid "582cb6a7-53b6-4fca-8a73-f0095af25ec0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS_N" output
+			(at 101.6 104.14 0)
+			(uuid "6a4d507c-32a7-4c10-8160-82c31d256116")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS_N" input
+			(at 101.6 106.68 0)
+			(uuid "dcd16f14-48a7-4c25-a50e-97eb33e32ca2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DTR_N" output
+			(at 101.6 109.22 0)
+			(uuid "c2ebdccc-510a-409e-b495-862717532fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+  )
+  (sheet (at 121.92 93.98) (size 76.2 25.4) (fields_autoplaced yes)
+    (stroke (width 0.0006) (type default))
+    (fill (color 0 0 0 0.0000))
+    (uuid "6b1ba4a4-117e-4935-bfb0-9b0576a68d90")
+    (property "Sheetname" "USB2UART CH340G" (at 124.46 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB2UART_CH340G.kicad_sch" (at 124.46 120.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Chinmay_USB2UART"
+        (path "/bd4e5741-4e53-417c-85f8-ba9b688ab667" (page "7"))
+      )
+    )
+		(pin "VBUS" input
+			(at 121.92 99.06 180)
+			(uuid "881146fe-dcc8-4f5c-a8fe-271aff409d0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 121.92 101.6 180)
+			(uuid "b30cae86-4ee4-4d7b-8e6b-ac4d14e9330a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 121.92 104.14 180)
+			(uuid "dcef7017-356b-4bea-9d7d-549e1e5c18b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3V3" input
+			(at 121.92 106.68 180)
+			(uuid "53bb4879-c256-4c3c-a2ca-4750fac215c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" output
+			(at 198.12 99.06 0)
+			(uuid "8e8ad619-aa08-44cf-9502-239987928764")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 198.12 101.6 0)
+			(uuid "c427bddb-3a18-4d7d-a047-01a0f9e5a614")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS_N" output
+			(at 198.12 104.14 0)
+			(uuid "29312b24-3235-46c7-aae6-88ffdfe76e5e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS_N" input
+			(at 198.12 106.68 0)
+			(uuid "b93432d3-9a15-48d8-a10e-2384cce7114c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DTR_N" output
+			(at 198.12 109.22 0)
+			(uuid "04dc4322-eb01-4882-9613-69bd43abaa98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+  )
+  (sheet (at 218.44 93.98) (size 76.2 25.4) (fields_autoplaced yes)
+    (stroke (width 0.0006) (type default))
+    (fill (color 0 0 0 0.0000))
+    (uuid "880c0aac-fb31-490c-b1c3-4b3a99fca449")
+    (property "Sheetname" "USB2UART CH343P" (at 220.98 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB2UART_CH343P.kicad_sch" (at 220.98 120.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Chinmay_USB2UART"
+        (path "/bd4e5741-4e53-417c-85f8-ba9b688ab667" (page "8"))
+      )
+    )
+		(pin "VBUS" input
+			(at 218.44 99.06 180)
+			(uuid "4db72ac1-8be7-4638-90ab-5cb7622fef9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 218.44 101.6 180)
+			(uuid "de01889a-4dea-48d9-b2e5-3abcfa7d2f33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 218.44 104.14 180)
+			(uuid "43c9b432-7eaf-4534-bc10-5ff16d6e2409")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" output
+			(at 294.64 99.06 0)
+			(uuid "d3d30ba8-518d-4e74-8b33-fa78f35aff3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 294.64 101.6 0)
+			(uuid "e611d9ad-609a-49bd-bbe1-03bf7235e081")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS_N" output
+			(at 294.64 104.14 0)
+			(uuid "5923c3af-ed11-499c-805b-9dd4663a4c15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS_N" input
+			(at 294.64 106.68 0)
+			(uuid "6a8b8d39-afd7-42f2-81e5-452b9cceec98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DTR_N" output
+			(at 294.64 109.22 0)
+			(uuid "68ce892f-a18a-4d9f-8a5a-3aca2f345ba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+  )
+  (sheet (at 314.96 93.98) (size 76.2 25.4) (fields_autoplaced yes)
+    (stroke (width 0.0006) (type default))
+    (fill (color 0 0 0 0.0000))
+    (uuid "a1e604c9-a6f4-49c0-b814-58653849f2f8")
+    (property "Sheetname" "USB2UART MCP2221A" (at 317.5 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB2UART_MCP2221A.kicad_sch" (at 317.5 120.65 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Chinmay_USB2UART"
+        (path "/bd4e5741-4e53-417c-85f8-ba9b688ab667" (page "9"))
+      )
+    )
+		(pin "VBUS" input
+			(at 314.96 99.06 180)
+			(uuid "72fa5d2c-3fec-401e-9ea9-d19acb6387c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 314.96 101.6 180)
+			(uuid "edd0034d-4147-40eb-a1a0-a0f42cd64841")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 314.96 104.14 180)
+			(uuid "aad01322-3685-4ffc-acd6-f82f56885853")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" output
+			(at 391.16 99.06 0)
+			(uuid "44c8ba50-75bf-4b37-8c07-147bce1fcf49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD" input
+			(at 391.16 101.6 0)
+			(uuid "42a486c7-a4a5-429d-a31e-b48e0b0ef782")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 391.16 104.14 0)
+			(uuid "e9bb0d6e-c63f-4676-8cd1-8624c2328519")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 391.16 106.68 0)
+			(uuid "dea0bb85-8368-4168-9fda-9e1d5236ac40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+  )
+  (sheet (at 25.4 137.16) (size 76.2 50.8) (fields_autoplaced yes)
+    (stroke (width 0.0006) (type default))
+    (fill (color 0 0 0 0.0000))
+    (uuid "f9e746a3-7e71-450c-abcb-579693da30bd")
+    (property "Sheetname" "USB2UART CP2108" (at 27.94 135.89 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB2UART_CP2108.kicad_sch" (at 27.94 189.23 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Chinmay_USB2UART"
+        (path "/bd4e5741-4e53-417c-85f8-ba9b688ab667" (page "10"))
+      )
+    )
+		(pin "VBUS" input
+			(at 25.4 142.24 180)
+			(uuid "ddbf9b69-d101-4339-a537-8d2be9bdd362")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 25.4 144.78 180)
+			(uuid "f0a6fb31-f911-4148-87c8-c57112236eef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 25.4 147.32 180)
+			(uuid "9d19fc09-a921-4c18-958e-97643c7e91fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD0" output
+			(at 101.6 142.24 0)
+			(uuid "df0dca05-6d3a-44ab-a961-a67f84914819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD0" input
+			(at 101.6 144.78 0)
+			(uuid "7dadafb8-01a0-43f5-b8d6-22bb4f95f060")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS0_N" output
+			(at 101.6 147.32 0)
+			(uuid "255ad1ca-e439-4ec1-93ab-ba7cc0e07d61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS0_N" input
+			(at 101.6 149.86 0)
+			(uuid "54306301-7b49-4a31-b62f-72a2433550cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD1" output
+			(at 101.6 152.4 0)
+			(uuid "d0873433-dfca-4c5f-bb54-8a8c2993ac2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD1" input
+			(at 101.6 154.94 0)
+			(uuid "2e9d7450-5181-4da7-a161-1e3b3faac457")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS1_N" output
+			(at 101.6 157.48 0)
+			(uuid "c4df2639-6db2-4f3a-9606-cd70cc3e6105")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS1_N" input
+			(at 101.6 160.02 0)
+			(uuid "544db640-49aa-4709-b822-6723ad740988")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD2" output
+			(at 101.6 162.56 0)
+			(uuid "0e6aa129-919e-497b-b286-1823cdbdfedc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD2" input
+			(at 101.6 165.1 0)
+			(uuid "9e99140e-7b5b-4ebe-ac60-d4b54709ddf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS2_N" output
+			(at 101.6 167.64 0)
+			(uuid "819467f5-608b-4aa7-bc9e-361d6d19673d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS2_N" input
+			(at 101.6 170.18 0)
+			(uuid "44ec60c5-fc9a-41a8-984f-12ca69c79dec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD3" output
+			(at 101.6 172.72 0)
+			(uuid "9197c366-d137-4c88-b293-a48b541f5078")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RXD3" input
+			(at 101.6 175.26 0)
+			(uuid "cf9a95ed-d743-4068-bbe2-e5b15a850e99")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RTS3_N" output
+			(at 101.6 177.8 0)
+			(uuid "17cc480b-b684-4d3e-9efd-3a823ec2c103")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CTS3_N" input
+			(at 101.6 180.34 0)
+			(uuid "7329bab5-c2af-4e94-ba5f-29827bee8f52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+  )
+  (text "USB to UART bridge design blocks" (exclude_from_sim no) (at 25.4 30.48 0) (effects (font (size 2.0 2.0) (thickness 0.254) (bold yes)) (justify left bottom)) (uuid "7292fe12-5995-403a-ac4e-902f6221f482"))
+  (text "Interface: VBUS / USB_DP / USB_DM on the left (USBLC6-2SC6 ESD inside each block); UART on the right.\nActive-low handshake nets end in _N. Blocks with an internal 3.3V regulator expose no rail; CH340C/G take +3V3 as a pin; MCP2221A uses the global +3V3.\nNot included: CP2105 (no KiCad library symbol). EOL parts excluded: FT232RL, CP2102N-A01, CP2108-B02, CP2101, MCP2221." (exclude_from_sim no) (at 25.4 228.6 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "db2df134-88bb-4aaf-98a0-a22071d2bf90"))
+  	(no_connect
+		(at 25.4 55.88)
+		(uuid "11770a36-bfc4-42e7-bace-3b4a013b2610")
+	)
+	(no_connect
+		(at 25.4 58.42)
+		(uuid "ca8a7ee1-f411-42cc-842e-ef65db5a71e0")
+	)
+	(no_connect
+		(at 25.4 60.96)
+		(uuid "a986cd1e-3bdb-46ba-9270-3faa026c1b70")
+	)
+	(no_connect
+		(at 101.6 55.88)
+		(uuid "6d7956d1-ecff-4beb-92a5-56109c8b3170")
+	)
+	(no_connect
+		(at 101.6 58.42)
+		(uuid "bfb274ce-5295-40ea-b2f7-2c41e1ec71d6")
+	)
+	(no_connect
+		(at 101.6 60.96)
+		(uuid "335194d1-2389-49a6-b7ff-49d3c28d43c6")
+	)
+	(no_connect
+		(at 101.6 63.5)
+		(uuid "8d5e9e98-6025-4358-ba4f-a68e0b069074")
+	)
+	(no_connect
+		(at 101.6 66.04)
+		(uuid "95c1d285-7dcf-4561-ab11-32464e0e5f3a")
+	)
+	(no_connect
+		(at 121.92 55.88)
+		(uuid "305aa315-ef43-46e7-8b1b-01752b64536e")
+	)
+	(no_connect
+		(at 121.92 58.42)
+		(uuid "e37caea0-0dce-49cf-a0c9-d91fa4e50e0b")
+	)
+	(no_connect
+		(at 121.92 60.96)
+		(uuid "68d2ba89-45e2-45df-9ddb-8aa3e4c510f9")
+	)
+	(no_connect
+		(at 198.12 55.88)
+		(uuid "5caf4bb8-9584-4f84-8ab4-b9e58f7558b4")
+	)
+	(no_connect
+		(at 198.12 58.42)
+		(uuid "8fe180b6-8459-41e6-aacb-fdd5b24584bb")
+	)
+	(no_connect
+		(at 198.12 60.96)
+		(uuid "bb7d7956-525b-491d-8fd2-b6f500ed1f00")
+	)
+	(no_connect
+		(at 198.12 63.5)
+		(uuid "87268ac3-3d01-4c7b-8b2d-96401b591ba2")
+	)
+	(no_connect
+		(at 198.12 66.04)
+		(uuid "cc52ead4-af91-4e48-8dc3-018c06491324")
+	)
+	(no_connect
+		(at 218.44 55.88)
+		(uuid "1f7f720c-6962-40f5-aed7-4972ce2b2d58")
+	)
+	(no_connect
+		(at 218.44 58.42)
+		(uuid "a7c2bbc8-c0b3-4615-a418-97a12739b19c")
+	)
+	(no_connect
+		(at 218.44 60.96)
+		(uuid "360ce275-2a4f-48ba-b357-93027f97abce")
+	)
+	(no_connect
+		(at 294.64 55.88)
+		(uuid "5222d3be-9f4c-49e5-8378-d954536b6f78")
+	)
+	(no_connect
+		(at 294.64 58.42)
+		(uuid "1359e1e5-cac7-459c-bb93-40657d3ff997")
+	)
+	(no_connect
+		(at 294.64 60.96)
+		(uuid "5a20f388-a2bc-4c12-baf8-404ab630b907")
+	)
+	(no_connect
+		(at 294.64 63.5)
+		(uuid "2684ea9a-6f99-43c2-96a0-ae81174cacb5")
+	)
+	(no_connect
+		(at 294.64 66.04)
+		(uuid "b27bd92f-f6f3-4343-b5f4-f73a0cade2d4")
+	)
+	(no_connect
+		(at 314.96 55.88)
+		(uuid "1629a9fb-92ba-4e4e-b29c-fead30d5affa")
+	)
+	(no_connect
+		(at 314.96 58.42)
+		(uuid "b0019c32-2027-4370-8fed-5f9d77aca1e6")
+	)
+	(no_connect
+		(at 314.96 60.96)
+		(uuid "f66bdc32-2b15-409e-bffa-5426971eef08")
+	)
+	(no_connect
+		(at 391.16 55.88)
+		(uuid "58696881-9cbf-49e7-84a5-32decd5adf70")
+	)
+	(no_connect
+		(at 391.16 58.42)
+		(uuid "bba9e36d-1c6b-4188-ab07-d9fcffb75efe")
+	)
+	(no_connect
+		(at 391.16 60.96)
+		(uuid "6859e810-3ccd-4054-87a9-f6752862a160")
+	)
+	(no_connect
+		(at 391.16 63.5)
+		(uuid "2ada04b7-1e84-41c5-86d4-1b869bcf96f7")
+	)
+	(no_connect
+		(at 25.4 99.06)
+		(uuid "3249c227-1981-4d3d-a438-38737bf0b75b")
+	)
+	(no_connect
+		(at 25.4 101.6)
+		(uuid "165a2b5a-8ef6-48fd-a693-e90ee5ee93a2")
+	)
+	(no_connect
+		(at 25.4 104.14)
+		(uuid "d3452e77-613d-4a1b-92e6-de61b2eeed88")
+	)
+	(no_connect
+		(at 25.4 106.68)
+		(uuid "7f16dc38-a4c2-4577-8e55-2e8e341f9b37")
+	)
+	(no_connect
+		(at 101.6 99.06)
+		(uuid "0eb70805-0a06-4e48-af7b-f10565071eb2")
+	)
+	(no_connect
+		(at 101.6 101.6)
+		(uuid "335df04d-1b81-48e5-b4cf-90a4d40b8875")
+	)
+	(no_connect
+		(at 101.6 104.14)
+		(uuid "3721931b-5814-4a62-bf5e-af72f3be0b1f")
+	)
+	(no_connect
+		(at 101.6 106.68)
+		(uuid "eff36543-4294-432e-888f-1df5a09514f9")
+	)
+	(no_connect
+		(at 101.6 109.22)
+		(uuid "dbbe8dba-194e-4652-b736-fd32f50835ec")
+	)
+	(no_connect
+		(at 121.92 99.06)
+		(uuid "d79ab56a-35df-4493-b5df-88675eb586d2")
+	)
+	(no_connect
+		(at 121.92 101.6)
+		(uuid "411163a6-a734-4901-baf9-ae07c4d71a81")
+	)
+	(no_connect
+		(at 121.92 104.14)
+		(uuid "8c574fba-080e-4945-9fd4-f202b7411082")
+	)
+	(no_connect
+		(at 121.92 106.68)
+		(uuid "2ebb6831-8b7e-40a1-917e-0eee7d9ab686")
+	)
+	(no_connect
+		(at 198.12 99.06)
+		(uuid "d2ca5df6-b534-41bb-8ca3-e84965a1500a")
+	)
+	(no_connect
+		(at 198.12 101.6)
+		(uuid "8a314bcf-ec67-4ae7-85fe-2de41bf6303a")
+	)
+	(no_connect
+		(at 198.12 104.14)
+		(uuid "563a91f6-ea2b-4817-9f77-a15dab13074c")
+	)
+	(no_connect
+		(at 198.12 106.68)
+		(uuid "2f2ec9ab-8c5c-4d28-9636-f77b0f0360e4")
+	)
+	(no_connect
+		(at 198.12 109.22)
+		(uuid "99fc678d-f507-4b75-8768-f579e7881d54")
+	)
+	(no_connect
+		(at 218.44 99.06)
+		(uuid "5946546d-89e4-4ec3-859a-548eda770838")
+	)
+	(no_connect
+		(at 218.44 101.6)
+		(uuid "8bae8ebc-be35-4364-bbf0-da96bc21a955")
+	)
+	(no_connect
+		(at 218.44 104.14)
+		(uuid "ced61823-e4ac-4214-a0a5-d2658ce91d30")
+	)
+	(no_connect
+		(at 294.64 99.06)
+		(uuid "ca4d0244-bf7a-41c0-b241-f0ec5503ef89")
+	)
+	(no_connect
+		(at 294.64 101.6)
+		(uuid "15101911-357c-4431-8a0c-31947d5c9238")
+	)
+	(no_connect
+		(at 294.64 104.14)
+		(uuid "ebe526e8-431a-44b8-81e2-86291cc9897f")
+	)
+	(no_connect
+		(at 294.64 106.68)
+		(uuid "df983f7a-393f-4eee-832b-9f2be4294b09")
+	)
+	(no_connect
+		(at 294.64 109.22)
+		(uuid "141f21a2-0998-4bb0-b86c-30bc821da08f")
+	)
+	(no_connect
+		(at 314.96 99.06)
+		(uuid "b817e37d-49ae-4162-b8f0-44d9ae7b054c")
+	)
+	(no_connect
+		(at 314.96 101.6)
+		(uuid "cd03c551-b91f-4c06-9166-dde852b817f1")
+	)
+	(no_connect
+		(at 314.96 104.14)
+		(uuid "419dab38-81a7-4adc-8eba-186d34a070f5")
+	)
+	(no_connect
+		(at 391.16 99.06)
+		(uuid "cabd240e-6d79-4051-b163-74e986b60b1a")
+	)
+	(no_connect
+		(at 391.16 101.6)
+		(uuid "dd500cf6-9302-4747-aaa9-56083c3b9793")
+	)
+	(no_connect
+		(at 391.16 104.14)
+		(uuid "3447b57b-730f-4493-89c3-8d0861ba0e48")
+	)
+	(no_connect
+		(at 391.16 106.68)
+		(uuid "e9cf0c8c-4c50-46c4-917c-99c41ef8b048")
+	)
+	(no_connect
+		(at 25.4 142.24)
+		(uuid "111a5089-a638-41d7-b9df-55bdf480a322")
+	)
+	(no_connect
+		(at 25.4 144.78)
+		(uuid "6a0458eb-6edf-4f7b-b927-f3c15784058d")
+	)
+	(no_connect
+		(at 25.4 147.32)
+		(uuid "3767c452-034b-4fe5-8ee5-ac0bbaa267f5")
+	)
+	(no_connect
+		(at 101.6 142.24)
+		(uuid "f2e695fd-12eb-46b3-b806-3547e9daabd0")
+	)
+	(no_connect
+		(at 101.6 144.78)
+		(uuid "56c83713-5d0a-4e38-bc78-ab068e5a0d5c")
+	)
+	(no_connect
+		(at 101.6 147.32)
+		(uuid "8f1a42b8-ecb5-404c-abc4-de64867b7bde")
+	)
+	(no_connect
+		(at 101.6 149.86)
+		(uuid "ef00128a-f989-4b16-b6fe-547f44fdb937")
+	)
+	(no_connect
+		(at 101.6 152.4)
+		(uuid "6b7dc9c0-5eda-48de-8f35-f40902ae0d5e")
+	)
+	(no_connect
+		(at 101.6 154.94)
+		(uuid "89e447b5-f8e1-47f1-af56-0f90cfcd093b")
+	)
+	(no_connect
+		(at 101.6 157.48)
+		(uuid "7037201c-e86f-463c-925d-a069a57eadd7")
+	)
+	(no_connect
+		(at 101.6 160.02)
+		(uuid "b997d9d1-bed4-42f4-860d-4fe7fd574a6e")
+	)
+	(no_connect
+		(at 101.6 162.56)
+		(uuid "214242be-be2d-490f-bc03-b277aa492eac")
+	)
+	(no_connect
+		(at 101.6 165.1)
+		(uuid "6690f13d-1feb-4eee-a5c2-ce1b1bd9200f")
+	)
+	(no_connect
+		(at 101.6 167.64)
+		(uuid "58237305-5569-4ff8-bfed-9bd42c8750c6")
+	)
+	(no_connect
+		(at 101.6 170.18)
+		(uuid "ce25f126-3dae-4ab6-a7fb-7b9a477322c2")
+	)
+	(no_connect
+		(at 101.6 172.72)
+		(uuid "8bb79021-e400-48da-9742-93d59fcbcf19")
+	)
+	(no_connect
+		(at 101.6 175.26)
+		(uuid "9fd477fb-2c38-49f2-aee1-3c693a8129b6")
+	)
+	(no_connect
+		(at 101.6 177.8)
+		(uuid "b49da252-8da4-4c87-9e63-0716980db9b8")
+	)
+	(no_connect
+		(at 101.6 180.34)
+		(uuid "58cb674f-0e82-4b95-a220-7c974916c3e1")
+	)
+	(sheet_instances
+    (path "/" (page "1"))
+  )
+)

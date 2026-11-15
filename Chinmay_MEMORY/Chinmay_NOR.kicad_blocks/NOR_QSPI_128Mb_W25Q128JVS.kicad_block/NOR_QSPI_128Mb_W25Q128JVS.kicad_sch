@@ -1,0 +1,978 @@
+(kicad_sch (version 20260101) (generator "eeschema") (generator_version "10.0")
+  (uuid "c3d7ee31-9663-4483-911e-e25d5283bbbf")
+  (paper "A4")
+  (title_block (title "NOR_QSPI_128Mb_W25Q128JVS") (company "Chinmay"))
+  (lib_symbols
+(symbol "Memory_Flash:W25Q128JVS"
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "U"
+    			(at -6.35 11.43 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Value" "W25Q128JVS"
+    			(at 7.62 11.43 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+    			(at 0 22.86 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+    			(at 0 25.4 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
+    			(at 0 27.94 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "flash memory SPI QPI DTR"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "W25Q128JVS_0_1"
+    			(rectangle
+    				(start -7.62 10.16)
+    				(end 10.16 -10.16)
+    				(stroke
+    					(width 0.254)
+    					(type default)
+    				)
+    				(fill
+    					(type background)
+    				)
+    			)
+    		)
+    		(symbol "W25Q128JVS_1_1"
+    			(pin input line
+    				(at -10.16 7.62 0)
+    				(length 2.54)
+    				(name "~{CS}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin bidirectional line
+    				(at -10.16 0 0)
+    				(length 2.54)
+    				(name "DO/IO_{1}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin bidirectional line
+    				(at -10.16 -2.54 0)
+    				(length 2.54)
+    				(name "~{WP}/IO_{2}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "3"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin power_in line
+    				(at 0 -12.7 90)
+    				(length 2.54)
+    				(name "GND"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "4"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin bidirectional line
+    				(at -10.16 2.54 0)
+    				(length 2.54)
+    				(name "DI/IO_{0}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "5"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin input line
+    				(at -10.16 5.08 0)
+    				(length 2.54)
+    				(name "CLK"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "6"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin bidirectional line
+    				(at -10.16 -5.08 0)
+    				(length 2.54)
+    				(name "~{HOLD}/~{RESET}/IO_{3}"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "7"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    			(pin power_in line
+    				(at 0 12.7 270)
+    				(length 2.54)
+    				(name "VCC"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "8"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+  )
+(symbol (lib_id "Memory_Flash:W25Q128JVS") (at 50.80 86.36 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "6dbe2e9a-bdda-4479-8005-be03d2a1c5c8")
+  (property "Reference" "U?" (at 43.18 69.85 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "W25Q128JVSIQ" (at 54.61 69.85 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "128Mbit Quad SPI NOR flash, 133 MHz, 2.7-3.6 V, SOIC-8 208 mil" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "FLASH-NOR-128M-SOIC8W" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Winbond" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "W25Q128JVSIQ" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Winbond" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "W25Q128JVSIQ TR" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=W25Q128JVSIQ" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=W25Q128JVSIQ" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 50.80 86.36 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "30759a1e-9023-4800-afae-725f6a148bee"))
+  (pin "2" (uuid "7a868bcd-4be4-4731-952f-08007d8513c3"))
+  (pin "3" (uuid "69beef28-e254-454e-bb24-5f6eba9fddca"))
+  (pin "4" (uuid "1e294484-191f-45c2-a344-e508d05e1f2f"))
+  (pin "5" (uuid "84355f4c-0cdf-424c-a3e5-715d41dada91"))
+  (pin "6" (uuid "233821d0-d910-43f0-959f-b089ba2061f8"))
+  (pin "7" (uuid "528c25ce-b640-4f91-aae8-3cdc2c125ec1"))
+  (pin "8" (uuid "c53333ef-92ef-48c3-91d2-a1689f2db308"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "U?") (unit 1))))
+)
+(wire (pts (xy 40.64 78.74) (xy 38.10 78.74)) (stroke (width 0) (type default)) (uuid "3c98e2e8-7127-4e03-b6cf-c369946f2fe1"))
+(label "CS#" (at 38.10 78.74 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "5fa21104-a4e2-42ba-bd0a-140b35f57cc9"))
+(wire (pts (xy 40.64 86.36) (xy 38.10 86.36)) (stroke (width 0) (type default)) (uuid "1269104b-51c6-47eb-8d2a-95fa33c2b42a"))
+(label "NOR_IO1" (at 38.10 86.36 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "dbd2ace2-a9df-48c8-a02d-59ec4bad2057"))
+(wire (pts (xy 40.64 88.90) (xy 38.10 88.90)) (stroke (width 0) (type default)) (uuid "11b7b28a-285b-4a9c-a3cc-a8233be049e8"))
+(label "NOR_IO2" (at 38.10 88.90 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "b751ff02-7460-4ee3-90f4-a844237ba9d5"))
+(symbol (lib_id "power:GND") (at 50.80 99.06 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "7e505865-79cf-4a08-a796-f522b673e6b6")
+  (property "Reference" "#PWR?" (at 50.80 105.06 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Value" "GND" (at 48.80 103.26 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Footprint" "" (at 50.80 99.06 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 50.80 99.06 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "" (at 50.80 99.06 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "22a3882b-0090-4611-b178-c2758571084d"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "#PWR?") (unit 1))))
+)
+(wire (pts (xy 40.64 83.82) (xy 38.10 83.82)) (stroke (width 0) (type default)) (uuid "927c364c-c099-474d-81b9-45ab94880ff3"))
+(label "NOR_IO0" (at 38.10 83.82 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "d09af032-57f9-4d2a-a1cb-36a6c07182b5"))
+(wire (pts (xy 40.64 81.28) (xy 38.10 81.28)) (stroke (width 0) (type default)) (uuid "6c70be10-b723-4350-add1-183d1b5a212a"))
+(label "NOR_CLK" (at 38.10 81.28 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "b370a4e2-49d3-421d-a611-d4788a3a23a1"))
+(wire (pts (xy 40.64 91.44) (xy 38.10 91.44)) (stroke (width 0) (type default)) (uuid "401955da-ecd7-42a2-b65c-237a60dc9537"))
+(label "NOR_IO3" (at 38.10 91.44 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "516ff8af-a84d-403f-be6d-943587a2cce7"))
+(wire (pts (xy 50.80 73.66) (xy 50.80 71.12)) (stroke (width 0) (type default)) (uuid "78a0106e-7ff9-4906-ba24-7f7d9720043e"))
+(label "VDD" (at 50.80 71.12 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ca14c504-430d-47f0-a9bc-18682d0ad2c7"))
+(symbol (lib_id "Device:C_Small") (at 101.60 45.72 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "ba575588-9c5a-447b-b4a4-7d26c337d1ce")
+  (property "Reference" "C?" (at 103.20 44.82 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "100nF" (at 103.20 47.22 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "100nF VCC decoupling, <=2 mm from VCC pin" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "CAP-0603-100N-50V-X7R" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Samsung" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "CL10B104KB8NNNC" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Murata" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "GRM188R71H104KA93D" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=CL10B104KB8NNNC" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=CL10B104KB8NNNC" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 101.60 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "fa141376-390f-43aa-a77f-24cd345b7a83"))
+  (pin "2" (uuid "d2926892-31ab-4737-baf5-510161164bcf"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "C?") (unit 1))))
+)
+(wire (pts (xy 101.60 43.18) (xy 101.60 40.64)) (stroke (width 0) (type default)) (uuid "0dc0128d-4ecc-464f-ac1b-aab05b53589d"))
+(wire (pts (xy 101.60 48.26) (xy 101.60 50.80)) (stroke (width 0) (type default)) (uuid "3b65d4d7-43f2-429a-b507-8a4d42d4c694"))
+(label "VDD" (at 101.60 40.64 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c0ef5e46-6505-435c-899d-ce4bff229c24"))
+(symbol (lib_id "power:GND") (at 101.60 50.80 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "4528f4ec-95de-431e-9526-ed1be943f3bd")
+  (property "Reference" "#PWR?" (at 101.60 56.80 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Value" "GND" (at 99.60 55.00 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Footprint" "" (at 101.60 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 101.60 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "" (at 101.60 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "0f11c501-462a-4a87-9135-3ad1b258051a"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "#PWR?") (unit 1))))
+)
+(symbol (lib_id "Device:C_Small") (at 116.84 45.72 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "e5e27221-faf8-4aaf-9635-2d6f20c0e50e")
+  (property "Reference" "C?" (at 118.44 44.82 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "1uF" (at 118.44 47.22 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "1uF bulk next to 100nF (program/erase current peaks)" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "CAP-0603-1U-16V-X7R" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Murata" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "GRM188R71C105KA12D" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Samsung" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "CL10B105KO8NNNC" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=GRM188R71C105KA12D" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=GRM188R71C105KA12D" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 116.84 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "e1f14fda-cfad-4b54-b52f-a17dde9816c7"))
+  (pin "2" (uuid "4ddbdfde-6146-4b52-b7df-5b3254a3781e"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "C?") (unit 1))))
+)
+(wire (pts (xy 116.84 43.18) (xy 116.84 40.64)) (stroke (width 0) (type default)) (uuid "ac0aa445-4c8f-445d-8dbf-574356e8cdbe"))
+(wire (pts (xy 116.84 48.26) (xy 116.84 50.80)) (stroke (width 0) (type default)) (uuid "0bdbf3ca-2bc3-4477-a8bd-b2b148255a29"))
+(label "VDD" (at 116.84 40.64 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "897ecf94-e52a-490b-9ca0-606350a1a885"))
+(symbol (lib_id "power:GND") (at 116.84 50.80 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "15f8bbca-8153-423d-89ac-311fad5da7a8")
+  (property "Reference" "#PWR?" (at 116.84 56.80 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Value" "GND" (at 114.84 55.00 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Footprint" "" (at 116.84 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 116.84 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "" (at 116.84 50.80 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "517c8c53-42b9-4567-b139-3059fb6b2fc9"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "#PWR?") (unit 1))))
+)
+(symbol (lib_id "Device:R_Small") (at 132.08 45.72 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "07a13bda-e780-4e72-ab18-5fbdad91acf3")
+  (property "Reference" "R?" (at 133.68 44.82 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "10k" (at 133.68 47.22 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "CS# 10k pull-up: device deselected while MCU is in reset / pins tri-stated" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-10k-1%" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603FR-0710KL" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3EKF1002V" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603FR-0710KL" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603FR-0710KL" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR3" "Vishay Dale" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN3" "CRCW060310K0FKEA" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR4" "Bourns" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN4" "CR0603-FX-1002ELF" (at 132.08 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "7d52ff4c-0281-4809-a84f-6ab847348de7"))
+  (pin "2" (uuid "913b4bdc-8d5d-4e2f-862f-1594a54af144"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 132.08 43.18) (xy 132.08 40.64)) (stroke (width 0) (type default)) (uuid "ce1facbe-d24c-47b9-9f4c-bd794713333b"))
+(wire (pts (xy 132.08 48.26) (xy 132.08 50.80)) (stroke (width 0) (type default)) (uuid "d0cbc144-efb9-4e1c-97d7-fcf098859eaf"))
+(label "VDD" (at 132.08 40.64 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "37bd4e4d-4ec9-4b20-854a-639de728fb30"))
+(label "CS#" (at 132.08 50.80 270) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "fed209e0-0e60-42ad-a59c-3a6b7378f714"))
+(symbol (lib_id "Device:R_Small") (at 154.94 45.72 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "e881c7a9-b20a-4da9-a584-e09b68bb6bf4")
+  (property "Reference" "R?" (at 152.94 42.52 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "27R" (at 152.94 48.72 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "27R source series termination - place within 5 mm of the MCU/host CLK pin" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-27R-1%" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603FR-0727RL" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3EKF270-1V" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603FR-0727RL" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603FR-0727RL" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR3" "Vishay Dale" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN3" "CRCW060327R0FKEA" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR4" "Bourns" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN4" "CR0603-FX-270-1ELF" (at 154.94 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "d3b95b78-a4de-43a1-9d86-5a46db21bdd7"))
+  (pin "2" (uuid "c22de75b-520e-4b2d-8193-65cb43aa51f5"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 152.40 45.72) (xy 149.86 45.72)) (stroke (width 0) (type default)) (uuid "18107bb2-38d3-43f3-9116-7fe19140161e"))
+(label "NOR_CLK" (at 149.86 45.72 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "06b2db57-aa8c-4043-bfea-da8139acbc0a"))
+(wire (pts (xy 157.48 45.72) (xy 160.02 45.72)) (stroke (width 0) (type default)) (uuid "f61b2ab5-d5a5-4dde-8821-dde580ae2d3b"))
+(label "CLK" (at 160.02 45.72 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5f8bae1c-9e1f-4a4b-a749-f7be3e19cea8"))
+(symbol (lib_id "Device:R_Small") (at 180.34 45.72 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "c4f60c31-990a-4ffb-812c-26497fb392e6")
+  (property "Reference" "R?" (at 178.34 42.52 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "0R" (at 178.34 48.72 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "IO0 termination provision: 0R fitted, change to 27R if overshoot/ringing seen" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-0R-JUMPER" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603JR-070RL" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3GEY0R00V" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603JR-070RL" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603JR-070RL" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR3" "Vishay Dale" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN3" "CRCW06030000Z0EA" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR4" "Bourns" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN4" "CR0603-J/-000ELF" (at 180.34 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "846cbe88-fe06-4599-aab2-534740aaab82"))
+  (pin "2" (uuid "917d6c5f-0f63-4ea0-95a5-d520618216cd"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 177.80 45.72) (xy 175.26 45.72)) (stroke (width 0) (type default)) (uuid "a9b1c81a-f1c2-40ae-a52d-cf3bf49f2523"))
+(label "NOR_IO0" (at 175.26 45.72 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "ddd65a7f-a0e8-40eb-a696-f05dddb4d275"))
+(wire (pts (xy 182.88 45.72) (xy 185.42 45.72)) (stroke (width 0) (type default)) (uuid "0d6b9e23-fa9f-4aa1-b4af-b4057b475627"))
+(label "IO0" (at 185.42 45.72 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7364e3fe-d07b-4460-ad97-23d5517ea716"))
+(symbol (lib_id "Device:R_Small") (at 205.74 45.72 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "026f5a10-1088-4908-84a3-7da04fa9ed57")
+  (property "Reference" "R?" (at 203.74 42.52 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "0R" (at 203.74 48.72 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "IO1 termination provision: 0R fitted, change to 27R if overshoot/ringing seen" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-0R-JUMPER" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603JR-070RL" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3GEY0R00V" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603JR-070RL" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603JR-070RL" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR3" "Vishay Dale" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN3" "CRCW06030000Z0EA" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR4" "Bourns" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN4" "CR0603-J/-000ELF" (at 205.74 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "6a967c11-076a-4217-99c6-3a3aa23b03da"))
+  (pin "2" (uuid "e09329da-db35-4e3e-b21c-f61e4315aecc"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 203.20 45.72) (xy 200.66 45.72)) (stroke (width 0) (type default)) (uuid "4c9e5b0a-4826-4d67-8388-7b17bafadd3a"))
+(label "NOR_IO1" (at 200.66 45.72 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "6e6aa148-f27e-485d-a2e3-dc10cba15a0d"))
+(wire (pts (xy 208.28 45.72) (xy 210.82 45.72)) (stroke (width 0) (type default)) (uuid "a7c5fc27-836b-4c66-b90a-7f0e20766fd8"))
+(label "IO1" (at 210.82 45.72 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "fd3b74d0-d9f0-48e5-8887-a5d0622d579e"))
+(symbol (lib_id "Device:R_Small") (at 231.14 45.72 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "e16f5750-b804-4ed1-bb63-5020c1693eb3")
+  (property "Reference" "R?" (at 229.14 42.52 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "0R" (at 229.14 48.72 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "IO2 termination provision: 0R fitted, change to 27R if overshoot/ringing seen" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-0R-JUMPER" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603JR-070RL" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3GEY0R00V" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603JR-070RL" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603JR-070RL" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR3" "Vishay Dale" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN3" "CRCW06030000Z0EA" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR4" "Bourns" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN4" "CR0603-J/-000ELF" (at 231.14 45.72 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "e3ad69a2-6dc7-440d-a4a8-82d95fb31fa8"))
+  (pin "2" (uuid "b73921f5-6a11-485e-bf2e-cead969ef644"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 228.60 45.72) (xy 226.06 45.72)) (stroke (width 0) (type default)) (uuid "080577b9-935d-405f-8333-e926e68b363f"))
+(label "NOR_IO2" (at 226.06 45.72 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "f85ba18a-4495-4ac0-a5b4-92733c2066ec"))
+(wire (pts (xy 233.68 45.72) (xy 236.22 45.72)) (stroke (width 0) (type default)) (uuid "740d4fc4-8467-4200-bce6-9c8555558955"))
+(label "IO2" (at 236.22 45.72 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3691a85d-5d4f-4db5-8e90-0431ca52cb68"))
+(symbol (lib_id "Device:R_Small") (at 109.22 73.66 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "b17aa789-1c08-4726-8ab7-63b1d8cfe76a")
+  (property "Reference" "R?" (at 107.22 70.46 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "0R" (at 107.22 76.66 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "IO3 termination provision: 0R fitted, change to 27R if overshoot/ringing seen" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-0R-JUMPER" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603JR-070RL" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3GEY0R00V" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603JR-070RL" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603JR-070RL" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR3" "Vishay Dale" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN3" "CRCW06030000Z0EA" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR4" "Bourns" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN4" "CR0603-J/-000ELF" (at 109.22 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "17ab17cf-2464-4f98-8c59-1a46cdadb6ff"))
+  (pin "2" (uuid "0e92c68b-32ae-4b20-b904-b9b1bc32fd4e"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 106.68 73.66) (xy 104.14 73.66)) (stroke (width 0) (type default)) (uuid "66032046-31be-4098-9ce2-ee2ff59ec50f"))
+(label "NOR_IO3" (at 104.14 73.66 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "cb3f74cc-52e8-4b33-91fe-9037283d0ed6"))
+(wire (pts (xy 111.76 73.66) (xy 114.30 73.66)) (stroke (width 0) (type default)) (uuid "1020e4e4-3893-4fc6-b1d2-6c5691e42abb"))
+(label "IO3" (at 114.30 73.66 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "28c4f0fd-7669-46d2-87e4-17261e79cb0e"))
+(symbol (lib_id "Device:R_Small") (at 127.00 73.66 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "da87274a-a7e0-4629-8335-eaa0a3ebbb9f")
+  (property "Reference" "R?" (at 128.60 72.76 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "10k" (at 128.60 75.16 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "WP#/IO2 10k pull-up (mandatory for 1-1-1 / 1-1-2 SPI modes)" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-10k-1%" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603FR-0710KL" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3EKF1002V" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603FR-0710KL" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603FR-0710KL" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR3" "Vishay Dale" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN3" "CRCW060310K0FKEA" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR4" "Bourns" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN4" "CR0603-FX-1002ELF" (at 127.00 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "0bbad761-a775-4bda-ba70-4b10c2f126b5"))
+  (pin "2" (uuid "c45f1e60-0bdc-4eec-ab79-93351d23ab30"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 127.00 71.12) (xy 127.00 68.58)) (stroke (width 0) (type default)) (uuid "061aa81d-80f0-4c4f-ae1c-ef507798edf5"))
+(wire (pts (xy 127.00 76.20) (xy 127.00 78.74)) (stroke (width 0) (type default)) (uuid "14365a4f-59c9-4abc-8f63-f982be3e9d5f"))
+(label "VDD" (at 127.00 68.58 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e67bb330-22d4-4809-be75-714c74ab3fb5"))
+(label "NOR_IO2" (at 127.00 78.74 270) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "ff15dfcb-eb8c-4261-9db3-c7f8bd29c477"))
+(symbol (lib_id "Device:R_Small") (at 142.24 73.66 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "8ead2b9e-ee2d-4e31-a287-1a2cd662c094")
+  (property "Reference" "R?" (at 143.84 72.76 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "10k" (at 143.84 75.16 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "HOLD#/IO3 10k pull-up (mandatory for 1-1-1 / 1-1-2 SPI modes)" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-10k-1%" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603FR-0710KL" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3EKF1002V" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603FR-0710KL" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603FR-0710KL" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR3" "Vishay Dale" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN3" "CRCW060310K0FKEA" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR4" "Bourns" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN4" "CR0603-FX-1002ELF" (at 142.24 73.66 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "2ab53a74-2936-4163-bcf5-6c0b88663625"))
+  (pin "2" (uuid "df367b31-b345-4d1c-b2a6-95709a80be1a"))
+  (instances (project "block" (path "/c3d7ee31-9663-4483-911e-e25d5283bbbf" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 142.24 71.12) (xy 142.24 68.58)) (stroke (width 0) (type default)) (uuid "3ff8b909-f4ef-4d74-81a8-e59a06d5079d"))
+(wire (pts (xy 142.24 76.20) (xy 142.24 78.74)) (stroke (width 0) (type default)) (uuid "9e2c0b6e-ca4c-41b5-a1ba-7da825aab056"))
+(label "VDD" (at 142.24 68.58 90) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9ae905c9-8ed6-4023-b883-ab09734a6b1d"))
+(label "NOR_IO3" (at 142.24 78.74 270) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "dd33c267-9577-4b21-a05c-a535c6c11b42"))
+(text "128Mbit Quad SPI NOR flash, 133 MHz, 2.7-3.6 V, SOIC-8 208 mil - W25Q128JVSIQ (alt W25Q128JVSIQ TR)\nLAYOUT: 100 nF + 1 uF at VCC (<=2 mm, 100 nF closest), short via to GND plane. Solid GND reference under all SPI traces, no plane splits.\nCLK: 27R source termination within 5 mm of host pin; route CLK first, shortest, >=3W spacing to other nets; no stubs/test points mid-trace.\nQSPI: length-match IO0-IO3 to CLK within +/-2.5 mm (>=80 MHz), keep total length < 50 mm. 0R on IO lines = termination provision (fit 27R after scope/TDR check).\nWP#/IO2 and HOLD#/IO3 10k pull-ups are required when the host runs 1-1-1 or 1-1-2 modes (and during boot before QE is set).\nTypical use: MCU XIP / boot / FPGA configuration flash. Rename CS# / CLK / IO labels to your nets." (exclude_from_sim no) (at 25.40 132.08 0) (effects (font (size 1.1 1.1)) (justify left top)) (uuid "2b407437-3812-43f5-80f2-4f16f687a191"))
+  (sheet_instances (path "/" (page "1")))
+)

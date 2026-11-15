@@ -1,0 +1,804 @@
+(kicad_sch (version 20260101) (generator "eeschema") (generator_version "10.0")
+  (uuid "44ea338b-fa0d-4157-b324-8586c53cebdf")
+  (paper "A4")
+  (title_block (title "XTAL_12MHz_ECX2236") (company "Chinmay"))
+  (lib_symbols
+(symbol "Device:Crystal_GND24_Small"
+    		(pin_names
+    			(offset 1.016)
+    			(hide yes)
+    		)
+    		(exclude_from_sim no)
+    		(in_bom yes)
+    		(on_board yes)
+    		(in_pos_files yes)
+    		(duplicate_pin_numbers_are_jumpers no)
+    		(property "Reference" "Y"
+    			(at 1.27 4.445 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    		)
+    		(property "Value" "Crystal_GND24_Small"
+    			(at 1.27 2.54 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    				(justify left)
+    			)
+    		)
+    		(property "Footprint" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Datasheet" ""
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+    			(at 0 -10.16 0)
+    			(show_name yes)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+    			(at 0 -12.7 0)
+    			(show_name yes)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_keywords" "quartz ceramic resonator oscillator"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(property "ki_fp_filters" "Crystal*"
+    			(at 0 0 0)
+    			(show_name no)
+    			(do_not_autoplace no)
+    			(hide yes)
+    			(effects
+    				(font
+    					(size 1.27 1.27)
+    				)
+    			)
+    		)
+    		(symbol "Crystal_GND24_Small_0_1"
+    			(polyline
+    				(pts
+    					(xy -1.27 1.27) (xy -1.27 1.905) (xy 1.27 1.905) (xy 1.27 1.27)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -1.27 -0.762) (xy -1.27 0.762)
+    				)
+    				(stroke
+    					(width 0.381)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy -1.27 -1.27) (xy -1.27 -1.905) (xy 1.27 -1.905) (xy 1.27 -1.27)
+    				)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(rectangle
+    				(start -0.762 -1.524)
+    				(end 0.762 1.524)
+    				(stroke
+    					(width 0)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    			(polyline
+    				(pts
+    					(xy 1.27 -0.762) (xy 1.27 0.762)
+    				)
+    				(stroke
+    					(width 0.381)
+    					(type default)
+    				)
+    				(fill
+    					(type none)
+    				)
+    			)
+    		)
+    		(symbol "Crystal_GND24_Small_1_1"
+    			(pin passive line
+    				(at -2.54 0 0)
+    				(length 1.27)
+    				(name "1"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "1"
+    					(effects
+    						(font
+    							(size 0.762 0.762)
+    						)
+    					)
+    				)
+    			)
+    			(pin passive line
+    				(at 0 -2.54 90)
+    				(length 0.635)
+    				(name "G"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "2"
+    					(effects
+    						(font
+    							(size 0.762 0.762)
+    						)
+    					)
+    				)
+    			)
+    			(pin passive line
+    				(at 2.54 0 180)
+    				(length 1.27)
+    				(name "3"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "3"
+    					(effects
+    						(font
+    							(size 0.762 0.762)
+    						)
+    					)
+    				)
+    			)
+    			(pin passive line
+    				(at 0 -2.54 90)
+    				(length 0.635)
+    				(hide yes)
+    				(name "G"
+    					(effects
+    						(font
+    							(size 1.27 1.27)
+    						)
+    					)
+    				)
+    				(number "4"
+    					(effects
+    						(font
+    							(size 0.762 0.762)
+    						)
+    					)
+    				)
+    			)
+    		)
+    		(embedded_fonts no)
+    	)
+(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+  )
+(symbol (lib_id "Device:Crystal_GND24_Small") (at 101.60 76.20 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "12e635dc-eaa1-468c-99d2-c085e4986960")
+  (property "Reference" "Y?" (at 99.10 72.00 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "12MHz" (at 98.10 82.70 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "https://ecsxtal.com/store/pdf/ECX-2236.pdf" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "12 MHz crystal CL 8 pF ESR 150 ohm (ECX-2236)" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "XTAL-2520-12M-8P" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "ECS" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "ECS-120-8-36-CKM-TR" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "ECS" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ECS-120-8-36-CKM-TR" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=ECS-120-8-36-CKM-TR" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=ECS-120-8-36-CKM-TR" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 101.60 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "7438fce6-1c82-4ebb-86f4-a60e93c7f7a8"))
+  (pin "2" (uuid "87a5db55-38dc-44bc-9765-1ac7b76e0bd4"))
+  (pin "3" (uuid "0bbcdc23-e211-470b-857e-074e53bca850"))
+  (pin "4" (uuid "996183a0-1b6d-4d0e-bf82-6333a5f5e2d3"))
+  (instances (project "block" (path "/44ea338b-fa0d-4157-b324-8586c53cebdf" (reference "Y?") (unit 1))))
+)
+(wire (pts (xy 99.06 76.20) (xy 91.44 76.20)) (stroke (width 0) (type default)) (uuid "f323cbb2-3ad2-441d-8cb0-7c11ee447dc5"))
+(wire (pts (xy 104.14 76.20) (xy 111.76 76.20)) (stroke (width 0) (type default)) (uuid "be8f45bf-e02e-46e5-84c0-049078306ac7"))
+(symbol (lib_id "Device:C_Small") (at 91.44 81.28 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "46a83cac-af06-4c18-82d0-2d335e79b7ec")
+  (property "Reference" "C?" (at 93.04 80.40 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "12pF" (at 93.04 82.80 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "12pF 50V C0G 0603 - load cap C1" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "CAP-0603-12P-50V-C0G" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Murata" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "GRM1885C1H120JA01D" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Samsung" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "CL10C120JB8NNNC" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=GRM1885C1H120JA01D" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=GRM1885C1H120JA01D" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 91.44 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "03e0044a-023a-4e5b-bcbe-4428a1df4815"))
+  (pin "2" (uuid "ebb4c35e-f5fd-4633-98b5-c37f37de3a42"))
+  (instances (project "block" (path "/44ea338b-fa0d-4157-b324-8586c53cebdf" (reference "C?") (unit 1))))
+)
+(wire (pts (xy 91.44 76.20) (xy 91.44 78.74)) (stroke (width 0) (type default)) (uuid "ebab76c7-77c2-41bc-bb88-b566af8fe130"))
+(symbol (lib_id "power:GND") (at 91.44 83.82 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "2e481bff-e439-41cb-88af-b810f59bd6e5")
+  (property "Reference" "#PWR?" (at 91.44 89.82 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Value" "GND" (at 89.44 88.02 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Footprint" "" (at 91.44 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 91.44 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "" (at 91.44 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "5e4c4f94-888d-4bc2-ad22-45484597f76f"))
+  (instances (project "block" (path "/44ea338b-fa0d-4157-b324-8586c53cebdf" (reference "#PWR?") (unit 1))))
+)
+(symbol (lib_id "Device:C_Small") (at 111.76 81.28 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "e72737ab-726f-4db2-bce1-65966d900c71")
+  (property "Reference" "C?" (at 113.36 80.40 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "12pF" (at 113.36 82.80 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "12pF 50V C0G 0603 - load cap C2" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "CAP-0603-12P-50V-C0G" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Murata" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "GRM1885C1H120JA01D" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Samsung" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "CL10C120JB8NNNC" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=GRM1885C1H120JA01D" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=GRM1885C1H120JA01D" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 111.76 81.28 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "2b3b1a57-584a-44fc-8d91-377da9092edf"))
+  (pin "2" (uuid "fd4e9384-b451-47a2-8057-725216013b46"))
+  (instances (project "block" (path "/44ea338b-fa0d-4157-b324-8586c53cebdf" (reference "C?") (unit 1))))
+)
+(wire (pts (xy 111.76 76.20) (xy 111.76 78.74)) (stroke (width 0) (type default)) (uuid "e4167e51-0f6a-4fce-902c-4dd6297c5df6"))
+(symbol (lib_id "power:GND") (at 111.76 83.82 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "e8478836-6499-43bc-acbf-917cba8488ba")
+  (property "Reference" "#PWR?" (at 111.76 89.82 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Value" "GND" (at 109.76 88.02 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Footprint" "" (at 111.76 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 111.76 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "" (at 111.76 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "f152ae2d-60fd-4277-9c9f-66fd3c37e26f"))
+  (instances (project "block" (path "/44ea338b-fa0d-4157-b324-8586c53cebdf" (reference "#PWR?") (unit 1))))
+)
+(wire (pts (xy 101.60 78.74) (xy 101.60 83.82)) (stroke (width 0) (type default)) (uuid "d8520654-c3d7-4397-8243-6cb97b75f3b4"))
+(symbol (lib_id "power:GND") (at 101.60 83.82 0) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom no) (on_board no) (in_pos_files yes) (dnp no) (uuid "8c114a87-2059-49ee-8280-04a32478489c")
+  (property "Reference" "#PWR?" (at 101.60 89.82 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Value" "GND" (at 99.60 88.02 0) (effects (font (size 1.27 1.27)) (justify left) (hide yes)))
+  (property "Footprint" "" (at 101.60 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 101.60 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "" (at 101.60 83.82 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "be5f1ac5-0eab-48df-a011-91d1f604b3c7"))
+  (instances (project "block" (path "/44ea338b-fa0d-4157-b324-8586c53cebdf" (reference "#PWR?") (unit 1))))
+)
+(symbol (lib_id "Device:R_Small") (at 119.38 76.20 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp no) (uuid "354426b8-9122-4e87-87ac-fdd01f9beb40")
+  (property "Reference" "R?" (at 117.36 73.00 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "0R" (at 117.36 79.20 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "0R jumper - Rext drive limiter (populate value if drive level exceeded)" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-0R-JUMPER" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603JR-070RL" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3GEY0R00V" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603JR-070RL" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603JR-070RL" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 119.38 76.20 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "b8719ee2-6ebe-421b-87aa-4761362c411b"))
+  (pin "2" (uuid "c2a98c05-6724-44e6-833e-a8c249611c86"))
+  (instances (project "block" (path "/44ea338b-fa0d-4157-b324-8586c53cebdf" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 111.76 76.20) (xy 116.84 76.20)) (stroke (width 0) (type default)) (uuid "511a0ada-8c40-4ecc-a816-12fb5f764bb7"))
+(wire (pts (xy 121.92 76.20) (xy 127.00 76.20)) (stroke (width 0) (type default)) (uuid "6219e815-b726-40ea-9e7c-ca6c5219d5cf"))
+(label "XOUT" (at 127.00 76.20 0) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e6fde0c5-e9eb-403c-8773-4ec649b9245c"))
+(wire (pts (xy 91.44 76.20) (xy 83.82 76.20)) (stroke (width 0) (type default)) (uuid "41eb7b3f-6e02-479c-adcb-674442aa40f5"))
+(label "XIN" (at 83.82 76.20 180) (fields_autoplaced yes) (effects (font (size 1.27 1.27)) (justify right bottom)) (uuid "edd12cbb-32d3-4e7f-a747-f431225ef1b4"))
+(junction (at 91.44 76.20) (diameter 0) (color 0 0 0 0) (uuid "b0359ff4-bf10-4741-89df-e10e0ffd397d"))
+(junction (at 111.76 76.20) (diameter 0) (color 0 0 0 0) (uuid "baffaec7-fa06-4b27-8256-f046db27e90a"))
+(symbol (lib_id "Device:R_Small") (at 101.60 68.58 90) (unit 1) (body_style 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (in_pos_files yes) (dnp yes) (uuid "bdd22722-d2c2-4e69-ba95-64e77cb66e5a")
+  (property "Reference" "R?" (at 99.60 65.60 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Value" "1M" (at 104.80 65.60 0) (effects (font (size 1.27 1.27)) (justify left)))
+  (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Datasheet" "" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Description" "1M Rf feedback - DNP unless the oscillator has no internal feedback resistor" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "IPN" "RES-0603-1M-1%" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Manufacturer" "Yageo" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN1" "RC0603FR-071ML" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MFR2" "Panasonic" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "MPN2" "ERJ-3EKF1004V" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement" "https://www.digikey.in/en/products/result?keywords=RC0603FR-071ML" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Procurement2" "https://www.mouser.in/c/?q=RC0603FR-071ML" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (property "Cost" "TBD" (at 101.60 68.58 0) (effects (font (size 1.27 1.27)) (hide yes)))
+  (pin "1" (uuid "d72276b8-37b3-47a4-85f6-36408efbb6d6"))
+  (pin "2" (uuid "611684d1-ae0a-4613-9813-8d708b34886e"))
+  (instances (project "block" (path "/44ea338b-fa0d-4157-b324-8586c53cebdf" (reference "R?") (unit 1))))
+)
+(wire (pts (xy 99.06 68.58) (xy 91.44 68.58)) (stroke (width 0) (type default)) (uuid "b2b55a93-c552-4165-b079-d95a3610482b"))
+(wire (pts (xy 91.44 68.58) (xy 91.44 76.20)) (stroke (width 0) (type default)) (uuid "267a4ab9-c99a-4ddb-aa5a-7035455e3ce2"))
+(wire (pts (xy 104.14 68.58) (xy 121.92 68.58)) (stroke (width 0) (type default)) (uuid "4249ed52-861e-4881-956b-35be0e380895"))
+(wire (pts (xy 121.92 68.58) (xy 121.92 76.20)) (stroke (width 0) (type default)) (uuid "4dc13244-d7ec-443d-b1c2-58e601e0e376"))
+(junction (at 121.92 76.20) (diameter 0) (color 0 0 0 0) (uuid "886bd3a3-7943-45de-94ee-4591bf1bc97e"))
+(text "12 MHz Pierce crystal - ECS-120-8-36-CKM-TR (ECS ECX-2236), CL 8 pF, ESR <= 150 ohm\nC1 = C2 = 2*(CL - Cs) = 12 pF C0G (Cs 2 pF) -> CL_eff 8.0 pF ; gm_crit = 0.58 mA/V (need >= 2.9 mA/V)\nRext 0R (fit if drive level exceeded); Rf 1M DNP (fit only without internal feedback). Rename XIN/XOUT labels to your MCU pins." (exclude_from_sim no) (at 71.12 92.20 0) (effects (font (size 1.1 1.1)) (justify left top)) (uuid "244ecada-5749-4c49-8f78-8a3c4f496b0f"))
+  (sheet_instances (path "/" (page "1")))
+)

@@ -1,0 +1,11 @@
+{
+  "description": "50 MHz HCMOS oscillator ECS ECS-2520MV-500-BN-TR with 100 nF decoupling, 10k OE pull-up and 27R series termination. RMII 50 MHz ref, FPGA.",
+  "keywords": "oscillator xo clock 50 MHz ECS-2520MV-500-BN-TR ECS-2520MV hcmos cmos",
+  "fields": {
+    "Frequency": "50 MHz",
+    "Oscillator": "ECS-2520MV-500-BN-TR",
+    "Supply": "1.6-3.6 V",
+    "Stability": "+/-50 ppm",
+    "Typical use": "RMII 50 MHz ref, FPGA"
+  }
+}

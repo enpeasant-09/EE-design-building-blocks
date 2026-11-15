@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "filename": "Chinmay_WD_RST.kicad_pro",
+    "version": 3
+  },
+  "schematic": {
+    "drawing": {
+      "default_text_size": 50.0
+    }
+  },
+  "sheets": [
+    [
+      "0f9f8573-6488-4df3-b407-061bf2101a20",
+      "Root"
+    ],
+    [
+      "6242bf7f-7f22-43bc-8ab1-fb0e1700440f",
+      "WD and RST TPS3823"
+    ],
+    [
+      "2eb38cff-9282-4d5e-b83b-66caa8f6fc71",
+      "WD and RST TPS3828"
+    ],
+    [
+      "7c367e51-4aff-410a-bd63-a540fdb4d17c",
+      "WD and RST TPS3824"
+    ],
+    [
+      "bcb713bf-e5e7-47ed-be89-1b4584412af2",
+      "WD and RST STM6822"
+    ],
+    [
+      "83275a46-b0b1-4126-b77e-24b63600809e",
+      "WD and RST STM6823"
+    ],
+    [
+      "7f8519a4-c5c0-48f6-aa0d-cd7957b37bc1",
+      "WD and RST STM6824"
+    ],
+    [
+      "0a86c73c-0ad7-4a2c-b273-fd5d3afe54db",
+      "WD and RST MCP1316"
+    ],
+    [
+      "e3320454-f1ea-4b92-bb20-99f2ce85f2dc",
+      "WD and RST MCP1316M"
+    ],
+    [
+      "5cf0f6bb-3084-44eb-94fb-96f402968dfd",
+      "WD and RST MCP1318"
+    ],
+    [
+      "b550b667-efd9-461d-95af-ab3b5e7fe067",
+      "WD and RST MCP1320"
+    ],
+    [
+      "5381a615-aba2-42e2-a0a6-c5f95a3d195a",
+      "WD and RST MCP1321"
+    ],
+    [
+      "47aadad6-161f-4620-91b5-9b01144b684a",
+      "WD and RST TPS35"
+    ],
+    [
+      "563fab9c-3c7f-4768-bc36-7dacb1b8a4e7",
+      "WD and RST TPS3851"
+    ],
+    [
+      "1e5e6980-8863-4cec-8bcb-d7e9aeef11c8",
+      "WD and RST TPS3850"
+    ],
+    [
+      "8a45836c-51bc-4893-a1e5-d29f2086ab40",
+      "WD and RST MAX16056"
+    ],
+    [
+      "371d5b40-38bc-4436-b4b6-a7aaaa855fef",
+      "WD and RST ADM8613"
+    ],
+    [
+      "2a37432d-dfe3-45ff-92bf-3a1f664693dd",
+      "WD and RST MAX6369"
+    ]
+  ],
+  "boards": [],
+  "text_variables": {}
+}

@@ -1,0 +1,10 @@
+{
+  "description": "128Mbit Quad SPI NOR flash, 133 MHz, 2.7-3.6 V, SOIC-8 208 mil W25Q128JVSIQ block with decoupling, CS# pull-up, CLK series termination and IO termination provision. MCU XIP / boot / FPGA configuration flash.",
+  "keywords": "nor flash spi qspi W25Q128JVSIQ W25Q128JVSIQ TR memory",
+  "fields": {
+    "Memory": "128Mbit Quad SPI NOR flash, 133 MHz, 2.7-3.6 V, SOIC-8 208 mil",
+    "Part": "W25Q128JVSIQ",
+    "Interface": "Quad SPI",
+    "Typical use": "MCU XIP / boot / FPGA configuration flash"
+  }
+}

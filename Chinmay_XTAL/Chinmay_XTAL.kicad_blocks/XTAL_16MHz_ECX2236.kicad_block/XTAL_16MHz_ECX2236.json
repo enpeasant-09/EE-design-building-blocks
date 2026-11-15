@@ -1,0 +1,11 @@
+{
+  "description": "16 MHz crystal (ECS ECS-160-8-36CKM-TR) Pierce network: 12 pF C0G load caps, 0R Rext, 1M Rf (DNP). AVR, STM32, nRF, CAN FD.",
+  "keywords": "crystal xtal oscillator pierce 16 MHz 16M ECS-160-8-36CKM-TR ECX-2236 ECS clock",
+  "fields": {
+    "Frequency": "16 MHz",
+    "Crystal": "ECS-160-8-36CKM-TR",
+    "CL": "8 pF",
+    "Load caps": "12 pF C0G 0603 (CAP-0603-12P-50V-C0G)",
+    "Typical use": "AVR, STM32, nRF, CAN FD"
+  }
+}

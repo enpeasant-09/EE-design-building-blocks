@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Chinmay_Buck")(type "KiCad")(uri "${KIPRJMOD}/Chinmay_Buck.kicad_sym")(options "")(descr "Chinmay buck regulator symbols"))
+)

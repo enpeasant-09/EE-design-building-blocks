@@ -1,0 +1,10 @@
+{
+  "description": "1Gbit SLC SPI NAND flash, on-die 4-bit ECC, 104 MHz, 2.7-3.6 V, WSON-8 8x6 MX35LF1GE4AB-Z4I block with decoupling, CS# pull-up, CLK series termination and IO termination provision. filesystem / data-logging storage over QSPI.",
+  "keywords": "nand flash spi qspi MX35LF1GE4AB-Z4I GD5F1GQ5UEYIGR memory",
+  "fields": {
+    "Memory": "1Gbit SLC SPI NAND flash, on-die 4-bit ECC, 104 MHz, 2.7-3.6 V, WSON-8 8x6",
+    "Part": "MX35LF1GE4AB-Z4I",
+    "Interface": "Quad SPI",
+    "Typical use": "filesystem / data-logging storage over QSPI"
+  }
+}

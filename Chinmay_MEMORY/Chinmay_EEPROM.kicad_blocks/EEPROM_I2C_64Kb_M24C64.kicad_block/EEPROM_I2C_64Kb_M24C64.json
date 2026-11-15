@@ -1,0 +1,10 @@
+{
+  "description": "64Kb (8Kx8) I2C EEPROM, 1 MHz, 1.8-5.5 V, SO8N M24C64-RMN6TP I2C EEPROM block with decoupling, address straps, WP and bus pull-up provision. parameter / event-log storage, 1 MHz I2C.",
+  "keywords": "eeprom i2c M24C64-RMN6TP M24C64-FMN6TP memory",
+  "fields": {
+    "Memory": "64Kb (8Kx8) I2C EEPROM, 1 MHz, 1.8-5.5 V, SO8N",
+    "Part": "M24C64-RMN6TP",
+    "Interface": "I2C",
+    "Typical use": "parameter / event-log storage, 1 MHz I2C"
+  }
+}

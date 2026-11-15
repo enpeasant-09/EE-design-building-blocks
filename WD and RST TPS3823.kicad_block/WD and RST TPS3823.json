@@ -1,0 +1,5 @@
+{
+"description": "The TPS3823 is a monitoring IC, This circuit implements MCU power and hearbeat monitoring",
+"keywords": "watchdog ; reset",
+"fields": {}
+}
