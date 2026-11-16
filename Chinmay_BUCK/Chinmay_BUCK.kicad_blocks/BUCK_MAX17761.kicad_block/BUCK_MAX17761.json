@@ -1,0 +1,8 @@
+{
+ "description": "BUCK MAX17761 - 4.5-76V 1A synchronous buck Replicates block: Analog Devices (Maxim) MAX17761 datasheet typical application Default VOUT 3.3 V - see VOUT programming table for other outputs Calculations per datasheet Applications Information section",
+ "keywords": "buck ; DC-DC ; switching regulator ; power ; MAX17761ATC+",
+ "fields": {
+  "MPN1": "MAX17761ATC+",
+  "Manufacturer": "Analog Devices (Maxim)"
+ }
+}

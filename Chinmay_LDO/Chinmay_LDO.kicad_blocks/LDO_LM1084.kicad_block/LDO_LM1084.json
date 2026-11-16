@@ -1,0 +1,8 @@
+{
+ "description": "LDO LM1084 - 29V 5A adjustable LDO Replicates block: Texas Instruments LM1084 datasheet adjustable application Default VOUT 1.8 V - see VOUT programming table for other outputs Calculations per datasheet application / thermal sections",
+ "keywords": "LDO ; linear regulator ; power ; LM1084ISX-ADJ/NOPB",
+ "fields": {
+  "MPN1": "LM1084ISX-ADJ/NOPB",
+  "Manufacturer": "Texas Instruments"
+ }
+}

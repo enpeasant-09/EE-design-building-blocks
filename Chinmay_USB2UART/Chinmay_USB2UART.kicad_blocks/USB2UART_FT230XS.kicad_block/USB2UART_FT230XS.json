@@ -1,0 +1,8 @@
+{
+ "description": "USB2UART FT230XS Replicates block: USB2UART FT230XS",
+ "keywords": "USB ; UART ; bridge ; serial ; FT230XS-R",
+ "fields": {
+  "MPN1": "FT230XS-R",
+  "Manufacturer": "FTDI"
+ }
+}

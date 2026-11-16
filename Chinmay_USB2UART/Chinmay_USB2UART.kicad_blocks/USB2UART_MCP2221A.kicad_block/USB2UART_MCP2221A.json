@@ -1,0 +1,8 @@
+{
+ "description": "USB2UART MCP2221A Replicates block: USB2UART MCP2221A",
+ "keywords": "USB ; UART ; bridge ; serial ; MCP2221AT-I/ST",
+ "fields": {
+  "MPN1": "MCP2221AT-I/ST",
+  "Manufacturer": "Microchip"
+ }
+}

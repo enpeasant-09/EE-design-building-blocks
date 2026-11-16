@@ -1,0 +1,8 @@
+{
+ "description": "BUCK LT8645S - 65V 8A Silent Switcher 2 synchronous buck Replicates block: Analog Devices (LTC) LT8645S datasheet typical application Default VOUT 3.3 V - see VOUT programming table for other outputs Calculations per datasheet Applications Information section",
+ "keywords": "buck ; DC-DC ; switching regulator ; power ; LT8645SEV#PBF",
+ "fields": {
+  "MPN1": "LT8645SEV#PBF",
+  "Manufacturer": "Analog Devices"
+ }
+}

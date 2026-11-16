@@ -1,0 +1,8 @@
+{
+ "description": "WD and RST STM6823 Replicates block: WD and RST TPS3823",
+ "keywords": "watchdog ; reset ; supervisor ; STM6823TWY6F",
+ "fields": {
+  "MPN1": "STM6823TWY6F",
+  "Manufacturer": "STMicroelectronics"
+ }
+}

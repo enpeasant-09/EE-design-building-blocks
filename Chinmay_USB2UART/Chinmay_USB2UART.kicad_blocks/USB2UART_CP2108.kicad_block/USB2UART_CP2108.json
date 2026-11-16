@@ -1,0 +1,8 @@
+{
+ "description": "USB2UART CP2108 Replicates block: USB2UART CP2108",
+ "keywords": "USB ; UART ; bridge ; serial ; CP2108-B03-GMR",
+ "fields": {
+  "MPN1": "CP2108-B03-GMR",
+  "Manufacturer": "Silicon Labs"
+ }
+}

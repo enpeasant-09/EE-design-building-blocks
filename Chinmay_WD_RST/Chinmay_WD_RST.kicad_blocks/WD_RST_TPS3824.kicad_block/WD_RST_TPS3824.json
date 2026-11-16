@@ -1,0 +1,8 @@
+{
+ "description": "WD and RST TPS3824 Replicates block: WD and RST TPS3823",
+ "keywords": "watchdog ; reset ; supervisor ; TPS3824-33DBVR",
+ "fields": {
+  "MPN1": "TPS3824-33DBVR",
+  "Manufacturer": "Texas Instruments"
+ }
+}

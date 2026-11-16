@@ -1,0 +1,8 @@
+{
+ "description": "LDO NCP1117 - 20V 1A adjustable LDO Replicates block: onsemi NCP1117 datasheet adjustable application Default VOUT 1.8 V - see VOUT programming table for other outputs Calculations per datasheet application / thermal sections",
+ "keywords": "LDO ; linear regulator ; power ; NCP1117STAT3G",
+ "fields": {
+  "MPN1": "NCP1117STAT3G",
+  "Manufacturer": "onsemi"
+ }
+}

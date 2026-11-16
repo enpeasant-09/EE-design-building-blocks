@@ -1,0 +1,8 @@
+{
+ "description": "LDO AZ1117C - 18V 1A (0.8A spec) adjustable LDO Replicates block: Diodes Incorporated AZ1117C datasheet adjustable application Default VOUT 1.8 V - see VOUT programming table for other outputs Calculations per datasheet application / thermal sections",
+ "keywords": "LDO ; linear regulator ; power ; AZ1117CH-ADJTRG1",
+ "fields": {
+  "MPN1": "AZ1117CH-ADJTRG1",
+  "Manufacturer": "Diodes Incorporated"
+ }
+}
