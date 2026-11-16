@@ -1,0 +1,8 @@
+{
+ "description": "LDO LT3080 - 36V 1.1A single-resistor LDO Replicates block: Analog Devices LT3080 datasheet adjustable application Default VOUT 1.8 V - see VOUT programming table for other outputs Calculations per datasheet application / thermal sections",
+ "keywords": "LDO ; linear regulator ; power ; LT3080EST#PBF",
+ "fields": {
+  "MPN1": "LT3080EST#PBF",
+  "Manufacturer": "Analog Devices"
+ }
+}

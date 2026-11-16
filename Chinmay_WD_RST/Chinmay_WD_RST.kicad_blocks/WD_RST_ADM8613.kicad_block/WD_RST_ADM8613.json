@@ -1,0 +1,8 @@
+{
+ "description": "WD and RST ADM8613 Replicates block: WD and RST TPS3823",
+ "keywords": "watchdog ; reset ; supervisor ; ADM8613Y232ACBZ-R7",
+ "fields": {
+  "MPN1": "ADM8613Y232ACBZ-R7",
+  "Manufacturer": "Analog Devices"
+ }
+}

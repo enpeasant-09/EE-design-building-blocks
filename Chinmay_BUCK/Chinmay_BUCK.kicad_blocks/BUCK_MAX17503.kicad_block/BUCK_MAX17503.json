@@ -1,0 +1,8 @@
+{
+ "description": "BUCK MAX17503 - 4.5-60V 2.5A synchronous buck Replicates block: Analog Devices (Maxim) MAX17503 datasheet typical application Default VOUT 3.3 V - see VOUT programming table for other outputs Calculations per datasheet Applications Information section",
+ "keywords": "buck ; DC-DC ; switching regulator ; power ; MAX17503ATP+",
+ "fields": {
+  "MPN1": "MAX17503ATP+",
+  "Manufacturer": "Analog Devices (Maxim)"
+ }
+}

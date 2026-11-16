@@ -1,0 +1,8 @@
+{
+ "description": "BUCK MP8795H - 4-16V 20A synchronous buck Replicates block: Monolithic Power Systems MP8795H datasheet typical application Default VOUT 3.3 V - see VOUT programming table for other outputs Calculations per datasheet Applications Information section",
+ "keywords": "buck ; DC-DC ; switching regulator ; power ; MP8795HGLE-Z",
+ "fields": {
+  "MPN1": "MP8795HGLE-Z",
+  "Manufacturer": "Monolithic Power Systems"
+ }
+}

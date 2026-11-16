@@ -1,0 +1,8 @@
+{
+ "description": "USB2UART FT232RNL Replicates block: USB2UART FT232RNL",
+ "keywords": "USB ; UART ; bridge ; serial ; FT232RNL-REEL",
+ "fields": {
+  "MPN1": "FT232RNL-REEL",
+  "Manufacturer": "FTDI"
+ }
+}

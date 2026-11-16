@@ -1,0 +1,8 @@
+{
+ "description": "WD and RST MCP1320 Replicates block: WD and RST TPS3823",
+ "keywords": "watchdog ; reset ; supervisor ; MCP1320T-29LE/OT",
+ "fields": {
+  "MPN1": "MCP1320T-29LE/OT",
+  "Manufacturer": "Microchip"
+ }
+}

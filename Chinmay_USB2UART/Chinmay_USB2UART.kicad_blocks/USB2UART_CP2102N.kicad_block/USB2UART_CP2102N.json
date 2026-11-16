@@ -1,0 +1,8 @@
+{
+ "description": "USB2UART CP2102N Replicates block: USB2UART CP2102N",
+ "keywords": "USB ; UART ; bridge ; serial ; CP2102N-A02-GQFN28R",
+ "fields": {
+  "MPN1": "CP2102N-A02-GQFN28R",
+  "Manufacturer": "Silicon Labs"
+ }
+}

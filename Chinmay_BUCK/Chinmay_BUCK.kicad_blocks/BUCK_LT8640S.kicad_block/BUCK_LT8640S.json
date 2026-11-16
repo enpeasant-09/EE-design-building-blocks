@@ -1,0 +1,8 @@
+{
+ "description": "BUCK LT8640S - 42V 6A Silent Switcher 2 synchronous buck Replicates block: Analog Devices (LTC) LT8640S datasheet typical application Default VOUT 3.3 V - see VOUT programming table for other outputs Calculations per datasheet Applications Information section",
+ "keywords": "buck ; DC-DC ; switching regulator ; power ; LT8640SEV#PBF",
+ "fields": {
+  "MPN1": "LT8640SEV#PBF",
+  "Manufacturer": "Analog Devices"
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "description": "BUCK RAA211450 - 4.5-42V 5A synchronous buck Replicates block: Renesas (Intersil) RAA211450 datasheet typical application Default VOUT 3.3 V - see VOUT programming table for other outputs Calculations per datasheet Applications Information section",
+ "keywords": "buck ; DC-DC ; switching regulator ; power ; RAA211450GSP#HA0",
+ "fields": {
+  "MPN1": "RAA211450GSP#HA0",
+  "Manufacturer": "Renesas"
+ }
+}

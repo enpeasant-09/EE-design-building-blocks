@@ -1,0 +1,8 @@
+{
+ "description": "USB2UART CH343P Replicates block: USB2UART CH343P",
+ "keywords": "USB ; UART ; bridge ; serial ; CH343P",
+ "fields": {
+  "MPN1": "CH343P",
+  "Manufacturer": "WCH"
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "description": "USB2UART CH340G Replicates block: USB2UART CH340G",
+ "keywords": "USB ; UART ; bridge ; serial ; CH340G",
+ "fields": {
+  "MPN1": "CH340G",
+  "Manufacturer": "WCH"
+ }
+}

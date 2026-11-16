@@ -1,0 +1,8 @@
+{
+ "description": "LDO TLV1117 - 15V 800mA adjustable LDO Replicates block: Texas Instruments TLV1117 datasheet adjustable application Default VOUT 1.8 V - see VOUT programming table for other outputs Calculations per datasheet application / thermal sections",
+ "keywords": "LDO ; linear regulator ; power ; TLV1117IDCYR",
+ "fields": {
+  "MPN1": "TLV1117IDCYR",
+  "Manufacturer": "Texas Instruments"
+ }
+}

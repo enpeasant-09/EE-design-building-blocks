@@ -1,0 +1,8 @@
+{
+ "description": "WD and RST MAX16056 Replicates block: WD and RST TPS3823",
+ "keywords": "watchdog ; reset ; supervisor ; MAX16056ATA31+T",
+ "fields": {
+  "MPN1": "MAX16056ATA31+T",
+  "Manufacturer": "Analog Devices"
+ }
+}
