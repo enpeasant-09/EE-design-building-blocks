@@ -1,0 +1,89 @@
+{
+ "purpose": "Twenty-four design blocks: 15 crystals with calculated load capacitors and 9 ECS-2520MV oscillators. The A3 sheets are the source the blocks were made from.",
+ "stages": {
+  "parts": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "datasheet": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "calc": {
+   "status": "done",
+   "note": "C1 = C2 = 2 x (CL - 3 pF stray), rounded to C0G E12",
+   "date": "2026-11-14"
+  },
+  "symbols": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "schematic": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "erc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "footprints": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "models3d": {
+   "status": "done",
+   "note": "ECS-2520MV oscillator model made in Fusion",
+   "date": "2026-11-14"
+  },
+  "layout": {
+   "status": "wip",
+   "note": "9 oscillator blocks laid out (6.6 x 6.6 mm, JLC 2-layer, DRC 0 errors); crystal blocks not yet",
+   "date": "2026-11-16"
+  },
+  "review": {
+   "status": "todo",
+   "note": "",
+   "date": ""
+  },
+  "release": {
+   "status": "wip",
+   "note": "PR #2 open against main",
+   "date": "2026-11-15"
+  }
+ },
+ "log": [
+  {
+   "date": "2026-11-14",
+   "stage": "schematic",
+   "text": "Blocks use label-driven passives, no wires; refs left unannotated"
+  },
+  {
+   "date": "2026-11-14",
+   "stage": "footprints",
+   "text": "Oscillator blocks and sheets re-pointed to Chinmay_Footprints"
+  },
+  {
+   "date": "2026-11-15",
+   "stage": "release",
+   "text": "Libraries registered globally in KiCad; folder copied into the repo; PR #2 opened"
+  },
+  {
+   "date": "2026-11-16",
+   "stage": "layout",
+   "text": "in progress: 9 oscillator blocks laid out (6.6 x 6.6 mm, JLC 2-layer, DRC 0 errors); crystal blocks not yet"
+  }
+ ],
+ "open": [
+  {
+   "date": "2026-11-15",
+   "text": "Library paths are absolute (C:/Users/crmar/Documents/...); switch to a CHINMAY_LIB path variable before using from a clone"
+  }
+ ],
+ "next": "Lay out one crystal block (guard ring, no traces under the crystal) as the pattern for the rest"
+}

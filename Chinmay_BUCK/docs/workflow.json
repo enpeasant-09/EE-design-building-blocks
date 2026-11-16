@@ -1,0 +1,97 @@
+{
+ "purpose": "Nine buck regulator reference sheets (A3), with every component value calculated per sheet by `calc.py`.",
+ "stages": {
+  "parts": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "datasheet": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "calc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "symbols": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "schematic": {
+   "status": "done",
+   "note": "Sheets, not design blocks yet",
+   "date": "2026-11-14"
+  },
+  "erc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "footprints": {
+   "status": "done",
+   "note": "MAX17503 corrected to 4x4 TQFN; 4 missing footprints drawn from datasheet lands",
+   "date": "2026-11-14"
+  },
+  "models3d": {
+   "status": "done",
+   "note": "STEP models made in Fusion",
+   "date": "2026-11-14"
+  },
+  "layout": {
+   "status": "todo",
+   "note": "No block has a PCB layout yet",
+   "date": ""
+  },
+  "review": {
+   "status": "todo",
+   "note": "",
+   "date": ""
+  },
+  "release": {
+   "status": "wip",
+   "note": "PR #2 open against main",
+   "date": "2026-11-15"
+  }
+ },
+ "log": [
+  {
+   "date": "2026-11-14",
+   "stage": "footprints",
+   "text": "MAX17503 was on a 5x5 P0.65 footprint; replaced with T2044-4C 4x4 P0.5 (land 90-0409)"
+  },
+  {
+   "date": "2026-11-14",
+   "stage": "footprints",
+   "text": "New footprints for LT8640S, LT8645S, LT8648S, MP8795H built from datasheet land patterns"
+  },
+  {
+   "date": "2026-11-14",
+   "stage": "erc",
+   "text": "Root project ERC: 0 violations after footprint changes"
+  },
+  {
+   "date": "2026-11-15",
+   "stage": "release",
+   "text": "Libraries registered globally in KiCad; folder copied into the repo; PR #2 opened"
+  }
+ ],
+ "open": [
+  {
+   "date": "2026-11-15",
+   "text": "Library paths are absolute (C:/Users/crmar/Documents/...); switch to a CHINMAY_LIB path variable before using from a clone"
+  },
+  {
+   "date": "2026-11-15",
+   "text": "Convert the nine sheets to design blocks"
+  },
+  {
+   "date": "2026-11-15",
+   "text": "Delete scratch.kicad_sch from the original folder"
+  }
+ ],
+ "next": "Convert sheets to design blocks, then lay out the first regulator"
+}

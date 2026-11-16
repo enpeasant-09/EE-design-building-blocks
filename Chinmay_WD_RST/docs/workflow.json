@@ -1,0 +1,97 @@
+{
+ "purpose": "Seventeen supervisor / watchdog / reset sheets (TPS38xx, TPS35, MCP131x, STM682x, MAX16056, MAX6369, ADM8613) with reset button and OR-ing logic.",
+ "stages": {
+  "parts": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "datasheet": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "calc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "symbols": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "schematic": {
+   "status": "done",
+   "note": "Sheets; older block versions are the \"WD and RST ...\" blocks in the repo root",
+   "date": "2026-11-14"
+  },
+  "erc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "footprints": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "models3d": {
+   "status": "done",
+   "note": "ADM8613 WLCSP, TPS35 DDF and TPS3851 VSON models made in Fusion",
+   "date": "2026-11-14"
+  },
+  "layout": {
+   "status": "wip",
+   "note": "Generator run; DRC clearance errors on 12 of 18 blocks being fixed",
+   "date": "2026-11-16"
+  },
+  "review": {
+   "status": "todo",
+   "note": "",
+   "date": ""
+  },
+  "release": {
+   "status": "wip",
+   "note": "PR #2 open against main",
+   "date": "2026-11-15"
+  }
+ },
+ "log": [
+  {
+   "date": "2026-11-14",
+   "stage": "footprints",
+   "text": "ADM8613 footprint moved to Chinmay_Footprints; Chinmay_Supervisor.pretty is now unused"
+  },
+  {
+   "date": "2026-11-14",
+   "stage": "footprints",
+   "text": "MAX16056 EP 2.25 vs 2.30 nominal: within tolerance, accepted"
+  },
+  {
+   "date": "2026-11-15",
+   "stage": "release",
+   "text": "Libraries registered globally in KiCad; folder copied into the repo; PR #2 opened"
+  },
+  {
+   "date": "2026-11-16",
+   "stage": "layout",
+   "text": "in progress: Generator run; DRC clearance errors on 12 of 18 blocks being fixed"
+  }
+ ],
+ "open": [
+  {
+   "date": "2026-11-15",
+   "text": "Library paths are absolute (C:/Users/crmar/Documents/...); switch to a CHINMAY_LIB path variable before using from a clone"
+  },
+  {
+   "date": "2026-11-15",
+   "text": "Delete unused Chinmay_Supervisor.pretty"
+  },
+  {
+   "date": "2026-11-15",
+   "text": "Reconcile with the older \"WD and RST\" blocks in the repo root"
+  }
+ ],
+ "next": "Convert sheets to design blocks"
+}

@@ -53,3 +53,16 @@ Save images to `public/<slot>.png`. The slot names are shown in each image cell.
 
 - Numbers tagged **verify** are illustrative until checked against the archived datasheet revision or your derating standard (ECSS-Q-ST-30-11, NASA EEE-INST-002, …). That covers derating factors, θJA/ΨJT, pin ratings, the USBLC6 clamp points and λb.
 - Worst-case mode runs every EVA corner (2ⁿ, n ≤ 8), an RSS sensitivity estimate, and a Monte-Carlo run (N = 2000, Gaussian with tol = 3σ, clipped at ±tol). All of it runs in Python inside the page.
+
+## Keeping project context (workflow.py)
+
+Graphify cannot read KiCad schematics, so each project keeps its own context file instead: `<project>/docs/CONTEXT.md`, with a stage flowchart, a block map, open items and a decisions log. It is generated from `<project>/docs/workflow.json` and a scan of the KiCad files by `Chinmay_LIB/tools/workflow.py`. Update it at every stage so the history never has to be retold:
+
+```bash
+python Chinmay_LIB/tools/workflow.py stage Chinmay_USB2UART layout --status wip --note "CP2102N placed"
+python Chinmay_LIB/tools/workflow.py log   Chinmay_USB2UART "Moved ESD array next to the connector"
+python Chinmay_LIB/tools/workflow.py open  Chinmay_USB2UART "Check VBUS divider against rev C datasheet"
+python Chinmay_LIB/tools/workflow.py refresh        # rescan KiCad files, rewrite every CONTEXT.md
+```
+
+Start every session by reading the repo-root `CONTEXT.md`, then the project's own. Export this kit's per-block analysis (Markdown or marimo) next to it and record the export with `log`.

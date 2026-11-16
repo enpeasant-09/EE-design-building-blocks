@@ -1,0 +1,87 @@
+{
+ "purpose": "Nine USB-to-UART bridge reference sheets (CH340/CH343, CP2102N/CP2108, FT230X/231X/232RNL, MCP2221A) with ESD protection. `docs/` also holds the per-block analysis kit (design_block_doc.html, marimo template, eq2calc).",
+ "stages": {
+  "parts": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "datasheet": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "calc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "symbols": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "schematic": {
+   "status": "done",
+   "note": "Sheets; older block versions live in the repo root USB2UART folder",
+   "date": "2026-11-14"
+  },
+  "erc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "footprints": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "models3d": {
+   "status": "done",
+   "note": "CH343P QFN-16 model made in Fusion",
+   "date": "2026-11-14"
+  },
+  "layout": {
+   "status": "todo",
+   "note": "No block has a PCB layout yet",
+   "date": ""
+  },
+  "review": {
+   "status": "todo",
+   "note": "",
+   "date": ""
+  },
+  "release": {
+   "status": "wip",
+   "note": "PR #2 open against main",
+   "date": "2026-11-15"
+  }
+ },
+ "log": [
+  {
+   "date": "2026-11-14",
+   "stage": "footprints",
+   "text": "All footprints match; CH343P re-pointed to Chinmay_Footprints for its 3D model"
+  },
+  {
+   "date": "2026-11-15",
+   "stage": "release",
+   "text": "Libraries registered globally in KiCad; folder copied into the repo; PR #2 opened"
+  }
+ ],
+ "open": [
+  {
+   "date": "2026-11-15",
+   "text": "Library paths are absolute (C:/Users/crmar/Documents/...); switch to a CHINMAY_LIB path variable before using from a clone"
+  },
+  {
+   "date": "2026-11-15",
+   "text": "Reconcile with the older USB2UART folder in the repo root"
+  },
+  {
+   "date": "2026-11-15",
+   "text": "Convert sheets to design blocks"
+  }
+ ],
+ "next": "Convert sheets to design blocks"
+}

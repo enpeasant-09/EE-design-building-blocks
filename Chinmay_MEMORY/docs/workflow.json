@@ -1,0 +1,93 @@
+{
+ "purpose": "EEPROM (4), NOR flash (3) and NAND flash (3) design blocks with termination provision and layout notes on each block.",
+ "stages": {
+  "parts": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "datasheet": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "calc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "symbols": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "schematic": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "erc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "footprints": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "models3d": {
+   "status": "done",
+   "note": "WSON-8 8x6 model made in Fusion",
+   "date": "2026-11-14"
+  },
+  "layout": {
+   "status": "todo",
+   "note": "No block has a PCB layout yet",
+   "date": ""
+  },
+  "review": {
+   "status": "todo",
+   "note": "",
+   "date": ""
+  },
+  "release": {
+   "status": "wip",
+   "note": "PR #2 open against main",
+   "date": "2026-11-15"
+  }
+ },
+ "log": [
+  {
+   "date": "2026-11-14",
+   "stage": "parts",
+   "text": "W25N01GV rejected (last-time-buy); GD5F1GQ5UE and MX35LF1GE4AB used for SPI NAND"
+  },
+  {
+   "date": "2026-11-14",
+   "stage": "schematic",
+   "text": "Termination: 27R on clocks/strobes, 0R provision on data, 10k on CS#/WP#/HOLD#, I2C 4.7k pull-ups DNP"
+  },
+  {
+   "date": "2026-11-14",
+   "stage": "erc",
+   "text": "Block ERC shows only the expected standalone errors (undriven power, single-pin labels)"
+  },
+  {
+   "date": "2026-11-15",
+   "stage": "release",
+   "text": "Libraries registered globally in KiCad; folder copied into the repo; PR #2 opened"
+  }
+ ],
+ "open": [
+  {
+   "date": "2026-11-15",
+   "text": "Library paths are absolute (C:/Users/crmar/Documents/...); switch to a CHINMAY_LIB path variable before using from a clone"
+  },
+  {
+   "date": "2026-11-15",
+   "text": "Chinmay_MEMORY.kicad_sch is a scratch sheet used to extract symbols; delete or keep as a test bench"
+  }
+ ],
+ "next": "Lay out the NOR QSPI blocks first (length-matched IO, clock series R at source)"
+}

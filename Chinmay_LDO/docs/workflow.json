@@ -1,0 +1,83 @@
+{
+ "purpose": "Seven adjustable LDO reference sheets (1117-class SOT-223 and LM1084/5/6 TO-263).",
+ "stages": {
+  "parts": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "datasheet": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "calc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "symbols": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "schematic": {
+   "status": "done",
+   "note": "Sheets, not design blocks yet",
+   "date": "2026-11-14"
+  },
+  "erc": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "footprints": {
+   "status": "done",
+   "note": "",
+   "date": "2026-11-14"
+  },
+  "models3d": {
+   "status": "done",
+   "note": "All from KiCad library",
+   "date": "2026-11-14"
+  },
+  "layout": {
+   "status": "todo",
+   "note": "No block has a PCB layout yet",
+   "date": ""
+  },
+  "review": {
+   "status": "todo",
+   "note": "",
+   "date": ""
+  },
+  "release": {
+   "status": "wip",
+   "note": "PR #2 open against main",
+   "date": "2026-11-15"
+  }
+ },
+ "log": [
+  {
+   "date": "2026-11-14",
+   "stage": "footprints",
+   "text": "All footprints match datasheets; tab = pin 2 (VOUT) confirmed for every part"
+  },
+  {
+   "date": "2026-11-15",
+   "stage": "release",
+   "text": "Libraries registered globally in KiCad; folder copied into the repo; PR #2 opened"
+  }
+ ],
+ "open": [
+  {
+   "date": "2026-11-15",
+   "text": "Library paths are absolute (C:/Users/crmar/Documents/...); switch to a CHINMAY_LIB path variable before using from a clone"
+  },
+  {
+   "date": "2026-11-15",
+   "text": "Convert the seven sheets to design blocks"
+  }
+ ],
+ "next": "Convert sheets to design blocks"
+}
